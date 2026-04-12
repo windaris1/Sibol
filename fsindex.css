@@ -556,7 +556,7 @@ html, body {
 
 .server-button {
 
-    background-color: #0a0f1a 
+    background-color: #0a0f1a;
 
     padding: 6px 12px;
 
@@ -586,19 +586,19 @@ html, body {
 
 .server-button.active {
 
-    background-color: #1db8b2;
+    background-color: #3b82f6;
 
-    border: 1px solid #333;
+    border: 1px solid #2f3545;
 
-    color: #17252A;
+    color: #e4e6eb;
 
 }
 
 .server-button:hover {
 
-    background-color: #1db8b2;
+    background-color: #22c55e;
 
-    border: 1px solid #2B7A78;
+    border: 1px solid #2f3545;
 
 }.copy-url-button {
 
@@ -606,7 +606,7 @@ html, body {
 
     border: none;
 
-    color: #17252A;
+    color: #b0b38b;
 
     font-size: 1em;
 
