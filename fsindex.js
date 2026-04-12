@@ -114,11 +114,10 @@ async function loadEvents() {
                         <div class="match-info">
                             <div class="kickoff-match-date">${event.kickoff_date}</div>
                             <div class="kickoff-match-time">${event.kickoff_time}</div>
-                            <div class="live-label" style="display:none;"><div class="ping-dot">
-</div>Live
-</div>
+                            <div class="live-label ping-dot">
+Live </div>
                             <div class="match-date" data-original-date="${event.match_date}" style="display:none;">${event.match_date}</div>
-                            <div class="match-time" data-original-time="${event.match_time}" style="display:none;">${event.match_time}</div>
+                            <div class="match-time" data-original-time="${event.match_time}" style="display:none;"l>${event.match_time}</div>
                         </div>
                         <div class="team-right">
                             <img src="${event.team2.logo}" class="team-logo" alt="${event.team2.name}" onerror="this.src='https://placehold.co/50x50/png?text=Team';">
