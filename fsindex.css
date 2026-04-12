@@ -496,15 +496,13 @@ html, body {
 
 .live-label {
 
-    display: none;
-
     background-color: #ef4444;
 
     color: #e4e6eb;
 
     text-transform: uppercase;
 
-    padding: 4px 15px;
+    padding: 4px 17px;
 
     font-size: 0.75em;
 
@@ -514,7 +512,7 @@ html, body {
 
     text-align: center;
 
-    margin: 8px auto 0;
+    margin: 4px auto 0;
 
     width: fit-content;
 
@@ -528,7 +526,7 @@ html, body {
 
 .ping-dot::before,
 .ping-dot::after {
-  content: '';
+  content: Live;
   position: absolute;
   width: 100%;
   height: 100%;
