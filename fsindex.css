@@ -148,7 +148,7 @@ html, body {
 
     align-items: center;
 
-    background-color: #ffdede;
+    background-color: #1a1f2e
 
     padding: 12px;
 
@@ -232,7 +232,7 @@ html, body {
 
 .channel-container.selected {
 
-    background-color: #da2920;
+    background-color: #252a3a;
 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 
@@ -428,7 +428,7 @@ html, body {
 
     overflow-y: auto;
 
-    background-color: #333;
+    background-color: #0a0f1a;
 
 }
 
