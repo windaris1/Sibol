@@ -520,6 +520,34 @@ html, body {
 
 }
 
+.status-online {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  background: #22c55e; /* --accent-success */
+  border: 2px solid #1a1f2e; /* --bg-surface biar ada ring */
+  border-radius: 50%;
+}
+
+.status-online::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 12px;
+  height: 12px;
+  background: #22c55e;
+  border-radius: 50%;
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
 .ping-dot {
   position: relative;
   width: 12px;
