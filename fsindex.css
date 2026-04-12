@@ -506,7 +506,7 @@ html, body {
 
     padding: 4px 10px;
 
-    font-size: 1em;
+    font-size: 0.5em;
 
     font-weight: 600;
 
@@ -518,6 +518,33 @@ html, body {
 
     width: fit-content;
 
+}
+
+.ping-dot {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+
+.ping-dot::before,
+.ping-dot::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #3b82f6; /* --accent-primary */
+}
+
+.ping-dot::after {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }
 
 .server-buttons {
