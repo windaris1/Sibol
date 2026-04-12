@@ -114,9 +114,7 @@ async function loadEvents() {
                         <div class="match-info">
                             <div class="kickoff-match-date">${event.kickoff_date}</div>
                             <div class="kickoff-match-time">${event.kickoff_time}</div>
-                            <div class="live-label" style="display:none;"><div class="relative flex items-center justify-center w-2 h-2">
-<span class="absolute inline-flex w-full h-full rounded-full opacity-75 animate-ping bg-white">
-<span class="relative inline-flex rounded-full w-1.5 h-1.5 bg-white">
+                            <div class="live-label" style="display:none;"><div class="status-online">
 </div>
 <span>Live</span>
 </div>
