@@ -442,7 +442,7 @@ html, body {
 
     position: relative;
 
-    background-color: #ffdede;
+    background-color: #1a1f2e;
 
     padding: 12px;
 
@@ -466,7 +466,7 @@ html, body {
 
 .event-container.hover-effect {
 
-    background-color: #e3443c;
+    background-color: #252a3a;
 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 
