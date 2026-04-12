@@ -300,7 +300,7 @@ html, body {
 
 .menu-wrapper-bottom .downloadapk-button {
 
-    background-color: #e3443c;
+    background-color: #1a1f2e;
 
     color: #FEFFFF;
 
@@ -308,13 +308,13 @@ html, body {
 
 .menu-wrapper-bottom .downloadapk-button:hover {
 
-    background-color: #e3443c;
+    background-color: #1a1f2e;
 
 }
 
 .menu-wrapper-bottom .donasi-button {
 
-    background-color: #DEF2F1;
+    background-color: #1a1f2e;
 
     color: #17252A;
 
@@ -322,7 +322,7 @@ html, body {
 
 .menu-wrapper-bottom .donasi-button:hover {
 
-    background-color: #FEFFFF;
+    background-color: #252a3a;
 
 }
 
@@ -342,7 +342,7 @@ html, body {
 
     margin: 0;
 
-    border-left: 1px solid #fff;
+    border-left: 3px solid #2f3545;
 
     font-family: 'Teko', sans-serif;
 
