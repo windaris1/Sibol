@@ -589,6 +589,8 @@ html, body {
     background-color: #3b82f6;
 
     border: 1px solid #2f3545;
+    
+    font-weight:600;
 
     color: #e4e6eb;
 
@@ -599,6 +601,8 @@ html, body {
     background-color: #22c55e;
 
     border: 1px solid #2f3545;
+    
+    font-weight:600;
 
 }.copy-url-button {
 
@@ -606,7 +610,7 @@ html, body {
 
     border: none;
 
-    color: #b0b38b;
+    color: #e4e6eb;
 
     font-size: 1em;
 
