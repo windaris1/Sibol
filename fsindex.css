@@ -514,16 +514,38 @@ html, body {
 
     text-align: center;
 
-    margin: 5px auto 0;
+    margin: 8px auto 0;
 
     width: fit-content;
+
+}
+
+.ping-dot {
+  position: relative;
+  width: 8px;
+  height: 8px;
+}
+
+.ping-dot::before,
+.ping-dot::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #e4e6eb; /* --accent-primary */
+}
+
+.ping-dot::after {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
 
 @keyframes ping {
   75%, 100% {
     transform: scale(2);
     opacity: 0;
   }
-
+}
 
 .server-buttons {
 
