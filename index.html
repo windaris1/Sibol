@@ -203,41 +203,27 @@
 
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 
-/* ===== MOBILE ONLY: PLAYER KELIATAN + INPUT NEMPEL ===== */
+/* ===== MOBILE VERSI LAMA: SIMPEL ===== */
 @media (max-width:900px){
-  /* Biar video tetep nongol di atas */
-  .video-container{
-    position:sticky;
-    top:0;
-    z-index:100;
-  }
-  
-  /* Reset height sidebar di mobile */
   .sidebar-content{
     height:auto;
+    min-height:400px; /* Kasih tinggi minimal aja */
   }
 
-  /* Chat tingginya dibatesin biar gak dorong video */
   #sibaltv-chat{
-    height:auto;
-    max-height:calc(100vh - 260px); /* 100% layar - tinggi video */
+    height:100%;
+    min-height:400px;
   }
 
-  #chat-messages{
-    max-height:320px; /* Tinggi area chat */
-  }
-
-  /* Input nempel bawah area chat doang */
   .chat-input-wrap{
-    position:sticky;
-    bottom:0;
+    margin-top:auto; /* INI KUNCI: dorong input ke bawah */
   }
 
-  /* Ukuran font mobile */
   .chat-avatar{width:24px;height:24px;font-size:11px}
   .chat-text{font-size:12px}
   #chat-msg{font-size:16px;padding:10px 12px}
 }
+
 </style>
 
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
