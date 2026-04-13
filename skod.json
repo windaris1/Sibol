@@ -40,8 +40,16 @@
     "duration": "3.5",
     "servers":  [
       {
-        "url": "https://multi.govoet.cc/?shaka=laliga",
-        "label": "CH AUTO"
+        "url": "https://0.yomitv.workers.dev/?shaka=laliga",
+        "label": "CH HD 1"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=tnt1",
+        "label": "CH HD 2"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=5sportplus",
+        "label": "CH HD 3"
       }
 ],
     "status": "notstarted",
