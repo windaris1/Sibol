@@ -1414,45 +1414,40 @@ html, body {
 
 }
 
-/* ===== FIX GRID BULET BENERAN RAPI ===== */
+/* ===== GRID KOTAK + TEXT DI BAWAH ===== */
 #live-tv #content {
     display: grid !important;
-    grid-template-columns: repeat(5, 1fr) !important;
+    grid-template-columns: repeat(4, 1fr) !important;
     gap: 12px !important;
     width: 100% !important;
-    background-color: #000 !important;
+    background-color: #0a0f1a !important;
     padding: 12px !important;
     box-sizing: border-box !important;
 }
 
 #live-tv #content .channel-container {
     display: flex !important;
+    flex-direction: column !important;
     align-items: center !important;
-    justify-content: center !important;
-    background-color: #fff !important;
+    background-color: transparent !important;
     padding: 0 !important;
-    border-radius: 50% !important;
-    box-shadow: none !important;
+    border-radius: 0 !important;
     width: 100% !important;
-    height: auto !important;
-    aspect-ratio: 1 / 1 !important;
-    margin-bottom: 0 !important;
-    transition: transform 0.2s !important;
+    margin: 0 !important;
+    transition: transform 0.2s ease !important;
     border: none !important;
-    overflow: hidden !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
 }
 
-#live-tv #content .channel-container:hover,
-#live-tv #content .channel-container.selected {
-    background-color: #fff !important;
-    box-shadow: none !important;
-    transform: scale(1.05) !important;
+#live-tv #content .channel-container:hover {
+    transform: translateY(-3px) !important;
 }
 
 #live-tv #content .channel-container .logo-container {
     width: 100% !important;
-    height: 100% !important;
-    border-radius: 50% !important;
+    aspect-ratio: 1 / 1 !important;
+    border-radius: 12px !important;
     background-color: #fff !important;
     padding: 15% !important;
     box-sizing: border-box !important;
@@ -1460,6 +1455,19 @@ html, body {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+    border: 2px solid transparent !important;
+    transition: all 0.2s !important;
+}
+
+#live-tv #content .channel-container:hover .logo-container {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 4px 12px rgba(59,130,246,0.4) !important;
+}
+
+#live-tv #content .channel-container.selected .logo-container {
+    border-color: #22c55e !important;
+    box-shadow: 0 0 0 2px #22c55e, 0 4px 12px rgba(34,197,94,0.4) !important;
 }
 
 #live-tv #content .channel-container .logo {
@@ -1470,28 +1478,53 @@ html, body {
     max-height: 100% !important;
 }
 
-/* Paksa hide semua info biar ukurannya sama */
-#live-tv #content .channel-container .info-container,
-#live-tv #content .channel-container .channel-name,
+/* Tampilkan nama channel di bawah logo */
+#live-tv #content .channel-container .info-container {
+    display: block !important;
+    width: 100% !important;
+    margin: 6px 0 0 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+#live-tv #content .channel-container .channel-name {
+    display: block !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    color: #e4e6eb !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin: 0 !important;
+    padding: 0 4px !important;
+}
+
+/* Hide status aja, nama tetap muncul */
 #live-tv #content .channel-container .status {
     display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
 }
 
-#live-tv #content .channel-container.selected {
-    outline: 3px solid #22c55e !important;
-}
-
-@media (max-width: 768px) {
+/* Desktop 5 kolom */
+@media (min-width: 769px) {
     #live-tv #content {
-        grid-template-columns: repeat(4, 1fr) !important;
+        grid-template-columns: repeat(5, 1fr) !important;
+        gap: 16px !important;
+        padding: 16px !important;
+    }
+    #live-tv #content .channel-container .channel-name {
+        font-size: 12px !important;
+    }
+}
+
+/* HP kecil 3 kolom */
+@media (max-width: 380px) {
+    #live-tv #content {
+        grid-template-columns: repeat(3, 1fr) !important;
         gap: 10px !important;
         padding: 10px !important;
     }
-    #live-tv #content .channel-container .logo-container {
-        padding: 15% !important;
+    #live-tv #content .channel-container .channel-name {
+        font-size: 10px !important;
     }
 }
