@@ -14,11 +14,22 @@
     "kickoff_date": "2026-04-13",
     "kickoff_time": "19:00",
     "match_date": "2026-04-13",
-    "match_time": "18:55",
-    "duration": "3.5",
-    "servers": [],
-    "status": "notstarted",
-    "status_desc": "Not started",
+    "match_time": "19:00",
+    "duration": "10",
+    "servers":  [
+      {
+        "url": "https://0.yomitv.workers.dev/?shaka=laliga",
+        "label": "CH HD 1"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=tnt1",
+        "label": "CH HD 2"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=5sportplus",
+        "label": "CH HD 3"
+      }
+],
     "gender": "M"
   },
   {
@@ -34,10 +45,10 @@
       "logo": "https://static.flashscore.com/res/image/data/Me4JWEme-K6ujqDls.png"
     },
     "kickoff_date": "2026-04-13",
-    "kickoff_time": "16:00",
+    "kickoff_time": "19:00",
     "match_date": "2026-04-13",
-    "match_time": "16:00",
-    "duration": "3.5",
+    "match_time": "19:00",
+    "duration": "10",
     "servers":  [
       {
         "url": "https://0.yomitv.workers.dev/?shaka=laliga",
