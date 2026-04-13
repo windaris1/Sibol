@@ -1413,3 +1413,71 @@ html, body {
     }
 
 }
+
+/* ===== HANYA OVERRIDE GRID CIRCLE UNTUK TAB CHANNELS ===== */
+#live-tv #content {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 16px !important;
+    width: 100% !important;
+    background-color: #000 !important;
+    padding: 16px !important;
+    box-sizing: border-box !important;
+}
+
+#live-tv #content .channel-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #fff !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    aspect-ratio: 1 / 1 !important;
+    margin-bottom: 0 !important;
+    transition: transform 0.2s !important;
+    border: none !important;
+}
+
+#live-tv #content .channel-container:hover,
+#live-tv #content .channel-container.selected {
+    background-color: #fff !important;
+    box-shadow: none !important;
+    transform: scale(1.05) !important;
+}
+
+#live-tv #content .channel-container .logo-container {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50% !important;
+    background-color: #fff !important;
+    padding: 12px !important;
+    box-sizing: border-box !important;
+    margin-right: 0 !important;
+}
+
+#live-tv #content .channel-container .logo {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+}
+
+#live-tv #content .channel-container .info-container {
+    display: none !important;
+}
+
+#live-tv #content .channel-container.selected {
+    outline: 3px solid #22c55e !important;
+}
+
+@media (max-width: 768px) {
+    #live-tv #content {
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 12px !important;
+        padding: 12px !important;
+    }
+    #live-tv #content .channel-container .logo-container {
+        padding: 10px !important;
+    }
+}
