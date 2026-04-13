@@ -566,7 +566,9 @@ html, body {
 
     width: 100%;
 
-    font-size: 1em;
+    font-size: 10px;
+    
+    font-weight: 600;
 
 }
 
