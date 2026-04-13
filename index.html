@@ -45,9 +45,9 @@
                 <div id="content"></div>
             </div>
 
-            <div class="sidebar-content" id="chat">
- 
-<!-- CHATROOM SIBALTV FINAL -->
+<div class="sidebar-content" id="chat">
+
+<!-- CHATROOM SIBALTV FIX BUAT SIDEBAR -->
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
@@ -62,30 +62,39 @@
 <style>
 /* ===== WARNA SIBALTV FINAL ===== */
 :root{
-  --sibal-bg:#1a1f2e; /* Background biru gelap */
-  --sibal-surface:#11141c; /* Input lebih gelap */
-  --sibal-border:#2a3040; /* Border nyatu */
-  --sibal-primary:#1e40af; /* Biru SIBALTV */
+  --sibal-bg:#1a1f2e;
+  --sibal-surface:#11141c;
+  --sibal-border:#2a3040;
+  --sibal-primary:#1e40af;
   --sibal-text:#e5e5e5;
-  --sibal-text-dim:#8a91a8; /* Abu keunguan */
-  --sibal-admin:#f59e0b; /* Oranye admin */
+  --sibal-text-dim:#8a91a8;
+  --sibal-admin:#f59e0b;
 }
 
-html,body{margin:0;padding:0;background:var(--sibal-bg)}
+/* PENTING:.sidebar-content WAJIB FLEX */
+.sidebar-content{
+  display:none;
+  height:100%;
+  flex-direction:column;
+}
+.sidebar-content.active{
+  display:flex;
+}
 
 #sibaltv-chat{
   font-family:Roboto,system-ui,sans-serif;
   background:var(--sibal-bg);
-  height:calc(100dvh - 340px);
+  height:100%;
   display:flex;
   flex-direction:column;
+  overflow:hidden;
 }
 
 #chat-messages{
   flex:1;
   overflow-y:auto;
   overflow-x:hidden;
-  padding:8px 12px 70px 12px;
+  padding:8px 12px;
   background:var(--sibal-bg);
   -webkit-overflow-scrolling:touch;
 }
@@ -140,23 +149,17 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   word-break:break-word
 }
 
-/* ===== INPUT ===== */
+/* ===== INPUT NEMPEL DI BAWAH SIDEBAR ===== */
 .chat-input-wrap{
   background:var(--sibal-surface);
   border-top:1px solid var(--sibal-border);
   padding:8px 12px;
-  position:fixed;
-  bottom:calc(48px + env(safe-area-inset-bottom));
-  left:0;
-  right:0;
-  z-index:999;
+  flex-shrink:0;
 }
 .chat-row{
   display:flex;
   gap:8px;
   align-items:center;
-  max-width:1000px;
-  margin:0 auto;
 }
 #chat-emoji{
   background:transparent;
@@ -225,7 +228,7 @@ const firebaseConfig = {
 const ADMIN_NAMES = ["Admin", "SibalTV"];
 const USER_COLORS = ['#14b8a6','#22c55e','#eab308','#ef4444','#a855f7','#ec4899','#3b82f6','#f97316'];
 
-firebase.initializeApp(firebaseConfig);
+if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref('sibaltv_chat');
 
 const msgInput = document.getElementById('chat-msg');
@@ -288,18 +291,15 @@ db.orderByChild('time').limitToLast(100).on('child_added', snap => {
         </div>
       </div>`;
 
-    // PREPEND = CHAT BARU DI ATAS
     msgBox.insertAdjacentHTML('afterbegin', chatHtml);
-
-    // AUTO SCROLL KE ATAS
     msgBox.scrollTop = 0;
 });
 
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
 </script>
 
-              <div class="spacer"></div>
-            </div>
+  <div class="spacer"></div>
+</div>
 
             <div class="menu-wrapper-bottom">
                 <div class="menu-container">
