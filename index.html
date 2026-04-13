@@ -47,8 +47,7 @@
 
             <div class="sidebar-content" id="chat">
  
-
-<!-- CHATROOM SIBALTV - ANTI KETIBAN -->
+<!-- CHATROOM SIBALTV - FIX NONGOL DI ATAS NAV BAWAH -->
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
@@ -61,27 +60,28 @@
 </div>
 
 <style>
-/* ===== RESET WAJIB ===== */
-html,body{margin:0;padding:0;height:100%;background:#0a0a0a;overflow:hidden}
+/* ===== RESET ===== */
+html,body{margin:0;padding:0;background:#0a0a0a}
 
-/* ===== CHAT FULL LAYAR ===== */
+/* ===== CHAT CONTAINER ===== */
 #sibaltv-chat{
+  font-family:Roboto,system-ui,sans-serif;
+  background:#0a0a0a;
+  /* Tinggi = layar HP dikurangi semua elemen di atas tab Chatroom */
+  /* Banner SIBALTV + Tab + Banner Iklan ≈ 330px */
+  height:calc(100dvh - 330px);
   display:flex;
   flex-direction:column;
-  background:#0a0a0a;
-  font-family:Roboto,system-ui,sans-serif;
-  /* KUNCI: Tinggi fix ikut layar HP beneran */
-  height:100dvh;
-  width:100%;
 }
 
 #chat-messages{
   flex:1;
   overflow-y:auto;
   overflow-x:hidden;
-  padding:8px 12px 80px 12px; /* 80px buat space input */
-  background:#0a0a0a;
+  padding:8px 12px;
   -webkit-overflow-scrolling:touch;
+  /* Kasih space 60px biar chat terakhir ga ketiban input */
+  padding-bottom:60px;
 }
 #chat-messages::-webkit-scrollbar{width:6px}
 #chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
@@ -131,14 +131,14 @@ html,body{margin:0;padding:0;height:100%;background:#0a0a0a;overflow:hidden}
   word-break:break-word
 }
 
-/* ===== INPUT NEMPEL DI BAWAH LAYAR ===== */
+/* ===== INPUT NEMPEL DI ATAS NAV TELEGRAM ===== */
 .chat-input-wrap{
   background:#1a1a1a;
   border-top:1px solid #262626;
   padding:8px 12px;
-  /* INI SENJATANYA: Nempel di bawah viewport */
+  /* KUNCI: Angkat 48px dari bawah, pas di atas nav Telegram */
   position:fixed;
-  bottom:0;
+  bottom:48px;
   left:0;
   right:0;
   z-index:999;
@@ -284,7 +284,6 @@ db.limitToLast(100).on('child_added', snap => {
 
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
 </script>
-
               <div class="spacer"></div>
             </div>
 
