@@ -1414,7 +1414,7 @@ html, body {
 
 }
 
-/* ===== SIBALTV FINAL - LOGO TRANSPARAN ===== */
+/* ===== SIBALTV FINAL - TEXT CENTER RAPI ===== */
 #live-tv {
     background-color: #0a0f1a !important;
 }
@@ -1460,13 +1460,12 @@ html, body {
     transform: scale(0.98) !important;
 }
 
-/* LOGO TRANSPARAN DISINI */
 #live-tv #content .channel-container .logo-container {
     width: 100% !important;
     aspect-ratio: 1 / 1 !important;
     border-radius: 6px !important;
-    background-color: transparent !important;
-    padding: 12% !important;
+    background-color: #fff !important;
+    padding: 18% !important;
     box-sizing: border-box !important;
     margin: 0 !important;
     display: flex !important;
@@ -1482,16 +1481,19 @@ html, body {
     max-height: 100% !important;
 }
 
+/* INFO CONTAINER FIX RAPI */
 #live-tv #content .channel-container .info-container {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     flex-grow: 1 !important;
     width: 100% !important;
-    margin: 4px 0 0 0 !important;
-    padding: 0 2px !important;
-    min-height: 32px !important;
+    margin: 6px 0 2px 0 !important;
+    padding: 0 4px !important;
+    min-height: 28px !important;
+    max-height: 28px !important;
     flex-direction: column !important;
+    box-sizing: border-box !important;
 }
 
 /* HAPUS STATUS ONLINE */
@@ -1508,6 +1510,7 @@ html, body {
     font-size: 0 !important;
 }
 
+/* CHANNEL NAME FIX CENTER */
 #live-tv #content .channel-container .channel-name {
     display: -webkit-box !important;
     -webkit-line-clamp: 2 !important;
@@ -1516,8 +1519,8 @@ html, body {
     font-size: 10px !important;
     font-weight: 600 !important;
     color: #f3f4f6 !important;
-    line-height: 1.2 !important;
-    margin: 0 !important;
+    line-height: 1.15 !important;
+    margin: auto 0 !important;
     padding: 0 !important;
     text-align: center !important;
     word-break: break-word !important;
@@ -1541,7 +1544,8 @@ html, body {
         border-radius: 8px !important;
     }
     #live-tv #content .channel-container .info-container {
-        min-height: 34px !important;
+        min-height: 30px !important;
+        max-height: 30px !important;
     }
 }
 
@@ -1559,6 +1563,7 @@ html, body {
         font-size: 9.5px !important;
     }
     #live-tv #content .channel-container .info-container {
-        min-height: 30px !important;
+        min-height: 26px !important;
+        max-height: 26px !important;
     }
 }
