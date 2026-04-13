@@ -551,23 +551,11 @@ html, body {
 }
 
 .server-buttons {
-    display: flex; /* ganti dari none */
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 12px; /* ini udah bener buat spasi horizontal */
-    padding: 8px 0; /* kasih angka, misal 8px */
-    margin-top: 6px;
-    width: 100%;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-/* Ini udah bener pake gap */
-.buttons-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 12px; /* ini juga udah bener */
+    padding: 8px 0;
+    margin-top: 6px;
     width: 100%;
 }
 
@@ -578,21 +566,24 @@ html, body {
     font-weight: 600;
     color: #e4e6eb;
     border-radius: 4px;
-    border: 1px solid transparent; /* tambah ini biar ga "loncat" pas hover */
+    border: 1px solid transparent;
     cursor: pointer;
-    transition: all 0.3s ease; /* ganti ke all biar border juga smooth */
+    transition: all 0.3s ease;
     text-align: center;
     min-width: 70px;
     max-width: 130px;
-    flex: 0 0 auto;
+    margin-right: 12px; /* ini kuncinya */
+    margin-bottom: 8px; /* biar kalau wrap ke bawah ada jarak */
     box-sizing: border-box;
+}
+
+.server-button:last-child {
+    margin-right: 0; /* button terakhir ga pake margin */
 }
 
 .server-button.active {
     background-color: #22c55e;
     border-color: #22c55e;
-    font-weight: 600;
-    color: #e4e6eb;
 }
 
 .server-button:hover {
@@ -600,7 +591,7 @@ html, body {
     border-color: #22c55e;
 }
 
-copy-url-button {
+.copy-url-button {
 
     background: none;
 
