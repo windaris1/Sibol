@@ -98,19 +98,16 @@
 
 <div class="sidebar-content" id="chat">
 
-<!-- CHATROOM SIBALTV FINAL - SVG INLINE + EMOJI PICKER -->
+<!-- CHATROOM SIBALTV FINAL - STANDALONE -->
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
         <div class="chat-row">
             <button id="chat-emoji" title="Emoji">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
             </button>
-            <button id="chat-gif" title="GIF">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11 13H8v-2h3v2zm4 0h-3v-2h3v2zM3 3v18h18V3H3zm16 16H5V5h14v14z"/></svg>
-            </button>
-
-            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
+   
+            <input type="text" id="chat-msg" placeholder="Start Chatting!" enterkeyhint="send" inputmode="text">
             <button id="chat-send" title="Kirim">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg>
             </button>
@@ -129,24 +126,15 @@
   --sibal-admin:#f59e0b;
 }
 
-html,body{margin:0;padding:0;background:var(--sibal-bg)}
-
-.sidebar-content{
-  display:none;
-  height:100%;
-  flex-direction:column;
-}
-.sidebar-content.active{
-  display:flex;
-}
-
 #sibaltv-chat{
   font-family:Roboto,system-ui,sans-serif;
   background:var(--sibal-bg);
-  height:100%;
+  height:500px;
   display:flex;
   flex-direction:column;
   overflow:hidden;
+  border:1px solid var(--sibal-border);
+  border-radius:8px;
 }
 
 #chat-messages{
@@ -156,6 +144,8 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   padding:8px 12px;
   background:var(--sibal-bg);
   -webkit-overflow-scrolling:touch;
+  display:flex;
+  flex-direction:column-reverse;
 }
 #chat-messages::-webkit-scrollbar{width:6px}
 #chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
@@ -207,24 +197,17 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   word-break:break-word
 }
 
-/* ===== INPUT + SVG ICON ===== */
+/* INPUT + SVG ICON */
 .chat-input-wrap{
   background:var(--sibal-surface);
   border-top:1px solid var(--sibal-border);
   padding:8px 12px;
   flex-shrink:0;
-  position:fixed;
-  bottom:calc(48px + env(safe-area-inset-bottom));
-  left:0;
-  right:0;
-  z-index:999;
 }
 .chat-row{
   display:flex;
   gap:4px;
   align-items:center;
-  max-width:1000px;
-  margin:0 auto;
   position:relative;
 }
 .chat-row button{
@@ -314,9 +297,6 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   border-radius:4px;
   width:32px;
   height:32px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
 }
 .emoji-picker button:hover{
   background:#1e40af30;
@@ -324,31 +304,11 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
 
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 
-/* ===== MOBILE ===== */
 @media (max-width:900px){
-  #sibaltv-chat{
-    height:calc(100dvh - 340px);
-  }
-  #chat-messages{
-    padding:8px 12px 70px 12px;
-  }
-.chat-avatar{width:24px;height:24px;font-size:11px}
-.chat-text{font-size:12px}
+  #sibaltv-chat{height:400px}
   #chat-msg{font-size:16px;padding:10px 12px}
-.chat-row button{width:32px;height:32px}
-.chat-row button svg{width:18px!important;height:18px!important}
-}
-
-/* ===== PC: INPUT BALIK KE SIDEBAR ===== */
-@media (min-width:901px){
-.chat-input-wrap{
-    position:static;
-    bottom:auto;
-    left:auto;
-    right:auto;
-    margin-top:auto;
-    z-index:1;
-  }
+ .chat-row button{width:32px;height:32px}
+ .chat-row button svg{width:18px!important;height:18px!important}
 }
 </style>
 
@@ -368,7 +328,7 @@ const firebaseConfig = {
 const ADMIN_NAMES = ["Admin", "SibalTV"];
 const USER_COLORS = ['#14b8a6','#22c55e','#eab308','#ef4444','#a855f7','#ec4899','#3b82f6','#f97316'];
 
-firebase.initializeApp(firebaseConfig);
+if(!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref('sibaltv_chat');
 
 const msgInput = document.getElementById('chat-msg');
@@ -403,6 +363,9 @@ function sendMsg() {
       msgInput.value = '';
       sendBtn.disabled = false;
       msgInput.focus();
+    }).catch(e => {
+      alert('Gagal kirim: ' + e.message);
+      sendBtn.disabled = false;
     });
 }
 
@@ -450,8 +413,10 @@ msgInput.onkeyup = e => {
   }
 };
 
+// LOAD CHAT
 db.orderByChild('time').limitToLast(100).on('child_added', snap => {
     const d = snap.val();
+    if(!d) return;
     const isAdmin = ADMIN_NAMES.includes(d.name);
     const time = new Date(d.time).toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}) + ' WIB';
     const avatarColor = isAdmin? 'var(--sibal-admin)' : getUserColor(d.name);
@@ -469,9 +434,9 @@ db.orderByChild('time').limitToLast(100).on('child_added', snap => {
       </div>`;
 
     msgBox.insertAdjacentHTML('afterbegin', chatHtml);
-    msgBox.scrollTop = 0;
 });
 
+// HAPUS PESAN > 3 HARI
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
 </script>
 
