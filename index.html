@@ -47,17 +47,17 @@
 
             <div class="sidebar-content" id="chat">
  
-<!-- CHATROOM SIBALTV -->
+
+<!-- CHATROOM SIBALTV ALA VIDIO -->
 <div id="sibaltv-chat">
-    <!-- INPUT PINDAH KE ATAS -->
+    <div id="chat-messages"></div>
     <div class="chat-input-wrap">
-        <input type="text" id="chat-name" placeholder="Nama kamu" maxlength="20">
         <div class="chat-row">
-            <input type="text" id="chat-msg" placeholder="Ketik pesan...">
+            <button id="chat-emoji">😀</button>
+            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!">
             <button id="chat-send">➤</button>
         </div>
-    <!-- CHAT ADA DI BAWAH -->
-    <div id="chat-messages"></div>
+    </div>
 </div>
 
 <style>
@@ -67,22 +67,25 @@
 #chat-messages::-webkit-scrollbar-track{background:#1a1a1a}
 #chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
 
-.msg{font-size:13px;line-height:1.5;margin-bottom:4px;word-break:break-word;animation:fadeIn.15s}
-.msg .name{font-weight:500;margin-right:6px}
-.msg.admin .name{color:#f59e0b !important}
-.msg .text{color:#e5e5e5}
-.msg .time{color:#737373;font-size:11px;margin-left:6px;float:right}
+/* STYLE CHAT VIDIO: AVATAR + NAMA + WAKTU */
+.msg{display:flex;gap:8px;margin-bottom:8px;align-items:flex-start;animation:fadeIn.15s}
+.msg.avatar{width:28px;height:28px;border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:12px;flex-shrink:0;margin-top:2px}
+.msg.content{flex:1;min-width:0}
+.msg.row1{display:flex;align-items:baseline;gap:6px;margin-bottom:2px}
+.msg.time{color:#737373;font-size:11px;flex-shrink:0}
+.msg.name{font-weight:500;font-size:13px}
+.msg.admin.name{color:#f59e0b!important}
+.msg.text{color:#e5e5e5;font-size:13px;line-height:1.4;word-break:break-word}
 
-.chat-input-wrap{background:#1a1a1a;border-bottom:1px solid #262626;padding:8px 12px}
-#chat-name{width:100%;background:#0a0a0a;border:1px solid #333;color:#fff;border-radius:4px;padding:6px 10px;margin-bottom:8px;font-size:13px;box-sizing:border-box}
-#chat-name:focus{outline:none;border-color:#3b82f6}
+/* INPUT DI BAWAH ALA VIDIO */
+.chat-input-wrap{background:#1a1a1a;border-top:1px solid #262626;padding:8px 12px}
 .chat-row{display:flex;gap:8px;align-items:center}
+#chat-emoji{background:transparent;border:none;color:#a3a3a3;font-size:22px;cursor:pointer;flex-shrink:0;padding:0}
 #chat-msg{flex:1;background:#0a0a0a;border:1px solid #333;color:#fff;border-radius:18px;padding:8px 14px;font-size:13px}
 #chat-msg:focus{outline:none;border-color:#3b82f6}
 #chat-msg::placeholder{color:#737373}
-#chat-send{background:#3b82f6;color:#fff;border:none;border-radius:50%;width:32px;height:32px;font-size:14px;cursor:pointer;flex-shrink:0;display:flex;align-items:center;justify-content:center}
-#chat-send:disabled{opacity:0.4;cursor:not-allowed}
-#chat-send:active{transform:scale(0.9)}
+#chat-send{background:transparent;border:none;color:#3b82f6;font-size:22px;cursor:pointer;flex-shrink:0;padding:0;display:flex;align-items:center}
+#chat-send:disabled{opacity:0.4}
 
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 </style>
@@ -100,19 +103,20 @@ const firebaseConfig = {
   appId: "1:625753841479:web:e6281e31fdcc5deddd3662"
 };
 
-const ADMIN_NAMES = ["Admin", "SibalTV", "Test"]; 
-const USER_COLORS = ['#3b82f6','#22c55e','#eab308','#ef4444','#a855f7','#ec4899','#14b8a6','#f97316'];
+const ADMIN_NAMES = ["Admin", "SibalTV"];
+const USER_COLORS = ['#3b82f6','#22c55e','#eab308','#ef4444','#a855f7','#ec4899','#14b8a6','#f97316','#06b6d4','#f43f5e'];
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref('sibaltv_chat');
 
-const nameInput = document.getElementById('chat-name');
 const msgInput = document.getElementById('chat-msg');
 const sendBtn = document.getElementById('chat-send');
+const emojiBtn = document.getElementById('chat-emoji');
 const msgBox = document.getElementById('chat-messages');
 
-nameInput.value = localStorage.getItem('sibaltv_name') || '';
-nameInput.onchange = () => localStorage.setItem('sibaltv_name', nameInput.value);
+function getInitials(name) {
+  return name.split(' ').map(w => w[0]).join('').substring(0,2).toUpperCase() || '?';
+}
 
 function getUserColor(name) {
   let hash = 0;
@@ -123,7 +127,11 @@ function getUserColor(name) {
 }
 
 function sendMsg() {
-    const name = nameInput.value.trim() || 'Anon';
+    let name = localStorage.getItem('sibaltv_name');
+    if(!name) {
+      name = prompt('Masukin nama kamu dulu:') || 'Anon';
+      localStorage.setItem('sibaltv_name', name);
+    }
     const msg = msgInput.value.trim();
     if(!msg) return;
     if(msg.length > 300) return alert('Pesan max 300 karakter');
@@ -133,9 +141,11 @@ function sendMsg() {
       sendBtn.disabled = false;
     });
 }
+
 sendBtn.onclick = sendMsg;
+emojiBtn.onclick = () => msgInput.value += '😀';
 msgInput.onkeyup = e => {
-  if(e.key === 'Enter' &&!e.shiftKey) {
+  if(e.key === 'Enter') {
     e.preventDefault();
     sendMsg();
   }
@@ -144,14 +154,20 @@ msgInput.onkeyup = e => {
 db.limitToLast(100).on('child_added', snap => {
     const d = snap.val();
     const isAdmin = ADMIN_NAMES.includes(d.name);
-    const time = new Date(d.time).toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'});
-    const nameColor = isAdmin ? '#f59e0b' : getUserColor(d.name);
-    
+    const time = new Date(d.time).toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}) + ' WIB';
+    const avatarColor = isAdmin? '#f59e0b' : getUserColor(d.name);
+    const initials = getInitials(d.name);
+
     msgBox.innerHTML += `
       <div class="msg ${isAdmin?'admin':''}">
-        <span class="name" style="color:${nameColor}">${d.name}</span>
-        <span class="text">${d.msg}</span>
-        <span class="time">${time}</span>
+        <div class="avatar" style="background:${avatarColor}">${initials}</div>
+        <div class="content">
+          <div class="row1">
+            <span class="time">${time}</span>
+            <span class="name" style="color:${avatarColor}">${d.name}</span>
+          </div>
+          <div class="text">${d.msg}</div>
+        </div>
       </div>`;
     msgBox.scrollTop = msgBox.scrollHeight;
 });
