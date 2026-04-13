@@ -551,38 +551,91 @@ html, body {
 }
 
 .server-buttons {
-    display: flex;
+
+    display: none;
+
     flex-direction: row;
-    flex-wrap: nowrap; /* biar maksa sebaris, ga turun */
-    gap: 8px; /* jarak horizontal */
+
+    flex-wrap: wrap;
+
+    column-gap: 12px;
+
+    padding: px 0;
+
+    margin-top: 6px;
+
     width: 100%;
-    margin-top: 12px;
+
+    font-size: 13px;
+    
+    font-weight: 600;
+
+}
+
+.buttons-container {
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    width: 100%;
+
 }
 
 .server-button {
-    flex: 0 0 auto; /* jangan ngembang, jangan nyusut */
-    width: auto; /* timpa width 100% kalau ada */
-    background-color: #22c55e; /* ijo buat CH HD 1 */
-    padding: 6px 14px;
+
+    background-color: #3b82f6;
+
+    padding: 6px 13px;
+
     font-size: 12px;
+
     font-weight: 600;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
+
+    color: #e4e6eb;
+
+    border-radius: 4px;
+
     cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+    text-align: center;
+
+    min-width: 70px;
+
+    max-width: 130px;
+
+    flex: 0 0 auto;
+
+    box-sizing: border-box;
+
 }
 
-/* Warna beda buat tiap channel */
-.server-button:nth-child(2) {
-    background-color: #3b82f6; /* biru buat CH HD 2 */
-}
+.server-button.active {
 
-.server-button:nth-child(3) {
-    background-color: #3b82f6; /* biru buat CH HD 3 */
+    background-color: #22c55e;
+
+    border: 1px solid #22c55e;
+    
+    font-weight:600;
+
+    color: #e4e6eb;
+
 }
 
 .server-button:hover {
-    opacity: 0.85;
+
+    background-color: #22c55e;
+
+    border: 1px solid #22c55e;
+    
+    font-weight:600;
+
 }
 
 .copy-url-button {
