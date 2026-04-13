@@ -1414,7 +1414,7 @@ html, body {
 
 }
 
-/* ===== SIBALTV CHANNELS FINAL - ANTI ONLINE + TEXT RAPI ===== */
+/* ===== SIBALTV CHANNELS CARD FINAL ===== */
 #live-tv {
     background-color: #0a0f1a !important;
 }
@@ -1467,7 +1467,7 @@ html, body {
     background-color: #fff !important;
     padding: 18% !important;
     box-sizing: border-box !important;
-    margin: 0 !important;
+    margin: 0 0 6px 0 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -1481,30 +1481,15 @@ html, body {
     max-height: 100% !important;
 }
 
+/* Info container + text */
 #live-tv #content .channel-container .info-container {
     display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    flex-direction: column !important;
     flex-grow: 1 !important;
     width: 100% !important;
-    margin: 4px 0 0 0 !important;
-    padding: 0 2px !important;
-    min-height: 32px !important;
-    flex-direction: column !important;
-}
-
-/* HAPUS STATUS ONLINE PAKSA 6 LAPIS */
-#live-tv #content .channel-container .info-container .status,
-#live-tv #content .channel-container .status,
-#live-tv #content .channel-container span[class*="status"],
-#live-tv #content .channel-container .online {
-    display: none !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    width: 0 !important;
-    opacity: 0 !important;
-    position: absolute !important;
-    font-size: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
 }
 
 #live-tv #content .channel-container .channel-name {
@@ -1512,15 +1497,18 @@ html, body {
     -webkit-line-clamp: 2 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
-    font-size: 10px !important;
+    font-size: 11px !important;
     font-weight: 600 !important;
     color: #f3f4f6 !important;
-    line-height: 1.2 !important;
+    line-height: 1.25 !important;
+    min-height: 2.5em !important;
     margin: 0 !important;
-    padding: 0 !important;
-    text-align: center !important;
-    word-break: break-word !important;
-    width: 100% !important;
+    padding: 0 2px !important;
+}
+
+/* HIDE STATUS ONLINE */
+#live-tv #content .channel-container .status {
+    display: none !important;
 }
 
 /* Desktop 5 kolom */
@@ -1534,13 +1522,10 @@ html, body {
         padding: 10px !important;
     }
     #live-tv #content .channel-container .channel-name {
-        font-size: 11px !important;
+        font-size: 12px !important;
     }
     #live-tv #content .channel-container .logo-container {
         border-radius: 8px !important;
-    }
-    #live-tv #content .channel-container .info-container {
-        min-height: 34px !important;
     }
 }
 
@@ -1555,9 +1540,6 @@ html, body {
         padding: 6px !important;
     }
     #live-tv #content .channel-container .channel-name {
-        font-size: 9.5px !important;
-    }
-    #live-tv #content .channel-container .info-container {
-        min-height: 30px !important;
+        font-size: 10px !important;
     }
 }
