@@ -98,20 +98,23 @@
 
 <div class="sidebar-content" id="chat">
 
-<!-- CHATROOM SIBALTV FINAL + FONTAWESOME -->
-
+<!-- CHATROOM SIBALTV FINAL - SVG INLINE + EMOJI PICKER -->
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
+        <div class="chat-row">
+            <button id="chat-emoji" title="Emoji">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+            </button>
+            <button id="chat-gif" title="GIF">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11 13H8v-2h3v2zm4 0h-3v-2h3v2zM3 3v18h18V3H3zm16 16H5V5h14v14z"/></svg>
+            </button>
 
-<div class="chat-row">
-    <button id="chat-emoji">EMOJI</button>
-    <button id="chat-gif">GIF</button>
-    <button id="chat-image">FOTO</button>
-    <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
-    <button id="chat-send">KIRIM</button>
-</div>
-
+            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
+            <button id="chat-send" title="Kirim">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg>
+            </button>
+        </div>
     </div>
 </div>
 
@@ -127,22 +130,6 @@
 }
 
 html,body{margin:0;padding:0;background:var(--sibal-bg)}
-
-.chat-row button svg{
-  width:20px;
-  height:20px;
-  pointer-events:none;
-}
-.chat-row button{
-  color:var(--sibal-text-dim);
-}
-.chat-row button:hover{
-  color:var(--sibal-primary);
-  background:#1e40af20;
-}
-#chat-send{
-  color:var(--sibal-primary);
-}
 
 .sidebar-content{
   display:none;
@@ -220,7 +207,7 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   word-break:break-word
 }
 
-/* ===== INPUT + ICON FONTAWESOME ===== */
+/* ===== INPUT + SVG ICON ===== */
 .chat-input-wrap{
   background:var(--sibal-surface);
   border-top:1px solid var(--sibal-border);
@@ -238,12 +225,12 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   align-items:center;
   max-width:1000px;
   margin:0 auto;
+  position:relative;
 }
 .chat-row button{
   background:transparent;
   border:none;
-  color:var(--sibal-text-dim);
-  font-size:20px;
+  color:var(--sibal-text-dim)!important;
   cursor:pointer;
   flex-shrink:0;
   padding:6px;
@@ -256,20 +243,27 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   align-items:center;
   justify-content:center;
 }
+.chat-row button svg{
+  width:20px!important;
+  height:20px!important;
+  display:block!important;
+  pointer-events:none;
+}
 .chat-row button:hover{
-  color:var(--sibal-primary);
+  color:var(--sibal-primary)!important;
   background:#1e40af20;
 }
 .chat-row button:active{
   transform:scale(0.9);
-  color:var(--sibal-primary);
 }
 #chat-send{
-  color:var(--sibal-primary);
-  font-size:20px;
+  color:var(--sibal-primary)!important;
+}
+#chat-send svg{
+  fill:currentColor!important;
+  stroke:none!important;
 }
 #chat-send:hover{
-  color:#2563eb;
   background:#1e40af30;
 }
 #chat-send:disabled{
@@ -296,6 +290,38 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
 }
 #chat-msg::placeholder{color:var(--sibal-text-dim)}
 
+/* EMOJI PICKER */
+.emoji-picker{
+  position:absolute;
+  bottom:50px;
+  left:0;
+  background:var(--sibal-surface);
+  border:1px solid var(--sibal-border);
+  border-radius:8px;
+  padding:8px;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:4px;
+  z-index:9999;
+  box-shadow:0 4px 12px #00000040;
+}
+.emoji-picker button{
+  background:none;
+  border:none;
+  font-size:22px;
+  cursor:pointer;
+  padding:4px;
+  border-radius:4px;
+  width:32px;
+  height:32px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.emoji-picker button:hover{
+  background:#1e40af30;
+}
+
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 
 /* ===== MOBILE ===== */
@@ -309,7 +335,8 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
 .chat-avatar{width:24px;height:24px;font-size:11px}
 .chat-text{font-size:12px}
   #chat-msg{font-size:16px;padding:10px 12px}
-.chat-row button{font-size:18px;width:32px;height:32px}
+.chat-row button{width:32px;height:32px}
+.chat-row button svg{width:18px!important;height:18px!important}
 }
 
 /* ===== PC: INPUT BALIK KE SIDEBAR ===== */
@@ -350,6 +377,7 @@ const emojiBtn = document.getElementById('chat-emoji');
 const gifBtn = document.getElementById('chat-gif');
 const imageBtn = document.getElementById('chat-image');
 const msgBox = document.getElementById('chat-messages');
+const chatRow = document.querySelector('.chat-row');
 
 function getInitials(name) {
   return name.split(' ').map(w => w[0]).join('').substring(0,2).toUpperCase() || '?';
@@ -378,10 +406,42 @@ function sendMsg() {
     });
 }
 
-sendBtn.onclick = sendMsg;
-emojiBtn.onclick = () => alert('Emoji picker nyusul ya');
+// EMOJI PICKER
+let pickerBox;
+emojiBtn.onclick = (e) => {
+  e.stopPropagation();
+  if(pickerBox){
+    pickerBox.remove();
+    pickerBox = null;
+    return;
+  }
+  const emojis = ['😀','😂','😍','😭','😡','👍','🔥','❤️','😎','🤔','😱','🙏','💯','✅','❌','😴','🤣','😊','🙄','👌'];
+  pickerBox = document.createElement('div');
+  pickerBox.className = 'emoji-picker';
+  emojis.forEach(e => {
+    const btn = document.createElement('button');
+    btn.textContent = e;
+    btn.onclick = () => {
+      msgInput.value += e;
+      pickerBox.remove();
+      pickerBox = null;
+      msgInput.focus();
+    };
+    pickerBox.append(btn);
+  });
+  chatRow.append(pickerBox);
+};
+
+document.addEventListener('click', (e) => {
+  if(pickerBox &&!emojiBtn.contains(e.target) &&!pickerBox.contains(e.target)){
+    pickerBox.remove();
+    pickerBox = null;
+  }
+});
+
 gifBtn.onclick = () => alert('Fitur GIF nyusul ya');
 imageBtn.onclick = () => alert('Upload foto nyusul ya');
+sendBtn.onclick = sendMsg;
 
 msgInput.onkeyup = e => {
   if(e.key === 'Enter') {
