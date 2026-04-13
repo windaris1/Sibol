@@ -47,70 +47,41 @@
 
             <div class="sidebar-content" id="chat">
  
-<!-- CHATROOM SIBALTV - FULL MENTOK -->
-<div class="page-wrap">
-  <div class="tab-content">
-    <div id="tab-chatroom" class="tab-pane">
-      <div id="sibaltv-chat">
-          <div id="chat-messages"></div>
-          <div class="chat-input-wrap">
-              <div class="chat-row">
-                  <button id="chat-emoji">😀</button>
-                  <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
-                  <button id="chat-send">➤</button>
-              </div>
-          </div>
-      </div>
+
+<!-- CHATROOM SIBALTV - ANTI KETIBAN -->
+<div id="sibaltv-chat">
+    <div id="chat-messages"></div>
+    <div class="chat-input-wrap">
+        <div class="chat-row">
+            <button id="chat-emoji">😀</button>
+            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
+            <button id="chat-send">➤</button>
+        </div>
     </div>
-  </div>
 </div>
 
 <style>
-/* ===== RESET BIKIN FULL ===== */
-html,body{margin:0;padding:0;height:100%;background:#0a0a0a}
-.page-wrap{height:100dvh;display:flex;flex-direction:column}
+/* ===== RESET WAJIB ===== */
+html,body{margin:0;padding:0;height:100%;background:#0a0a0a;overflow:hidden}
 
-/* ===== HITUNG TINGGI YANG BENER ===== */
-.tab-content{
-  display:flex;
-  flex-direction:column;
-  flex:1;
-  min-height:0;
-  /* Kurangi: Banner atas + Tab Schedule + Banner iklan + Nav bawah */
-  height:calc(100dvh - 380px); /* SESUAIKAN ANGKA INI */
-}
-.tab-pane{
-  display:flex;
-  flex-direction:column;
-  flex:1;
-  min-height:0;
-}
-#tab-chatroom{
-  display:flex;
-  flex-direction:column;
-  flex:1;
-  min-height:0;
-}
-
-/* ===== SIBALTV CHATROOM ===== */
+/* ===== CHAT FULL LAYAR ===== */
 #sibaltv-chat{
   display:flex;
   flex-direction:column;
   background:#0a0a0a;
   font-family:Roboto,system-ui,sans-serif;
-  height:100%;
-  flex:1;
-  min-height:0;
+  /* KUNCI: Tinggi fix ikut layar HP beneran */
+  height:100dvh;
+  width:100%;
 }
 
 #chat-messages{
   flex:1;
   overflow-y:auto;
   overflow-x:hidden;
-  padding:8px 12px;
+  padding:8px 12px 80px 12px; /* 80px buat space input */
   background:#0a0a0a;
   -webkit-overflow-scrolling:touch;
-  scroll-behavior:smooth;
 }
 #chat-messages::-webkit-scrollbar{width:6px}
 #chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
@@ -160,17 +131,25 @@ html,body{margin:0;padding:0;height:100%;background:#0a0a0a}
   word-break:break-word
 }
 
+/* ===== INPUT NEMPEL DI BAWAH LAYAR ===== */
 .chat-input-wrap{
   background:#1a1a1a;
   border-top:1px solid #262626;
   padding:8px 12px;
-  padding-bottom:calc(8px + env(safe-area-inset-bottom)); /* Buat HP poni */
-  flex-shrink:0
+  /* INI SENJATANYA: Nempel di bawah viewport */
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:999;
+  padding-bottom:calc(8px + env(safe-area-inset-bottom));
 }
 .chat-row{
   display:flex;
   gap:8px;
-  align-items:center
+  align-items:center;
+  max-width:1000px;
+  margin:0 auto;
 }
 #chat-emoji{
   background:transparent;
@@ -305,7 +284,6 @@ db.limitToLast(100).on('child_added', snap => {
 
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
 </script>
-
 
               <div class="spacer"></div>
             </div>
