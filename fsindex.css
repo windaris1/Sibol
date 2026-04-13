@@ -496,17 +496,15 @@ html, body {
 
 .live-label {
 
-    display: flex;
-
     background-color: #ef4444;
 
     color: #e4e6eb;
 
     text-transform: uppercase;
 
-    padding: 4px 12px;
+    padding: 4px 15px;
 
-    font-size: 8px;
+    font-size: 12px;
 
     font-weight: 600;
 
@@ -516,13 +514,20 @@ html, body {
 
     margin: 8px auto 0;
 
-}
+  display: flex;
+  align-items: center; /* ini kuncinya */
+  gap: 8px;
+  color: #e4e6eb;
+  font-size: 14px;
+  line-height: 1; /* biar teks ga bikin tinggi */
 
+}
 
 .ping-dot {
   position: relative;
-  width: 3px;
-  height: 3px;
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0; /* biar dot ga mengecil */
 }
 
 .ping-dot::before,
@@ -1404,3 +1409,4 @@ html, body {
 
     }
 
+} 
