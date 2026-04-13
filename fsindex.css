@@ -1414,7 +1414,7 @@ html, body {
 
 }
 
-/* ===== SIBALTV CHANNELS CARD FINAL + TEXT RAPI ===== */
+/* ===== SIBALTV CHANNELS FINAL ANTI ONLINE ===== */
 #live-tv {
     background-color: #0a0f1a !important;
 }
@@ -1474,26 +1474,4 @@ html, body {
 }
 
 #live-tv #content .channel-container .logo {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
-}
-
-/* Teks super rapi versi final */
-#live-tv #content .channel-container .info-container {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    flex-grow: 1 !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 2px 4px 0 4px !important;
-    min-height: 32px !important;
-}
-
-#live-tv #content .channel-container .channel-name {
-    display: -webkit-box !important;
-    -webkit-line-clamp: 2 !important;
    
