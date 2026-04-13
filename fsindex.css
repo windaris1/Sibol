@@ -514,11 +514,9 @@ html, body {
 
     text-align: center;
 
-    margin: 8px auto 0;
+     align-items: center;
 
-    width: fit-content;
-align-items: center;
-  gap: 8px;
+     gap: 8px;
 }
 
 
