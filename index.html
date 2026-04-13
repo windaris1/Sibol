@@ -103,13 +103,23 @@
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
-        <div class="chat-row">
-            <button id="chat-emoji" title="Emoji"><i class="fa-regular fa-face-smile"></i></button>
-            <button id="chat-gif" title="GIF"><i class="fa-solid fa-gif"></i></button>
-            <button id="chat-image" title="Kirim Foto"><i class="fa-regular fa-image"></i></button>
-            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
-            <button id="chat-send" title="Kirim"><i class="fa-solid fa-paper-plane"></i></button>
-        </div>
+
+<div class="chat-row">
+    <button id="chat-emoji" title="Emoji">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+    </button>
+    <button id="chat-gif" title="GIF">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11 13H8v-2h3v2zm4 0h-3v-2h3v2zM3 3v18h18V3H3zm16 16H5V5h14v14z"/></svg>
+    </button>
+    <button id="chat-image" title="Kirim Foto">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+    </button>
+    <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
+    <button id="chat-send" title="Kirim">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg>
+    </button>
+</div>
+
     </div>
 </div>
 
@@ -125,6 +135,22 @@
 }
 
 html,body{margin:0;padding:0;background:var(--sibal-bg)}
+
+.chat-row button svg{
+  width:20px;
+  height:20px;
+  pointer-events:none;
+}
+.chat-row button{
+  color:var(--sibal-text-dim);
+}
+.chat-row button:hover{
+  color:var(--sibal-primary);
+  background:#1e40af20;
+}
+#chat-send{
+  color:var(--sibal-primary);
+}
 
 .sidebar-content{
   display:none;
