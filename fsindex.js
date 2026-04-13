@@ -116,7 +116,7 @@ async function loadEvents() {
                             <div class="kickoff-match-time">${event.kickoff_time}</div>
 
 <div class="live-label"><div class="ping-dot">
-<span>LIVE</span>
+</div><span>LIVE</span>
 </div>
 
                             <div class="match-date" data-original-date="${event.match_date}" style="display:none;">${event.match_date}</div>
@@ -848,4 +848,4 @@ window.addEventListener('DOMContentLoaded', async () => {
             }
         }
     }
-})
+});
