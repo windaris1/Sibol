@@ -586,7 +586,7 @@ html, body {
 
 .server-button {
 
-    background-color: #0a0f1a;
+    background-color: #3b82f6;
 
     padding: 6px 12px;
 
@@ -616,7 +616,7 @@ html, body {
 
 .server-button.active {
 
-    background-color: #3b82f6;
+    background-color: #22c55e;
 
     border: 1px solid #2f3545;
     
@@ -628,7 +628,7 @@ html, body {
 
 .server-button:hover {
 
-    background-color: #22c55e;
+    background-color: #0a0f1a;
 
     border: 1px solid #2f3545;
     
