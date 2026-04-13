@@ -506,7 +506,7 @@ html, body {
 
     padding: 4px 12px;
 
-    font-size: 12px;
+    font-size: 8px;
 
     font-weight: 600;
 
@@ -521,8 +521,8 @@ html, body {
 
 .ping-dot {
   position: relative;
-  width: 8px;
-  height: 8px;
+  width: 3px;
+  height: 3px;
 }
 
 .ping-dot::before,
@@ -1404,4 +1404,3 @@ html, body {
 
     }
 
-} 
