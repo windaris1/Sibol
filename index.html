@@ -23,8 +23,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="fsindex.css">
 
 </head>
@@ -98,19 +96,18 @@
 
 <div class="sidebar-content" id="chat">
 
-<!-- CHATROOM SIBALTV FINAL - STANDALONE -->
+<!-- CHATROOM SIBALTV FINAL + FONTAWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
         <div class="chat-row">
-            <button id="chat-emoji" title="Emoji">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
-            </button>
-   
-            <input type="text" id="chat-msg" placeholder="Start Chatting!" enterkeyhint="send" inputmode="text">
-            <button id="chat-send" title="Kirim">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg>
-            </button>
+            <button id="chat-emoji" title="Emoji"><i class="fa-regular fa-face-smile"></i></button>
+            <button id="chat-gif" title="GIF"><i class="fa-solid fa-gif"></i></button>
+            <button id="chat-image" title="Kirim Foto"><i class="fa-regular fa-image"></i></button>
+            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
+            <button id="chat-send" title="Kirim"><i class="fa-solid fa-paper-plane"></i></button>
         </div>
     </div>
 </div>
@@ -126,15 +123,24 @@
   --sibal-admin:#f59e0b;
 }
 
+html,body{margin:0;padding:0;background:var(--sibal-bg)}
+
+.sidebar-content{
+  display:none;
+  height:100%;
+  flex-direction:column;
+}
+.sidebar-content.active{
+  display:flex;
+}
+
 #sibaltv-chat{
   font-family:Roboto,system-ui,sans-serif;
   background:var(--sibal-bg);
-  height:500px;
+  height:100%;
   display:flex;
   flex-direction:column;
   overflow:hidden;
-  border:1px solid var(--sibal-border);
-  border-radius:8px;
 }
 
 #chat-messages{
@@ -144,8 +150,6 @@
   padding:8px 12px;
   background:var(--sibal-bg);
   -webkit-overflow-scrolling:touch;
-  display:flex;
-  flex-direction:column-reverse;
 }
 #chat-messages::-webkit-scrollbar{width:6px}
 #chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
@@ -197,23 +201,30 @@
   word-break:break-word
 }
 
-/* INPUT + SVG ICON */
+/* ===== INPUT + ICON FONTAWESOME ===== */
 .chat-input-wrap{
   background:var(--sibal-surface);
   border-top:1px solid var(--sibal-border);
   padding:8px 12px;
   flex-shrink:0;
+  position:fixed;
+  bottom:calc(48px + env(safe-area-inset-bottom));
+  left:0;
+  right:0;
+  z-index:999;
 }
 .chat-row{
   display:flex;
   gap:4px;
   align-items:center;
-  position:relative;
+  max-width:1000px;
+  margin:0 auto;
 }
 .chat-row button{
   background:transparent;
   border:none;
-  color:var(--sibal-text-dim)!important;
+  color:var(--sibal-text-dim);
+  font-size:20px;
   cursor:pointer;
   flex-shrink:0;
   padding:6px;
@@ -226,27 +237,20 @@
   align-items:center;
   justify-content:center;
 }
-.chat-row button svg{
-  width:20px!important;
-  height:20px!important;
-  display:block!important;
-  pointer-events:none;
-}
 .chat-row button:hover{
-  color:var(--sibal-primary)!important;
+  color:var(--sibal-primary);
   background:#1e40af20;
 }
 .chat-row button:active{
   transform:scale(0.9);
+  color:var(--sibal-primary);
 }
 #chat-send{
-  color:var(--sibal-primary)!important;
-}
-#chat-send svg{
-  fill:currentColor!important;
-  stroke:none!important;
+  color:var(--sibal-primary);
+  font-size:20px;
 }
 #chat-send:hover{
+  color:#2563eb;
   background:#1e40af30;
 }
 #chat-send:disabled{
@@ -273,42 +277,32 @@
 }
 #chat-msg::placeholder{color:var(--sibal-text-dim)}
 
-/* EMOJI PICKER */
-.emoji-picker{
-  position:absolute;
-  bottom:50px;
-  left:0;
-  background:var(--sibal-surface);
-  border:1px solid var(--sibal-border);
-  border-radius:8px;
-  padding:8px;
-  display:grid;
-  grid-template-columns:repeat(5,1fr);
-  gap:4px;
-  z-index:9999;
-  box-shadow:0 4px 12px #00000040;
-}
-.emoji-picker button{
-  background:none;
-  border:none;
-  font-size:22px;
-  cursor:pointer;
-  padding:4px;
-  border-radius:4px;
-  width:32px;
-  height:32px;
-}
-.emoji-picker button:hover{
-  background:#1e40af30;
-}
-
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 
+/* ===== MOBILE ===== */
 @media (max-width:900px){
-  #sibaltv-chat{height:400px}
+  #sibaltv-chat{
+    height:calc(100dvh - 340px);
+  }
+  #chat-messages{
+    padding:8px 12px 70px 12px;
+  }
+ .chat-avatar{width:24px;height:24px;font-size:11px}
+ .chat-text{font-size:12px}
   #chat-msg{font-size:16px;padding:10px 12px}
- .chat-row button{width:32px;height:32px}
- .chat-row button svg{width:18px!important;height:18px!important}
+ .chat-row button{font-size:18px;width:32px;height:32px}
+}
+
+/* ===== PC: INPUT BALIK KE SIDEBAR ===== */
+@media (min-width:901px){
+ .chat-input-wrap{
+    position:static;
+    bottom:auto;
+    left:auto;
+    right:auto;
+    margin-top:auto;
+    z-index:1;
+  }
 }
 </style>
 
@@ -328,7 +322,7 @@ const firebaseConfig = {
 const ADMIN_NAMES = ["Admin", "SibalTV"];
 const USER_COLORS = ['#14b8a6','#22c55e','#eab308','#ef4444','#a855f7','#ec4899','#3b82f6','#f97316'];
 
-if(!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref('sibaltv_chat');
 
 const msgInput = document.getElementById('chat-msg');
@@ -337,7 +331,6 @@ const emojiBtn = document.getElementById('chat-emoji');
 const gifBtn = document.getElementById('chat-gif');
 const imageBtn = document.getElementById('chat-image');
 const msgBox = document.getElementById('chat-messages');
-const chatRow = document.querySelector('.chat-row');
 
 function getInitials(name) {
   return name.split(' ').map(w => w[0]).join('').substring(0,2).toUpperCase() || '?';
@@ -363,48 +356,13 @@ function sendMsg() {
       msgInput.value = '';
       sendBtn.disabled = false;
       msgInput.focus();
-    }).catch(e => {
-      alert('Gagal kirim: ' + e.message);
-      sendBtn.disabled = false;
     });
 }
 
-// EMOJI PICKER
-let pickerBox;
-emojiBtn.onclick = (e) => {
-  e.stopPropagation();
-  if(pickerBox){
-    pickerBox.remove();
-    pickerBox = null;
-    return;
-  }
-  const emojis = ['😀','😂','😍','😭','😡','👍','🔥','❤️','😎','🤔','😱','🙏','💯','✅','❌','😴','🤣','😊','🙄','👌'];
-  pickerBox = document.createElement('div');
-  pickerBox.className = 'emoji-picker';
-  emojis.forEach(e => {
-    const btn = document.createElement('button');
-    btn.textContent = e;
-    btn.onclick = () => {
-      msgInput.value += e;
-      pickerBox.remove();
-      pickerBox = null;
-      msgInput.focus();
-    };
-    pickerBox.append(btn);
-  });
-  chatRow.append(pickerBox);
-};
-
-document.addEventListener('click', (e) => {
-  if(pickerBox &&!emojiBtn.contains(e.target) &&!pickerBox.contains(e.target)){
-    pickerBox.remove();
-    pickerBox = null;
-  }
-});
-
+sendBtn.onclick = sendMsg;
+emojiBtn.onclick = () => alert('Emoji picker nyusul ya');
 gifBtn.onclick = () => alert('Fitur GIF nyusul ya');
 imageBtn.onclick = () => alert('Upload foto nyusul ya');
-sendBtn.onclick = sendMsg;
 
 msgInput.onkeyup = e => {
   if(e.key === 'Enter') {
@@ -413,10 +371,8 @@ msgInput.onkeyup = e => {
   }
 };
 
-// LOAD CHAT
 db.orderByChild('time').limitToLast(100).on('child_added', snap => {
     const d = snap.val();
-    if(!d) return;
     const isAdmin = ADMIN_NAMES.includes(d.name);
     const time = new Date(d.time).toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}) + ' WIB';
     const avatarColor = isAdmin? 'var(--sibal-admin)' : getUserColor(d.name);
@@ -434,9 +390,9 @@ db.orderByChild('time').limitToLast(100).on('child_added', snap => {
       </div>`;
 
     msgBox.insertAdjacentHTML('afterbegin', chatHtml);
+    msgBox.scrollTop = 0;
 });
 
-// HAPUS PESAN > 3 HARI
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
 </script>
 
