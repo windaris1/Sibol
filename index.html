@@ -47,8 +47,7 @@
 
             <div class="sidebar-content" id="chat">
  
-
-<!-- CHATROOM SIBALTV - WARNA SESUAI WEB -->
+<!-- CHATROOM SIBALTV FINAL -->
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
@@ -61,15 +60,15 @@
 </div>
 
 <style>
-/* ===== WARNA SIBALTV OFFICIAL ===== */
+/* ===== WARNA SIBALTV FINAL ===== */
 :root{
-  --sibal-bg:#0a0a0a; /* Background utama */
-  --sibal-surface:#141414; /* Background input/card */
-  --sibal-border:#262626; /* Garis pemisah */
+  --sibal-bg:#1a1f2e; /* Background biru gelap */
+  --sibal-surface:#11141c; /* Input lebih gelap */
+  --sibal-border:#2a3040; /* Border nyatu */
   --sibal-primary:#1e40af; /* Biru SIBALTV */
-  --sibal-text:#e5e5e5; /* Teks utama */
-  --sibal-text-dim:#737373; /* Teks jam/waktu */
-  --sibal-admin:#f59e0b; /* Warna admin */
+  --sibal-text:#e5e5e5;
+  --sibal-text-dim:#8a91a8; /* Abu keunguan */
+  --sibal-admin:#f59e0b; /* Oranye admin */
 }
 
 html,body{margin:0;padding:0;background:var(--sibal-bg)}
@@ -87,6 +86,7 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   overflow-y:auto;
   overflow-x:hidden;
   padding:8px 12px 70px 12px;
+  background:var(--sibal-bg);
   -webkit-overflow-scrolling:touch;
 }
 #chat-messages::-webkit-scrollbar{width:6px}
@@ -118,16 +118,19 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   align-items:baseline;
   gap:6px;
   margin-bottom:2px;
-  flex-wrap:wrap
+  justify-content:space-between;
+  width:100%
 }
 .chat-time{
   color:var(--sibal-text-dim);
   font-size:11px;
-  white-space:nowrap
+  white-space:nowrap;
+  order:2
 }
 .chat-name{
   font-weight:500;
-  font-size:13px
+  font-size:13px;
+  order:1
 }
 .chat-item.admin.chat-name{color:var(--sibal-admin)!important}
 .chat-text{
@@ -137,6 +140,7 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   word-break:break-word
 }
 
+/* ===== INPUT ===== */
 .chat-input-wrap{
   background:var(--sibal-surface);
   border-top:1px solid var(--sibal-border);
@@ -196,7 +200,7 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
 #chat-send:disabled{opacity:0.4;cursor:not-allowed}
 #chat-send:active{transform:scale(0.9)}
 
-@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 
 @media (max-width:360px){
 .chat-avatar{width:24px;height:24px;font-size:11px}
@@ -265,24 +269,30 @@ msgInput.onkeyup = e => {
   }
 };
 
-db.limitToLast(100).on('child_added', snap => {
+// CHAT TERBARU DI ATAS
+db.orderByChild('time').limitToLast(100).on('child_added', snap => {
     const d = snap.val();
     const isAdmin = ADMIN_NAMES.includes(d.name);
     const time = new Date(d.time).toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}) + ' WIB';
     const avatarColor = isAdmin? 'var(--sibal-admin)' : getUserColor(d.name);
 
-    msgBox.innerHTML += `
+    const chatHtml = `
       <div class="chat-item ${isAdmin?'admin':''}">
         <div class="chat-avatar" style="background:${avatarColor}">${getInitials(d.name)}</div>
         <div class="chat-body">
           <div class="chat-meta">
-            <span class="chat-time">${time}</span>
             <span class="chat-name" style="color:${avatarColor}">${d.name}</span>
+            <span class="chat-time">${time}</span>
           </div>
           <div class="chat-text">${d.msg}</div>
         </div>
       </div>`;
-    msgBox.scrollTop = msgBox.scrollHeight;
+
+    // PREPEND = CHAT BARU DI ATAS
+    msgBox.insertAdjacentHTML('afterbegin', chatHtml);
+
+    // AUTO SCROLL KE ATAS
+    msgBox.scrollTop = 0;
 });
 
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
