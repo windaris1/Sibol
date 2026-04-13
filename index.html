@@ -45,9 +45,10 @@
                 <div id="content"></div>
             </div>
 
+
 <div class="sidebar-content" id="chat">
 
-<!-- CHATROOM SIBALTV FIX BUAT SIDEBAR -->
+<!-- CHATROOM SIBALTV FINAL + FIX MOBILE -->
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
@@ -60,7 +61,6 @@
 </div>
 
 <style>
-/* ===== WARNA SIBALTV FINAL ===== */
 :root{
   --sibal-bg:#1a1f2e;
   --sibal-surface:#11141c;
@@ -71,7 +71,6 @@
   --sibal-admin:#f59e0b;
 }
 
-/* PENTING:.sidebar-content WAJIB FLEX */
 .sidebar-content{
   display:none;
   height:100%;
@@ -125,10 +124,9 @@
 .chat-meta{
   display:flex;
   align-items:baseline;
-  gap:6px;
-  margin-bottom:2px;
   justify-content:space-between;
-  width:100%
+  width:100%;
+  margin-bottom:2px
 }
 .chat-time{
   color:var(--sibal-text-dim);
@@ -149,7 +147,6 @@
   word-break:break-word
 }
 
-/* ===== INPUT NEMPEL DI BAWAH SIDEBAR ===== */
 .chat-input-wrap{
   background:var(--sibal-surface);
   border-top:1px solid var(--sibal-border);
@@ -205,10 +202,30 @@
 
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 
-@media (max-width:360px){
-.chat-avatar{width:24px;height:24px;font-size:11px}
-.chat-text{font-size:12px}
-#chat-msg{font-size:16px;padding:10px 12px}
+/* ===== FIX MOBILE: INPUT NEMPEL BAWAH ===== */
+@media (max-width:900px){
+ .sidebar-content{
+    height:65vh; /* Tinggi 65% layar HP */
+    min-height:450px;
+  }
+
+  #sibaltv-chat{
+    height:100%;
+  }
+
+  #chat-messages{
+    padding:8px 12px;
+  }
+
+ .chat-input-wrap{
+    position:sticky;
+    bottom:0;
+    margin-top:auto;
+  }
+
+ .chat-avatar{width:24px;height:24px;font-size:11px}
+ .chat-text{font-size:12px}
+  #chat-msg{font-size:16px;padding:10px 12px}
 }
 </style>
 
@@ -272,7 +289,6 @@ msgInput.onkeyup = e => {
   }
 };
 
-// CHAT TERBARU DI ATAS
 db.orderByChild('time').limitToLast(100).on('child_added', snap => {
     const d = snap.val();
     const isAdmin = ADMIN_NAMES.includes(d.name);
@@ -300,7 +316,6 @@ db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEa
 
   <div class="spacer"></div>
 </div>
-
             <div class="menu-wrapper-bottom">
                 <div class="menu-container">
                     <button class="menu-button downloadapk-button" onclick="window.open('https://t.me/+2nr9HhfJHVYwMzdl')">
