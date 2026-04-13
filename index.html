@@ -47,7 +47,8 @@
 
             <div class="sidebar-content" id="chat">
  
-<!-- CHATROOM SIBALTV - FIX NONGOL DI ATAS NAV BAWAH -->
+
+<!-- CHATROOM SIBALTV - WARNA SESUAI WEB -->
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
@@ -60,16 +61,23 @@
 </div>
 
 <style>
-/* ===== RESET ===== */
-html,body{margin:0;padding:0;background:#0a0a0a}
+/* ===== WARNA SIBALTV OFFICIAL ===== */
+:root{
+  --sibal-bg:#0a0a0a; /* Background utama */
+  --sibal-surface:#141414; /* Background input/card */
+  --sibal-border:#262626; /* Garis pemisah */
+  --sibal-primary:#1e40af; /* Biru SIBALTV */
+  --sibal-text:#e5e5e5; /* Teks utama */
+  --sibal-text-dim:#737373; /* Teks jam/waktu */
+  --sibal-admin:#f59e0b; /* Warna admin */
+}
 
-/* ===== CHAT CONTAINER ===== */
+html,body{margin:0;padding:0;background:var(--sibal-bg)}
+
 #sibaltv-chat{
   font-family:Roboto,system-ui,sans-serif;
-  background:#0a0a0a;
-  /* Tinggi = layar HP dikurangi semua elemen di atas tab Chatroom */
-  /* Banner SIBALTV + Tab + Banner Iklan ≈ 330px */
-  height:calc(100dvh - 330px);
+  background:var(--sibal-bg);
+  height:calc(100dvh - 340px);
   display:flex;
   flex-direction:column;
 }
@@ -78,10 +86,8 @@ html,body{margin:0;padding:0;background:#0a0a0a}
   flex:1;
   overflow-y:auto;
   overflow-x:hidden;
-  padding:8px 12px;
+  padding:8px 12px 70px 12px;
   -webkit-overflow-scrolling:touch;
-  /* Kasih space 60px biar chat terakhir ga ketiban input */
-  padding-bottom:60px;
 }
 #chat-messages::-webkit-scrollbar{width:6px}
 #chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
@@ -115,7 +121,7 @@ html,body{margin:0;padding:0;background:#0a0a0a}
   flex-wrap:wrap
 }
 .chat-time{
-  color:#737373;
+  color:var(--sibal-text-dim);
   font-size:11px;
   white-space:nowrap
 }
@@ -123,26 +129,23 @@ html,body{margin:0;padding:0;background:#0a0a0a}
   font-weight:500;
   font-size:13px
 }
-.chat-item.admin.chat-name{color:#f59e0b!important}
+.chat-item.admin.chat-name{color:var(--sibal-admin)!important}
 .chat-text{
-  color:#e5e5e5;
+  color:var(--sibal-text);
   font-size:13px;
   line-height:1.4;
   word-break:break-word
 }
 
-/* ===== INPUT NEMPEL DI ATAS NAV TELEGRAM ===== */
 .chat-input-wrap{
-  background:#1a1a1a;
-  border-top:1px solid #262626;
+  background:var(--sibal-surface);
+  border-top:1px solid var(--sibal-border);
   padding:8px 12px;
-  /* KUNCI: Angkat 48px dari bawah, pas di atas nav Telegram */
   position:fixed;
-  bottom:48px;
+  bottom:calc(48px + env(safe-area-inset-bottom));
   left:0;
   right:0;
   z-index:999;
-  padding-bottom:calc(8px + env(safe-area-inset-bottom));
 }
 .chat-row{
   display:flex;
@@ -154,7 +157,7 @@ html,body{margin:0;padding:0;background:#0a0a0a}
 #chat-emoji{
   background:transparent;
   border:none;
-  color:#a3a3a3;
+  color:var(--sibal-text-dim);
   font-size:22px;
   cursor:pointer;
   flex-shrink:0;
@@ -163,9 +166,9 @@ html,body{margin:0;padding:0;background:#0a0a0a}
 }
 #chat-msg{
   flex:1;
-  background:#0a0a0a;
-  border:1px solid #333;
-  color:#fff;
+  background:var(--sibal-bg);
+  border:1px solid var(--sibal-border);
+  color:var(--sibal-text);
   border-radius:18px;
   padding:12px 14px;
   font-size:16px;
@@ -174,13 +177,13 @@ html,body{margin:0;padding:0;background:#0a0a0a}
 }
 #chat-msg:focus{
   outline:none;
-  border-color:#3b82f6
+  border-color:var(--sibal-primary)
 }
-#chat-msg::placeholder{color:#737373}
+#chat-msg::placeholder{color:var(--sibal-text-dim)}
 #chat-send{
   background:transparent;
   border:none;
-  color:#3b82f6;
+  color:var(--sibal-primary);
   font-size:22px;
   cursor:pointer;
   flex-shrink:0;
@@ -198,7 +201,7 @@ html,body{margin:0;padding:0;background:#0a0a0a}
 @media (max-width:360px){
 .chat-avatar{width:24px;height:24px;font-size:11px}
 .chat-text{font-size:12px}
-  #chat-msg{font-size:16px;padding:10px 12px}
+#chat-msg{font-size:16px;padding:10px 12px}
 }
 </style>
 
@@ -266,7 +269,7 @@ db.limitToLast(100).on('child_added', snap => {
     const d = snap.val();
     const isAdmin = ADMIN_NAMES.includes(d.name);
     const time = new Date(d.time).toLocaleTimeString('id-ID',{hour:'2-digit',minute:'2-digit'}) + ' WIB';
-    const avatarColor = isAdmin? '#f59e0b' : getUserColor(d.name);
+    const avatarColor = isAdmin? 'var(--sibal-admin)' : getUserColor(d.name);
 
     msgBox.innerHTML += `
       <div class="chat-item ${isAdmin?'admin':''}">
@@ -284,6 +287,7 @@ db.limitToLast(100).on('child_added', snap => {
 
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
 </script>
+
               <div class="spacer"></div>
             </div>
 
