@@ -116,8 +116,7 @@ async function loadEvents() {
                             <div class="kickoff-match-time">${event.kickoff_time}</div>
 
 <div class="live-label">
-<div class="ping-dot"></div>
-Live</div>
+<div class="ping-dot"></div>Live</div>
 
                             <div class="match-date" data-original-date="${event.match_date}" style="display:none;">${event.match_date}</div>
                             <div class="match-time" data-original-time="${event.match_time}" style="display:none;">${event.match_time}</div>
