@@ -506,7 +506,7 @@ html, body {
 
     padding: 4px 15px;
 
-    font-size: 0.75em;
+    font-size: 12px;
 
     font-weight: 600;
 
@@ -514,9 +514,8 @@ html, body {
 
     text-align: center;
 
-     align-items: center;
+    margin: 8px auto 0;
 
-     gap: 8px;
 }
 
 
@@ -533,7 +532,7 @@ html, body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #22c55e; /* --accent-success */
+  background: #e4e6eb; /* --accent-success */
 }
 
 .ping-dot::after {
