@@ -47,31 +47,52 @@
 
             <div class="sidebar-content" id="chat">
  
-<!-- CHATROOM SIBALTV - FULL VIDIO STYLE -->
-<div id="sibaltv-chat">
-    <div id="chat-messages"></div>
-    <div class="chat-input-wrap">
-        <div class="chat-row">
-            <button id="chat-emoji">😀</button>
-            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
-            <button id="chat-send">➤</button>
+<!-- CHATROOM SIBALTV - FULL VIDIO STYLE 100% -->
+<div class="tab-content">
+  <div id="tab-chatroom" class="tab-pane">
+    <div id="sibaltv-chat">
+        <div id="chat-messages"></div>
+        <div class="chat-input-wrap">
+            <div class="chat-row">
+                <button id="chat-emoji">😀</button>
+                <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
+                <button id="chat-send">➤</button>
+            </div>
         </div>
     </div>
+  </div>
 </div>
 
 <style>
-/* ===== SIBALTV CHATROOM VIDIO STYLE ===== */
+/* ===== PARENT TAB - INI YANG BIKIN FULL ===== */
+.tab-content{
+  display:flex;
+  flex-direction:column;
+  height:calc(100vh - 60px); /* 60px = tinggi navbar atas lu. Sesuaikan */
+  min-height:0;
+}
+.tab-pane{
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  min-height:0;
+}
+#tab-chatroom{
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  min-height:0;
+}
+
+/* ===== SIBALTV CHATROOM ===== */
 #sibaltv-chat{
   display:flex;
   flex-direction:column;
   background:#0a0a0a;
   font-family:Roboto,system-ui,sans-serif;
-  position:relative;
-  height:calc(100dvh - 320px);
-  min-height:400px;
-}
-@supports not (height: 100dvh) {
-  #sibaltv-chat{height:calc(100vh - 320px)}
+  height:100%;
+  flex:1;
+  min-height:0;
 }
 
 #chat-messages{
@@ -84,7 +105,6 @@
   scroll-behavior:smooth;
 }
 #chat-messages::-webkit-scrollbar{width:6px}
-#chat-messages::-webkit-scrollbar-track{background:#1a1a1a}
 #chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
 
 .chat-item{
@@ -185,15 +205,11 @@
 #chat-send:disabled{opacity:0.4;cursor:not-allowed}
 #chat-send:active{transform:scale(0.9)}
 
-@keyframes fadeIn{
-  from{opacity:0;transform:translateY(4px)}
-  to{opacity:1;transform:translateY(0)}
-}
+@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
 
 @media (max-width:360px){
-  #sibaltv-chat{height:calc(100dvh - 300px)}
- .chat-avatar{width:24px;height:24px;font-size:11px}
- .chat-text{font-size:12px}
+.chat-avatar{width:24px;height:24px;font-size:11px}
+.chat-text{font-size:12px}
   #chat-msg{font-size:16px;padding:10px 12px}
 }
 </style>
