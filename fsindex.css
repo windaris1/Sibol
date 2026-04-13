@@ -588,13 +588,13 @@ html, body {
 
     background-color: #3b82f6;
 
-    padding: 6px 12px;
+    padding: 6px 13px;
 
-    font-size: 0.85em;
+    font-size: 1em;
 
-    font-weight: 500;
+    font-weight: 600;
 
-    color: #FEFFFF;
+    color: #e4e6eb;
 
     border-radius: 4px;
 
@@ -616,7 +616,7 @@ html, body {
 
 .server-button.active {
 
-    background-color: #f59e0b;
+    background-color: #22c55e;
 
     border: 1px solid #2f3545;
     
@@ -628,7 +628,7 @@ html, body {
 
 .server-button:hover {
 
-    background-color: #0a0f1a;
+    background-color: #22c55e;
 
     border: 1px solid #2f3545;
     
