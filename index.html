@@ -47,30 +47,31 @@
 
             <div class="sidebar-content" id="chat">
  
-
-<!-- CHATROOM SIBALTV - VERSI FINAL VIDIO -->
+<!-- CHATROOM SIBALTV - FULL VIDIO STYLE -->
 <div id="sibaltv-chat">
     <div id="chat-messages"></div>
     <div class="chat-input-wrap">
         <div class="chat-row">
             <button id="chat-emoji">😀</button>
-            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send">
+            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
             <button id="chat-send">➤</button>
         </div>
     </div>
 </div>
 
 <style>
-/* CONTAINER FULL + RESPONSIVE */
+/* ===== SIBALTV CHATROOM VIDIO STYLE ===== */
 #sibaltv-chat{
   display:flex;
   flex-direction:column;
-  height:100%; /* Full ikut parent */
-  min-height:400px; /* Biar ga kekecilan di desktop */
-  max-height:calc(100vh - 200px); /* Biar ga ketutup navbar HP */
   background:#0a0a0a;
   font-family:Roboto,system-ui,sans-serif;
   position:relative;
+  height:calc(100dvh - 320px);
+  min-height:400px;
+}
+@supports not (height: 100dvh) {
+  #sibaltv-chat{height:calc(100vh - 320px)}
 }
 
 #chat-messages{
@@ -79,49 +80,122 @@
   overflow-x:hidden;
   padding:8px 12px;
   background:#0a0a0a;
-  -webkit-overflow-scrolling:touch; /* Scroll mulus di HP */
+  -webkit-overflow-scrolling:touch;
+  scroll-behavior:smooth;
 }
 #chat-messages::-webkit-scrollbar{width:6px}
+#chat-messages::-webkit-scrollbar-track{background:#1a1a1a}
 #chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
 
-/* CHAT ITEM ALA VIDIO - FIX AVATAR BULAT */
-.chat-item{display:flex;gap:8px;margin-bottom:8px;align-items:flex-start}
+.chat-item{
+  display:flex;
+  gap:8px;
+  margin-bottom:8px;
+  align-items:flex-start;
+  animation:fadeIn.15s ease
+}
 .chat-avatar{
-  width:28px;height:28px;border-radius:50%;
-  color:#fff;display:flex;align-items:center;justify-content:center;
-  font-weight:600;font-size:12px;flex-shrink:0;margin-top:2px
+  width:28px;
+  height:28px;
+  border-radius:50%;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:600;
+  font-size:12px;
+  flex-shrink:0;
+  margin-top:2px
 }
 .chat-body{flex:1;min-width:0}
-.chat-meta{display:flex;align-items:baseline;gap:6px;margin-bottom:2px;flex-wrap:wrap}
-.chat-time{color:#737373;font-size:11px;white-space:nowrap}
-.chat-name{font-weight:500;font-size:13px}
+.chat-meta{
+  display:flex;
+  align-items:baseline;
+  gap:6px;
+  margin-bottom:2px;
+  flex-wrap:wrap
+}
+.chat-time{
+  color:#737373;
+  font-size:11px;
+  white-space:nowrap
+}
+.chat-name{
+  font-weight:500;
+  font-size:13px
+}
 .chat-item.admin.chat-name{color:#f59e0b!important}
-.chat-text{color:#e5e5e5;font-size:13px;line-height:1.4;word-break:break-word}
+.chat-text{
+  color:#e5e5e5;
+  font-size:13px;
+  line-height:1.4;
+  word-break:break-word
+}
 
-/* INPUT STICKY DI BAWAH - SELALU KELIATAN */
 .chat-input-wrap{
   background:#1a1a1a;
   border-top:1px solid #262626;
   padding:8px 12px;
-  flex-shrink:0; /* Penting: biar ga ketindih */
+  flex-shrink:0
 }
-.chat-row{display:flex;gap:8px;align-items:center}
+.chat-row{
+  display:flex;
+  gap:8px;
+  align-items:center
+}
 #chat-emoji{
-  background:transparent;border:none;color:#a3a3a3;
-  font-size:22px;cursor:pointer;flex-shrink:0;padding:0
+  background:transparent;
+  border:none;
+  color:#a3a3a3;
+  font-size:22px;
+  cursor:pointer;
+  flex-shrink:0;
+  padding:0;
+  line-height:1
 }
 #chat-msg{
-  flex:1;background:#0a0a0a;border:1px solid #333;color:#fff;
-  border-radius:18px;padding:10px 14px;font-size:16px; /* 16px biar ga zoom di iPhone */
-  min-width:0; /* Fix input kepanjangan di HP */
+  flex:1;
+  background:#0a0a0a;
+  border:1px solid #333;
+  color:#fff;
+  border-radius:18px;
+  padding:12px 14px;
+  font-size:16px;
+  min-width:0;
+  font-family:inherit
 }
-#chat-msg:focus{outline:none;border-color:#3b82f6}
+#chat-msg:focus{
+  outline:none;
+  border-color:#3b82f6
+}
 #chat-msg::placeholder{color:#737373}
 #chat-send{
-  background:transparent;border:none;color:#3b82f6;
-  font-size:22px;cursor:pointer;flex-shrink:0;padding:0 4px
+  background:transparent;
+  border:none;
+  color:#3b82f6;
+  font-size:22px;
+  cursor:pointer;
+  flex-shrink:0;
+  padding:0 4px;
+  line-height:1;
+  display:flex;
+  align-items:center;
+  justify-content:center
 }
-#chat-send:disabled{opacity:0.4}
+#chat-send:disabled{opacity:0.4;cursor:not-allowed}
+#chat-send:active{transform:scale(0.9)}
+
+@keyframes fadeIn{
+  from{opacity:0;transform:translateY(4px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+@media (max-width:360px){
+  #sibaltv-chat{height:calc(100dvh - 300px)}
+ .chat-avatar{width:24px;height:24px;font-size:11px}
+ .chat-text{font-size:12px}
+  #chat-msg{font-size:16px;padding:10px 12px}
+}
 </style>
 
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
@@ -171,7 +245,7 @@ function sendMsg() {
     db.push({ name, msg, time: Date.now() }).then(() => {
       msgInput.value = '';
       sendBtn.disabled = false;
-      msgInput.focus(); // Auto focus lagi abis kirim
+      msgInput.focus();
     });
 }
 
@@ -204,10 +278,9 @@ db.limitToLast(100).on('child_added', snap => {
     msgBox.scrollTop = msgBox.scrollHeight;
 });
 
-// Hapus chat > 3 hari
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
 </script>
-               <div class="spacer"></div>
+              <div class="spacer"></div>
             </div>
 
             <div class="menu-wrapper-bottom">
