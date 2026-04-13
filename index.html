@@ -47,29 +47,37 @@
 
             <div class="sidebar-content" id="chat">
  
-<!-- CHATROOM SIBALTV - FULL VIDIO STYLE 100% -->
-<div class="tab-content">
-  <div id="tab-chatroom" class="tab-pane">
-    <div id="sibaltv-chat">
-        <div id="chat-messages"></div>
-        <div class="chat-input-wrap">
-            <div class="chat-row">
-                <button id="chat-emoji">😀</button>
-                <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
-                <button id="chat-send">➤</button>
-            </div>
-        </div>
+<!-- CHATROOM SIBALTV - FULL MENTOK -->
+<div class="page-wrap">
+  <div class="tab-content">
+    <div id="tab-chatroom" class="tab-pane">
+      <div id="sibaltv-chat">
+          <div id="chat-messages"></div>
+          <div class="chat-input-wrap">
+              <div class="chat-row">
+                  <button id="chat-emoji">😀</button>
+                  <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
+                  <button id="chat-send">➤</button>
+              </div>
+          </div>
+      </div>
     </div>
   </div>
 </div>
 
 <style>
-/* ===== PARENT TAB - INI YANG BIKIN FULL ===== */
+/* ===== RESET BIKIN FULL ===== */
+html,body{margin:0;padding:0;height:100%;background:#0a0a0a}
+.page-wrap{height:100dvh;display:flex;flex-direction:column}
+
+/* ===== HITUNG TINGGI YANG BENER ===== */
 .tab-content{
   display:flex;
   flex-direction:column;
-  height:calc(100vh - 60px); /* 60px = tinggi navbar atas lu. Sesuaikan */
+  flex:1;
   min-height:0;
+  /* Kurangi: Banner atas + Tab Schedule + Banner iklan + Nav bawah */
+  height:calc(100dvh - 380px); /* SESUAIKAN ANGKA INI */
 }
 .tab-pane{
   display:flex;
@@ -156,6 +164,7 @@
   background:#1a1a1a;
   border-top:1px solid #262626;
   padding:8px 12px;
+  padding-bottom:calc(8px + env(safe-area-inset-bottom)); /* Buat HP poni */
   flex-shrink:0
 }
 .chat-row{
@@ -296,6 +305,8 @@ db.limitToLast(100).on('child_added', snap => {
 
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
 </script>
+
+
               <div class="spacer"></div>
             </div>
 
