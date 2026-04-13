@@ -551,96 +551,56 @@ html, body {
 }
 
 .server-buttons {
-
-    display: none;
-
+    display: flex; /* ganti dari none */
     flex-direction: row;
-
     flex-wrap: wrap;
-
-    column-gap: 12px;
-
-    padding: px 0;
-
+    column-gap: 12px; /* ini udah bener buat spasi horizontal */
+    padding: 8px 0; /* kasih angka, misal 8px */
     margin-top: 6px;
-    
-    margin-right: 8px;
-
     width: 100%;
-
     font-size: 13px;
-    
     font-weight: 600;
-
 }
 
+/* Ini udah bener pake gap */
 .buttons-container {
-
     display: flex;
-
     flex-direction: row;
-
     flex-wrap: wrap;
-
-    gap: 12px;
-
+    gap: 12px; /* ini juga udah bener */
     width: 100%;
-    
-    margin-right: 8px;
-
 }
 
 .server-button {
-
     background-color: #3b82f6;
-
     padding: 6px 13px;
-
     font-size: 12px;
-
     font-weight: 600;
-
     color: #e4e6eb;
-
     border-radius: 4px;
-
+    border: 1px solid transparent; /* tambah ini biar ga "loncat" pas hover */
     cursor: pointer;
-
-    transition: background-color 0.3s ease;
-
+    transition: all 0.3s ease; /* ganti ke all biar border juga smooth */
     text-align: center;
-
     min-width: 70px;
-
     max-width: 130px;
-
     flex: 0 0 auto;
-
     box-sizing: border-box;
-
 }
 
 .server-button.active {
-
     background-color: #22c55e;
-
-    border: 1px solid #22c55e;
-    
-    font-weight:600;
-
+    border-color: #22c55e;
+    font-weight: 600;
     color: #e4e6eb;
-
 }
 
 .server-button:hover {
-
     background-color: #22c55e;
+    border-color: #22c55e;
+}
 
-    border: 1px solid #22c55e;
-    
-    font-weight:600;
-
-}.copy-url-button {
+copy-url-button {
 
     background: none;
 
