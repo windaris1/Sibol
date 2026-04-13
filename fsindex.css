@@ -1414,8 +1414,7 @@ html, body {
 
 }
 
-
-/* ===== SIBALTV CHANNELS CARD FINAL ===== */
+/* ===== SIBALTV CHANNELS CARD FINAL + TEXT RAPI ===== */
 #live-tv {
     background-color: #0a0f1a !important;
 }
@@ -1468,7 +1467,7 @@ html, body {
     background-color: #fff !important;
     padding: 18% !important;
     box-sizing: border-box !important;
-    margin: 0 0 6px 0 !important;
+    margin: 0 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -1482,65 +1481,19 @@ html, body {
     max-height: 100% !important;
 }
 
-/* Info container + text */
+/* Teks super rapi versi final */
 #live-tv #content .channel-container .info-container {
     display: flex !important;
-    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
     flex-grow: 1 !important;
     width: 100% !important;
     margin: 0 !important;
-    padding: 0 !important;
-    text-align: left !important;
+    padding: 2px 4px 0 4px !important;
+    min-height: 32px !important;
 }
 
 #live-tv #content .channel-container .channel-name {
     display: -webkit-box !important;
     -webkit-line-clamp: 2 !important;
-    -webkit-box-orient: vertical !important;
-    overflow: hidden !important;
-    font-size: 11px !important;
-    font-weight: 600 !important;
-    color: #f3f4f6 !important;
-    line-height: 1.25 !important;
-    min-height: 2.5em !important;
-    margin: 0 !important;
-    padding: 0 2px !important;
-}
-
-/* HIDE STATUS ONLINE */
-#live-tv #content .channel-container .status {
-    display: none !important;
-}
-
-/* Desktop 5 kolom */
-@media (min-width: 769px) {
-    #live-tv #content {
-        grid-template-columns: repeat(5, 1fr) !important;
-        gap: 12px !important;
-        padding: 16px !important;
-    }
-    #live-tv #content .channel-container {
-        padding: 10px !important;
-    }
-    #live-tv #content .channel-container .channel-name {
-        font-size: 12px !important;
-    }
-    #live-tv #content .channel-container .logo-container {
-        border-radius: 8px !important;
-    }
-}
-
-/* HP kecil 3 kolom */
-@media (max-width: 380px) {
-    #live-tv #content {
-        grid-template-columns: repeat(3, 1fr) !important;
-        gap: 8px !important;
-        padding: 10px !important;
-    }
-    #live-tv #content .channel-container {
-        padding: 6px !important;
-    }
-    #live-tv #content .channel-container .channel-name {
-        font-size: 10px !important;
-    }
-}
+   
