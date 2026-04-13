@@ -852,4 +852,4 @@ window.addEventListener('DOMContentLoaded', async () => {
             }
         }
     }
-});
+})
