@@ -1414,14 +1414,14 @@ html, body {
 
 }
 
-/* ===== HANYA OVERRIDE GRID CIRCLE UNTUK TAB CHANNELS ===== */
+/* ===== FIX GRID BULET BENERAN RAPI ===== */
 #live-tv #content {
     display: grid !important;
     grid-template-columns: repeat(5, 1fr) !important;
-    gap: 16px !important;
+    gap: 12px !important;
     width: 100% !important;
     background-color: #000 !important;
-    padding: 16px !important;
+    padding: 12px !important;
     box-sizing: border-box !important;
 }
 
@@ -1434,10 +1434,12 @@ html, body {
     border-radius: 50% !important;
     box-shadow: none !important;
     width: 100% !important;
+    height: auto !important;
     aspect-ratio: 1 / 1 !important;
     margin-bottom: 0 !important;
     transition: transform 0.2s !important;
     border: none !important;
+    overflow: hidden !important;
 }
 
 #live-tv #content .channel-container:hover,
@@ -1452,19 +1454,31 @@ html, body {
     height: 100% !important;
     border-radius: 50% !important;
     background-color: #fff !important;
-    padding: 12px !important;
+    padding: 15% !important;
     box-sizing: border-box !important;
-    margin-right: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 #live-tv #content .channel-container .logo {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
     max-width: 100% !important;
     max-height: 100% !important;
-    object-fit: contain !important;
 }
 
-#live-tv #content .channel-container .info-container {
+/* Paksa hide semua info biar ukurannya sama */
+#live-tv #content .channel-container .info-container,
+#live-tv #content .channel-container .channel-name,
+#live-tv #content .channel-container .status {
     display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 #live-tv #content .channel-container.selected {
@@ -1474,10 +1488,10 @@ html, body {
 @media (max-width: 768px) {
     #live-tv #content {
         grid-template-columns: repeat(4, 1fr) !important;
-        gap: 12px !important;
-        padding: 12px !important;
+        gap: 10px !important;
+        padding: 10px !important;
     }
     #live-tv #content .channel-container .logo-container {
-        padding: 10px !important;
+        padding: 15% !important;
     }
 }
