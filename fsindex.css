@@ -553,42 +553,36 @@ html, body {
 .server-buttons {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding: 8px 0;
-    margin-top: 6px;
+    flex-wrap: nowrap; /* biar maksa sebaris, ga turun */
+    gap: 8px; /* jarak horizontal */
     width: 100%;
+    margin-top: 12px;
 }
 
 .server-button {
-    background-color: #3b82f6;
-    padding: 6px 13px;
+    flex: 0 0 auto; /* jangan ngembang, jangan nyusut */
+    width: auto; /* timpa width 100% kalau ada */
+    background-color: #22c55e; /* ijo buat CH HD 1 */
+    padding: 6px 14px;
     font-size: 12px;
     font-weight: 600;
-    color: #e4e6eb;
-    border-radius: 4px;
-    border: 1px solid transparent;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    text-align: center;
-    min-width: 70px;
-    max-width: 130px;
-    margin-right: 12px; /* ini kuncinya */
-    margin-bottom: 8px; /* biar kalau wrap ke bawah ada jarak */
-    box-sizing: border-box;
 }
 
-.server-button:last-child {
-    margin-right: 0; /* button terakhir ga pake margin */
+/* Warna beda buat tiap channel */
+.server-button:nth-child(2) {
+    background-color: #3b82f6; /* biru buat CH HD 2 */
 }
 
-.server-button.active {
-    background-color: #22c55e;
-    border-color: #22c55e;
+.server-button:nth-child(3) {
+    background-color: #3b82f6; /* biru buat CH HD 3 */
 }
 
 .server-button:hover {
-    background-color: #22c55e;
-    border-color: #22c55e;
+    opacity: 0.85;
 }
 
 .copy-url-button {
