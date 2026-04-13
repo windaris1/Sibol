@@ -558,7 +558,7 @@ html, body {
 
     flex-wrap: wrap;
 
-    gap: 6px;
+    gap: 8px;
 
     padding: 8px 0;
 
@@ -566,7 +566,7 @@ html, body {
 
     width: 100%;
 
-    font-size: 0.75em;
+    font-size: 1em;
 
 }
 
