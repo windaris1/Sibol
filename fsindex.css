@@ -509,21 +509,24 @@ html, body {
 
     text-transform: uppercase;
 
-    padding: 5px 17px;
+    padding: 6px 18px;
 
     font-weight: 600;
 
     border-radius: 4px;
 
     margin: 8px auto 0;
+      line-height: 1;
 
 }
 
 .ping-dot {
+  display: inline-block;
   position: relative;
-  width: 8px;
-  height: 8px;
-  flex-shrink: 0; /* biar dot ga mengecil */
+  width: 6px;
+  height: 6px;
+  margin-right: 6px;
+  vertical-align: middle; /* kuncinya */
 }
 
 .ping-dot::before,
@@ -1405,3 +1408,4 @@ html, body {
 
     }
 
+} 
