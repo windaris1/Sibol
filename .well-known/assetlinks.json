@@ -1,8 +1,8 @@
 [{
-     "relation": ["delegate_permission/common.handle_all_urls"],
-     "target": {
-       "namespace": "android_app",
-       "package_name": "dev.pages.sibaltv.twa",
-       "sha256_cert_fingerprints": ["4A:F8:00:CC:BE:26:5A:A3:96:74:01:9A:B3:13:26:B7:74:F6:79:CE:11:30:D2:1F:40:B5:E3:B4:1E:06:6F:71"]
-     }
-   }]
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "dev.pages.sibaltv.twa",
+        "sha256_cert_fingerprints": ["24:82:1E:27:4A:5C:F1:A8:00:58:6E:02:05:17:AF:A6:E1:B1:54:5C:B1:18:1E:BE:B6:4D:D9:47:70:E6:B0:E0"]
+      }
+    }]
