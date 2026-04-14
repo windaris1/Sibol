@@ -97,6 +97,102 @@
 
             </div>
 
+<style>
+.emoji-picker{
+  position: fixed;
+  bottom: 70px;
+  left: 10px;
+  right: 10px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  padding: 8px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 99999;
+}
+.emoji-picker button{
+  background: #374151;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 4px;
+  min-width: 32px;
+}
+.emoji-picker button:active{ background: #4b5563; }
+</style>
+
+<script>
+// Jalanin pas page udah keload semua
+document.addEventListener('DOMContentLoaded', function(){
+  
+  // Cari tombol emoji & input chat. Sesuaiin sama ID di HTML lu
+  const emojiBtn = document.querySelector('#chat-emoji, .chat-input button'); // coba 2 selector
+  const msgInput = document.querySelector('#msgInput, .chat-input input[type="text"]');
+  const chatRow = document.querySelector('#chatRow, .chat-input-row, .chat-input');
+
+  if(!emojiBtn || !msgInput || !chatRow){
+    console.log('Emoji: element gak ketemu', {emojiBtn, msgInput, chatRow});
+    return;
+  }
+
+  let pickerBox;
+  emojiBtn.onclick = function(e){
+    e.stopPropagation();
+    if(pickerBox){
+      pickerBox.remove();
+      pickerBox = null;
+      return;
+    }
+    
+    const emojiGroups = {
+      'Reaksi': ['😂','🤣','😭','😱','😡','🤯','🔥','💯','❤️','👍','👎','👏','🙏','🎉','😎','🤔','😍','💀','👀','💪'],
+      'Bendera': ['🇮🇩','🇧🇷','🇦🇷','🇪🇸','🇩🇪','🇫🇷','🇮🇹','🇵🇹','🇳🇱','🇯🇵','🇰🇷','🇸🇦','🇺🇸','🇬🇧','🇲🇾','🇹🇭','🇻🇳','🇲🇦'],
+      'Lainnya': ['✨','⭐️','🚀','💣','😤','🤩','🥶','🥵','🤝','👌','💔','💙','💛','💚','🖤','🤡','💦','🗣️']
+    };
+
+    pickerBox = document.createElement('div');
+    pickerBox.className = 'emoji-picker';
+    
+    Object.entries(emojiGroups).forEach(([title, emojis]) => {
+      const groupTitle = document.createElement('div');
+      groupTitle.textContent = title;
+      groupTitle.style.cssText = 'font-size:11px; color:#9ca3af; padding:6px 6px 2px; width:100%; font-weight:600;';
+      pickerBox.append(groupTitle);
+      
+      const emojiWrap = document.createElement('div');
+      emojiWrap.style.cssText = 'display:flex; flex-wrap:wrap; gap:4px; padding:0 6px 6px;';
+      
+      emojis.forEach(em => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = em;
+        btn.onclick = function(ev){
+          ev.preventDefault();
+          msgInput.value += em + ' ';
+          pickerBox.remove();
+          pickerBox = null;
+          msgInput.focus();
+        };
+        emojiWrap.append(btn);
+      });
+      pickerBox.append(emojiWrap);
+    });
+    
+    document.body.append(pickerBox); // tempel ke body biar gak ketiban
+  };
+
+  // Klik di luar = tutup
+  document.addEventListener('click', function(){
+    if(pickerBox){
+      pickerBox.remove();
+      pickerBox = null;
+    }
+  });
+
+});
+</script>
 
 <div class="sidebar-content" id="chat">
 <!-- CHATROOM SIBALTV FINAL + FONTAWESOME -->
