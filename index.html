@@ -397,16 +397,28 @@ emojiBtn.onclick = (e) => {
     pickerBox = null;
     return;
   }
+
+const emojiBtn = document.getElementById('chat-emoji');
+const msgInput = document.getElementById('msgInput');
+const chatRow = document.getElementById('chatRow');
+
+let pickerBox;
+emojiBtn.onclick = (e) => {
+  e.stopPropagation();
+  if(pickerBox){
+    pickerBox.remove();
+    pickerBox = null;
+    return;
+  }
   
   const emojiGroups = {
     'Reaksi': ['😂','🤣','😭','😱','😡','🤯','🔥','💯','❤️','👍','👎','👏','🙏','🎉','😎','🤔','😍','💀','👀','💪'],
-    'Bendera Negara': ['🇮🇩','🇧🇷','🇦🇷','🇪🇸','🇩🇪','🇫🇷','🇮🇹','🇵🇹','🇳🇱','🇯🇵','🇰🇷','🇸🇦','🇺🇸','🇬🇧','🇲🇾','🇹🇭','🇻🇳','🇲🇦'],
+    'Bendera': ['🇮🇩','🇧🇷','🇦🇷','🇪🇸','🇩🇪','🇫🇷','🇮🇹','🇵🇹','🇳🇱','🇯🇵','🇰🇷','🇸🇦','🇺🇸','🇬🇧','🇲🇾','🇹🇭','🇻🇳','🇲🇦'],
     'Lainnya': ['✨','⭐️','🚀','💣','😤','🤩','🥶','🥵','🤝','👌','💔','💙','💛','💚','🖤','🤡','💦','🗣️']
   };
 
   pickerBox = document.createElement('div');
   pickerBox.className = 'emoji-picker';
-  pickerBox.style.maxHeight = '250px';
   
   Object.entries(emojiGroups).forEach(([title, emojis]) => {
     const groupTitle = document.createElement('div');
@@ -436,6 +448,14 @@ emojiBtn.onclick = (e) => {
   
   chatRow.append(pickerBox);
 };
+
+// Klik di luar = tutup
+document.addEventListener('click', () => {
+  if(pickerBox){
+    pickerBox.remove();
+    pickerBox = null;
+  }
+});  
 
 msgInput.onkeyup = e => {
   if(e.key === 'Enter') {
