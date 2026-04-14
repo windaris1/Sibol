@@ -389,15 +389,6 @@ function sendMsg() {
 }
 
 sendBtn.onclick = sendMsg;
-let pickerBox;
-emojiBtn.onclick = (e) => {
-  e.stopPropagation();
-  if(pickerBox){
-    pickerBox.remove();
-    pickerBox = null;
-    return;
-  }
-
 
 let pickerBox;
 emojiBtn.onclick = (e) => {
