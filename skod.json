@@ -81,6 +81,108 @@
       }
 ],
     "gender": "M"
+  },
+
+  {
+    "id": "Arsenal-SportingCP",
+    "sport": "Football",
+    "league": "Europe - Uefa Champions League, Knockout Stage",
+    "team1": {
+      "name": "Arsenal",
+      "logo": "https://static.flashscore.com/res/image/data/0n1ffK6k-vcNAdtF9.png"
+    },
+    "team2": {
+      "name": "Sporting CP",
+      "logo": "https://static.flashscore.com/res/image/data/jy2lEHBN-zJml495h.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+     "servers": [
+      {
+        "url": "https://0.yomitv.workers.dev/?shaka=tnt1",
+        "label": "CH HD 1"
+      },
+      {
+        "url": "https://0.yomitv.workers.dev/?shaka=virginm2",
+        "label": "CH HD 2"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=tnt1",
+        "label": "CH HD 3"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=5sportplus",
+        "label": "CH HD 4"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=5sportplus",
+        "label": "CH HD 5"
+      }
+],
+    "gender": "M"
+  },
+
+  {
+    "id": "BayernMunich-RealMadrid",
+    "sport": "Football",
+    "league": "Europe - Uefa Champions League, Knockout Stage",
+    "team1": {
+      "name": "Bayern Munich",
+      "logo": "https://static.flashscore.com/res/image/data/lWGBVoA6-SvLFaVNH.png"
+    },
+    "team2": {
+      "name": "Real Madrid",
+      "logo": "https://static.flashscore.com/res/image/data/CGPhnpne-ttfpEDUq.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+  {
+    "id": "BayernMunich-RealMadrid",
+    "sport": "Football",
+    "league": "Europe - Uefa Champions League, Knockout Stage",
+    "team1": {
+      "name": "Bayern Munich",
+      "logo": "https://static.flashscore.com/res/image/data/lWGBVoA6-SvLFaVNH.png"
+    },
+    "team2": {
+      "name": "Real Madrid",
+      "logo": "https://static.flashscore.com/res/image/data/CGPhnpne-ttfpEDUq.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+     "servers": [
+      {
+        "url": "https://0.yomitv.workers.dev/?shaka=tnt1",
+        "label": "CH HD 1"
+      },
+      {
+        "url": "https://0.yomitv.workers.dev/?shaka=virginm2",
+        "label": "CH HD 2"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=tnt1",
+        "label": "CH HD 3"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=5sportplus",
+        "label": "CH HD 4"
+      },
+{
+        "url": "https://0.yomitv.workers.dev/?shaka=5sportplus",
+        "label": "CH HD 5"
+      }
+],
+    "gender": "M"
   }
 
     ]
