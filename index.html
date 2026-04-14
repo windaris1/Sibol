@@ -363,8 +363,53 @@ function sendMsg() {
 }
 
 sendBtn.onclick = sendMsg;
-emojiBtn.onclick = () => alert('Emoji picker nyusul ya');
+let pickerBox;
+emojiBtn.onclick = (e) => {
+  e.stopPropagation();
+  if(pickerBox){
+    pickerBox.remove();
+    pickerBox = null;
+    return;
+  }
+  
+  const emojiGroups = {
+    'Reaksi': ['😂','🤣','😭','😱','😡','🤯','🔥','💯','❤️','👍','👎','👏','🙏','🎉','😎','🤔','😍','💀','👀','💪'],
+    'Bendera Negara': ['🇮🇩','🇧🇷','🇦🇷','🇪🇸','🇩🇪','🇫🇷','🇮🇹','🇵🇹','🇳🇱','🇯🇵','🇰🇷','🇸🇦','🇺🇸','🇬🇧','🇲🇾','🇹🇭','🇻🇳','🇲🇦'],
+    'Lainnya': ['✨','⭐️','🚀','💣','😤','🤩','🥶','🥵','🤝','👌','💔','💙','💛','💚','🖤','🤡','💦','🗣️']
+  };
 
+  pickerBox = document.createElement('div');
+  pickerBox.className = 'emoji-picker';
+  pickerBox.style.maxHeight = '250px';
+  
+  Object.entries(emojiGroups).forEach(([title, emojis]) => {
+    const groupTitle = document.createElement('div');
+    groupTitle.textContent = title;
+    groupTitle.style.cssText = 'font-size:11px; color:#9ca3af; padding:6px 6px 2px; width:100%; font-weight:600;';
+    pickerBox.append(groupTitle);
+    
+    const emojiWrap = document.createElement('div');
+    emojiWrap.style.cssText = 'display:flex; flex-wrap:wrap; gap:4px; padding:0 6px 6px;';
+    
+    emojis.forEach(em => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = em;
+      btn.style.cssText = 'font-size:18px; padding:4px; min-width:32px;';
+      btn.onclick = (ev) => {
+        ev.preventDefault();
+        msgInput.value += em + ' ';
+        pickerBox.remove();
+        pickerBox = null;
+        msgInput.focus();
+      };
+      emojiWrap.append(btn);
+    });
+    pickerBox.append(emojiWrap);
+  });
+  
+  chatRow.append(pickerBox);
+};
 
 msgInput.onkeyup = e => {
   if(e.key === 'Enter') {
