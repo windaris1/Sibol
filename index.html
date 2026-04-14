@@ -93,7 +93,6 @@
 
 
 <div class="sidebar-content" id="chat">
-
 <!-- CHATROOM SIBALTV FINAL + FONTAWESOME -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -102,8 +101,9 @@
     <div class="chat-input-wrap">
         <div class="chat-row">
             <button id="chat-emoji" title="Emoji"><i class="fa-regular fa-face-smile"></i></button>
-
-            <input type="text" id="chat-msg" placeholder="Start Chatting!" enterkeyhint="send" inputmode="text">
+            <button id="chat-gif" title="GIF"><i class="fa-solid fa-gif"></i></button>
+            <button id="chat-image" title="Kirim Foto"><i class="fa-regular fa-image"></i></button>
+            <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
             <button id="chat-send" title="Kirim"><i class="fa-solid fa-paper-plane"></i></button>
         </div>
     </div>
@@ -284,15 +284,15 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
   #chat-messages{
     padding:8px 12px 70px 12px;
   }
- .chat-avatar{width:24px;height:24px;font-size:11px}
- .chat-text{font-size:12px}
+.chat-avatar{width:24px;height:24px;font-size:11px}
+.chat-text{font-size:12px}
   #chat-msg{font-size:16px;padding:10px 12px}
- .chat-row button{font-size:18px;width:32px;height:32px}
+.chat-row button{font-size:18px;width:32px;height:32px}
 }
 
 /* ===== PC: INPUT BALIK KE SIDEBAR ===== */
 @media (min-width:901px){
- .chat-input-wrap{
+.chat-input-wrap{
     position:static;
     bottom:auto;
     left:auto;
@@ -455,3 +455,4 @@ db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEa
 </body>
 
 </html>
+
