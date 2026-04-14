@@ -1,12 +1,12 @@
 {
-  "name": "SibalTV - Live Streaming Gratis",
+  "name": "SibalTV - Live Streams Gratis",
   "short_name": "SibalTV",
   "description": "Nonton dengan chat bareng di SibalTV",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1f2e",
   "theme_color": "#1a1f2e",
-  "orientation": "any",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "https://sibaltv.pages.dev/ico.png",
