@@ -9,13 +9,13 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "https://sibaltv.pages.dev/v1.png",
+      "src": "https://sibaltv.pages.dev/yy.jpg",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://sibaltv.pages.dev/v2.png",
+      "src": "https://sibaltv.pages.dev/yy.jpg",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
