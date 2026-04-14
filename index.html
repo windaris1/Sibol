@@ -101,8 +101,7 @@
     <div class="chat-input-wrap">
         <div class="chat-row">
             <button id="chat-emoji" title="Emoji"><i class="fa-regular fa-face-smile"></i></button>
-            <button id="chat-gif" title="GIF"><i class="fa-solid fa-gif"></i></button>
-            <button id="chat-image" title="Kirim Foto"><i class="fa-regular fa-image"></i></button>
+         
             <input type="text" id="chat-msg" placeholder="Ngobrol di sini yuk!" enterkeyhint="send" inputmode="text">
             <button id="chat-send" title="Kirim"><i class="fa-solid fa-paper-plane"></i></button>
         </div>
@@ -325,8 +324,6 @@ const db = firebase.database().ref('sibaltv_chat');
 const msgInput = document.getElementById('chat-msg');
 const sendBtn = document.getElementById('chat-send');
 const emojiBtn = document.getElementById('chat-emoji');
-const gifBtn = document.getElementById('chat-gif');
-const imageBtn = document.getElementById('chat-image');
 const msgBox = document.getElementById('chat-messages');
 
 function getInitials(name) {
@@ -358,8 +355,7 @@ function sendMsg() {
 
 sendBtn.onclick = sendMsg;
 emojiBtn.onclick = () => alert('Emoji picker nyusul ya');
-gifBtn.onclick = () => alert('Fitur GIF nyusul ya');
-imageBtn.onclick = () => alert('Upload foto nyusul ya');
+
 
 msgInput.onkeyup = e => {
   if(e.key === 'Enter') {
