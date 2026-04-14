@@ -103,7 +103,7 @@
         <div class="chat-row">
             <button id="chat-emoji" title="Emoji"><i class="fa-regular fa-face-smile"></i></button>
 
-            <input type="text" id="chat-msg" placeholder="Start Chat!" enterkeyhint="send" inputmode="text">
+            <input type="text" id="chat-msg" placeholder="Start Chatting!" enterkeyhint="send" inputmode="text">
             <button id="chat-send" title="Kirim"><i class="fa-solid fa-paper-plane"></i></button>
         </div>
     </div>
@@ -357,32 +357,7 @@ function sendMsg() {
 }
 
 sendBtn.onclick = sendMsg;
-let pickerBox;
-emojiBtn.onclick = (e) => {
-  e.stopPropagation();
-  if(pickerBox){
-    pickerBox.remove();
-    pickerBox = null;
-    return;
-  }
-  const emojis = ['😀','😂','😍','😭','😡','👍','🔥','❤️','😎','🤔','😱','🙏','💯','✅','❌','😴','🤣','😊','🙄','👌'];
-  pickerBox = document.createElement('div');
-  pickerBox.className = 'emoji-picker';
-  emojis.forEach(em => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.textContent = em;
-    btn.onclick = (ev) => {
-      ev.preventDefault();
-      msgInput.value += em;
-      pickerBox.remove();
-      pickerBox = null;
-      msgInput.focus();
-    };
-    pickerBox.append(btn);
-  });
-  chatRow.append(pickerBox);
-};
+emojiBtn.onclick = () => alert('Emoji picker nyusul ya');
 gifBtn.onclick = () => alert('Fitur GIF nyusul ya');
 imageBtn.onclick = () => alert('Upload foto nyusul ya');
 
@@ -480,3 +455,4 @@ db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEa
 </body>
 
 </html>
+
