@@ -309,6 +309,32 @@ html,body{margin:0;padding:0;background:var(--sibal-bg)}
     z-index:1;
   }
 }
+
+.emoji-picker{
+  position: absolute;
+  bottom: 55px;
+  left: 10px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  padding: 8px;
+  max-width: 320px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 9999;
+  box-shadow: 0 8px 24px rgba(0,0,0,.5);
+}
+.emoji-picker button{
+  background: #374151;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .1s;
+}
+.emoji-picker button:hover{
+  background: #4b5563;
+  transform: scale(1.1);
+}
 </style>
 
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
