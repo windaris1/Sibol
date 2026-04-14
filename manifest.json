@@ -1,7 +1,7 @@
 {
-  "name": "SibalTV - Live Streaming Bola",
+  "name": "SibalTV - Live Streaming Gratis",
   "short_name": "SibalTV",
-  "description": "Nonton bola live + chat bareng di SibalTV",
+  "description": "Nonton dengan chat bareng di SibalTV",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1f2e",
@@ -9,13 +9,13 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "https://sibaltv.pages.dev/yy.jpg",
+      "src": "https://sibaltv.pages.dev/ico.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://sibaltv.pages.dev/yy.jpg",
+      "src": "https://sibaltv.pages.dev/icoxs.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
