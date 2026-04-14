@@ -388,8 +388,32 @@ function sendMsg() {
 }
 
 sendBtn.onclick = sendMsg;
-emojiBtn.onclick = () => alert('Emoji picker nyusul ya');
-
+let pickerBox;
+emojiBtn.onclick = (e) => {
+  e.stopPropagation();
+  if(pickerBox){
+    pickerBox.remove();
+    pickerBox = null;
+    return;
+  }
+  const emojis = ['😀','😂','😍','😭','😡','👍','🔥','❤️','😎','🤔','😱','🙏','💯','✅','❌','😴','🤣','😊','🙄','👌'];
+  pickerBox = document.createElement('div');
+  pickerBox.className = 'emoji-picker';
+  emojis.forEach(em => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.textContent = em;
+    btn.onclick = (ev) => {
+      ev.preventDefault();
+      msgInput.value += em;
+      pickerBox.remove();
+      pickerBox = null;
+      msgInput.focus();
+    };
+    pickerBox.append(btn);
+  });
+  chatRow.append(pickerBox);
+};
 msgInput.onkeyup = e => {
   if(e.key === 'Enter') {
     e.preventDefault();
