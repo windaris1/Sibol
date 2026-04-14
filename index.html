@@ -392,6 +392,17 @@ db.orderByChild('time').limitToLast(100).on('child_added', snap => {
 });
 
 db.orderByChild('time').endAt(Date.now() - 259200000).once('value', s => s.forEach(c => c.ref.remove()));
+
+// FIX KEYBOARD NUTUPIN INPUT
+if(window.visualViewport){
+  visualViewport.addEventListener('resize', () => {
+    document.getElementById('sibaltv-chat').style.height = visualViewport.height + 'px';
+  });
+}
+// Balikin height pas keyboard close
+msgInput.addEventListener('blur', ()=>{
+  document.getElementById('sibaltv-chat').style.height = '';
+});
 </script>
 
   <div class="spacer"></div>
