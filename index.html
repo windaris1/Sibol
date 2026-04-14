@@ -388,32 +388,63 @@ function sendMsg() {
 }
 
 sendBtn.onclick = sendMsg;
+
+// GANTI BAGIAN INI - mulai dari emojiBtn.onclick
 let pickerBox;
-emojiBtn.onclick = (e) => {
+emojiBtn.onclick = function(e){
   e.stopPropagation();
   if(pickerBox){
     pickerBox.remove();
     pickerBox = null;
     return;
   }
-  const emojis = ['😀','😂','😍','😭','😡','👍','🔥','❤️','😎','🤔','😱','🙏','💯','✅','❌','😴','🤣','😊','🙄','👌'];
+  
+  const emojiGroups = {
+    'Reaksi': ['😂','🤣','😭','😱','😡','🤯','🔥','💯','❤️','👍','👎','👏','🙏','🎉','😎','🤔','😍','💀','👀','💪'],
+    'Bendera': ['🇮🇩','🇧🇷','🇦🇷','🇪🇸','🇩🇪','🇫🇷','🇮🇹','🇵🇹','🇳🇱','🇯🇵','🇰🇷','🇸🇦','🇺🇸','🇬🇧','🇲🇾','🇹🇭','🇻🇳','🇲🇦'],
+    'Lainnya': ['✨','⭐️','🚀','💣','😤','🤩','🥶','🥵','🤝','👌','💔','💙','💛','💚','🖤','🤡','💦','🗣️']
+  };
+
   pickerBox = document.createElement('div');
   pickerBox.className = 'emoji-picker';
-  emojis.forEach(em => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.textContent = em;
-    btn.onclick = (ev) => {
-      ev.preventDefault();
-      msgInput.value += em;
-      pickerBox.remove();
-      pickerBox = null;
-      msgInput.focus();
-    };
-    pickerBox.append(btn);
+  
+  Object.entries(emojiGroups).forEach(function([title, emojis]){
+    const groupTitle = document.createElement('div');
+    groupTitle.textContent = title;
+    groupTitle.style.cssText = 'font-size:11px; color:#9ca3af; padding:6px 6px 2px; width:100%; font-weight:600;';
+    pickerBox.append(groupTitle);
+    
+    const emojiWrap = document.createElement('div');
+    emojiWrap.style.cssText = 'display:flex; flex-wrap:wrap; gap:4px; padding:0 6px 6px;';
+    
+    emojis.forEach(function(em){
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = em;
+      btn.onclick = function(ev){
+        ev.preventDefault();
+        msgInput.value += em + ' ';
+        pickerBox.remove();
+        pickerBox = null;
+        msgInput.focus();
+      };
+      emojiWrap.append(btn);
+    });
+    pickerBox.append(emojiWrap);
   });
-  chatRow.append(pickerBox);
+  
+  document.body.append(pickerBox);
 };
+
+// Klik di luar popup = tutup
+document.addEventListener('click', function(){
+  if(pickerBox){
+    pickerBox.remove();
+    pickerBox = null;
+  }
+});
+// SAMPAI SINI
+
 msgInput.onkeyup = e => {
   if(e.key === 'Enter') {
     e.preventDefault();
