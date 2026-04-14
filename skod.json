@@ -100,7 +100,6 @@
     "match_date": "2026-04-16",
     "match_time": "01:55",
     "duration": "3.5",
-    "servers": [
      "servers": [
       {
         "url": "https://0.yomitv.workers.dev/?shaka=tnt1",
