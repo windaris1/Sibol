@@ -102,5 +102,194 @@
       { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 5" }
     ],
     "gender": "M"
+  },
+  {
+    "id": "AstonVilla-Bologna",
+    "sport": "Football",
+    "league": "Europa League - Play Offs",
+    "country": "EUROPE",
+    "team1": {
+      "name": "Aston Villa",
+      "logo": "https://static.flashscore.com/res/image/data/hptDt12D-Q2UqGvcJ.png"
+    },
+    "team2": {
+      "name": "Bologna",
+      "logo": "https://static.flashscore.com/res/image/data/Wvgq9QBN-SHySPq4C.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=tnt1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=espn1", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=sport1", "label": "CH HD 5" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Betis-Braga",
+    "sport": "Football",
+    "league": "Europa League - Play Offs",
+    "country": "EUROPE",
+    "team1": {
+      "name": "Betis",
+      "logo": "https://static.flashscore.com/res/image/data/nX8RbWFG-ltoXjd13.png"
+    },
+    "team2": {
+      "name": "Braga",
+      "logo": "https://static.flashscore.com/res/image/data/fetmcl5D-6cfKEKdG.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=tnt2", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=espn2", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo2", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=sport2", "label": "CH HD 5" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Nottingham-Porto",
+    "sport": "Football",
+    "league": "Europa League - Play Offs",
+    "country": "EUROPE",
+    "team1": {
+      "name": "Nottingham",
+      "logo": "https://static.flashscore.com/res/image/data/86WEhCAN-8ocn3QnL.png"
+    },
+    "team2": {
+      "name": "FC Porto",
+      "logo": "https://static.flashscore.com/res/image/data/8p7NqdYk-4k3I5TGN.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=tnt3", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=espn3", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo3", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=sport3", "label": "CH HD 5" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "AEKAthens-RayoVallecano",
+    "sport": "Football",
+    "league": "Conference League - Play Offs",
+    "country": "EUROPE",
+    "team1": {
+      "name": "AEK Athens",
+      "logo": "https://static.flashscore.com/res/image/data/MC2ePMw0-xoevDVhN.png"
+    },
+    "team2": {
+      "name": "Rayo Vallecano",
+      "logo": "https://static.flashscore.com/res/image/data/jnJklWFG-E6gOGB8G.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=tnt4", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=vsport1", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=spotv1", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo4", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=premiersp1", "label": "CH HD 5" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Fiorentina-CrystalPalace",
+    "sport": "Football",
+    "league": "Conference League - Play Offs",
+    "country": "EUROPE",
+    "team1": {
+      "name": "Fiorentina",
+      "logo": "https://static.flashscore.com/res/image/data/K4CRYTA6-QYlcmOGl.png"
+    },
+    "team2": {
+      "name": "Crystal Palace",
+      "logo": "https://static.flashscore.com/res/image/data/dF2wHNA6-OPz4LVFI.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=vsport2", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=spotv2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo5", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=premiersp2", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=fubo1", "label": "CH HD 5" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Strasbourg-Mainz",
+    "sport": "Football",
+    "league": "Conference League - Play Offs",
+    "country": "EUROPE",
+    "team1": {
+      "name": "Strasbourg",
+      "logo": "https://static.flashscore.com/res/image/data/0r6x1f6k-lsTtvqAc.png"
+    },
+    "team2": {
+      "name": "Mainz",
+      "logo": "https://static.flashscore.com/res/image/data/b4XvrZFG-UvWKJBl9.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "02:00",
+    "match_date": "2026-04-16",
+    "match_time": "01:55",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=vsport3", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo6", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=fubo2", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=tudn", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=laligatv", "label": "CH HD 5" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Sassuolo-Como",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALY",
+    "team1": {
+      "name": "Sassuolo",
+      "logo": "https://static.flashscore.com/res/image/data/0IkFzQA6-S2Evd7aP.png"
+    },
+    "team2": {
+      "name": "Como",
+      "logo": "https://static.flashscore.com/res/image/data/OpGEA85D-UdX2PsHe.png"
+    },
+    "kickoff_date": "2026-04-15",
+    "kickoff_time": "23:30",
+    "match_date": "2026-04-15",
+    "match_time": "23:25",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=sportdigi", "label": "CH HD 5" }
+    ],
+    "gender": "M"
   }
 ]
