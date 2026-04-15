@@ -141,11 +141,11 @@
     "country": "ASIA",
     "team1": {
       "name": "Machida Zelvia",
-      "logo": "https://api.sofascore.app/api/v1/team/8207/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Japan/Machida%20Zelvia.png"
     },
     "team2": {
       "name": "Al-Ittihad",
-      "logo": "https://api.sofascore.app/api/v1/team/2805/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Saudi%20Arabia/Al-Ittihad.png"
     },
     "kickoff_date": "2026-04-18",
     "kickoff_time": "01:00",
@@ -168,11 +168,11 @@
     "country": "ASIA",
     "team1": {
       "name": "Buriram United",
-      "logo": "https://api.sofascore.app/api/v1/team/45587/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Thailand/Buriram%20United.png"
     },
     "team2": {
       "name": "Al Ahli Dubai",
-      "logo": "https://api.sofascore.app/api/v1/team/2807/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/UAE/Shabab%20Al-Ahli.png"
     },
     "kickoff_date": "2026-04-18",
     "kickoff_time": "23:15",
@@ -195,11 +195,11 @@
     "country": "INDONESIA",
     "team1": {
       "name": "Arema FC",
-      "logo": "https://api.sofascore.app/api/v1/team/36209/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Indonesia/Arema%20FC.png"
     },
     "team2": {
       "name": "Persis Solo",
-      "logo": "https://api.sofascore.app/api/v1/team/169224/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Indonesia/Persis%20Solo.png"
     },
     "kickoff_date": "2026-04-18",
     "kickoff_time": "15:30",
@@ -222,11 +222,11 @@
     "country": "INDONESIA",
     "team1": {
       "name": "PSBS Biak",
-      "logo": "https://api.sofascore.app/api/v1/team/545916/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Indonesia/PSBS%20Biak.png"
     },
     "team2": {
       "name": "Persija Jakarta",
-      "logo": "https://api.sofascore.app/api/v1/team/36205/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Indonesia/Persija%20Jakarta.png"
     },
     "kickoff_date": "2026-04-18",
     "kickoff_time": "19:00",
@@ -249,11 +249,11 @@
     "country": "INDONESIA",
     "team1": {
       "name": "PSM Makassar",
-      "logo": "https://api.sofascore.app/api/v1/team/36210/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Indonesia/PSM%20Makassar.png"
     },
     "team2": {
       "name": "Borneo FC",
-      "logo": "https://api.sofascore.app/api/v1/team/123401/image"
+      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Indonesia/Borneo%20FC.png"
     },
     "kickoff_date": "2026-04-18",
     "kickoff_time": "19:00",
