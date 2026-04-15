@@ -49,6 +49,13 @@
     "status": "Online"
   },
   {
+    "id": "telemundo",
+    "name": "Telemundo",
+    "logo": "https://sibaltv.pages.dev/logo/telemundo.png",
+    "url": "https://pluyer.pages.dev/?shaka=telemundo",
+    "status": "Online"
+  },
+  {
     "id": "espn1",
     "name": "ESPN 1",
     "logo": "https://sibaltv.pages.dev/logo/espn1.png",
