@@ -1414,14 +1414,14 @@ html, body {
 
 }
 
-/* ===== FIX GRID KOTAK + DARK THEME ===== */
+/* ===== PADDING KECIL = LOGO GEDE ===== */
 #live-tv #content {
     display: grid !important;
     grid-template-columns: repeat(5, 1fr) !important;
-    gap: 12px !important;
+    gap: 8px !important;
     width: 100% !important;
     background-color: #0d1117 !important;
-    padding: 12px !important;
+    padding: 10px !important;
     box-sizing: border-box !important;
 }
 
@@ -1430,14 +1430,11 @@ html, body {
     align-items: center !important;
     justify-content: center !important;
     background-color: #21262d !important;
-    padding: 8px !important;
+    padding: 0 !important;
     border-radius: 12px !important;
-    box-shadow: none !important;
     width: 100% !important;
-    height: auto !important;
     aspect-ratio: 1 / 1 !important;
-    margin-bottom: 0 !important;
-    transition: transform 0.2s !important;
+    transition: all 0.2s !important;
     border: 1px solid #30363d !important;
     overflow: hidden !important;
 }
@@ -1449,14 +1446,14 @@ html, body {
     border-color: #0ea5e9 !important;
 }
 
+/* PADDING DIKECILIN: 12% -> 6% */
 #live-tv #content .channel-container .logo-container {
     width: 100% !important;
     height: 100% !important;
-    border-radius: 8px !important;
-    background-color: #0d1117 !important;
-    padding: 10% !important;
+    border-radius: 12px !important;
+    background-color: transparent !important;
+    padding: 6% !important;
     box-sizing: border-box !important;
-    margin: 0 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -1466,33 +1463,27 @@ html, body {
     width: 100% !important;
     height: 100% !important;
     object-fit: contain !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
-    border-radius: 6px !important;
 }
 
-/* Tetep hide semua info biar ukurannya sama */
 #live-tv #content .channel-container .info-container,
 #live-tv #content .channel-container .channel-name,
 #live-tv #content .channel-container .status {
     display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
 }
 
 #live-tv #content .channel-container.selected {
     outline: 2px solid #0ea5e9 !important;
+    outline-offset: 2px !important;
 }
 
 @media (max-width: 768px) {
     #live-tv #content {
         grid-template-columns: repeat(4, 1fr) !important;
-        gap: 10px !important;
-        padding: 10px !important;
+        gap: 6px !important;
+        padding: 8px !important;
     }
+    /* PADDING HP: 14% -> 8% */
     #live-tv #content .channel-container .logo-container {
-        padding: 12% !important;
+        padding: 8% !important;
     }
 }
