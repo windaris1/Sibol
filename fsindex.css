@@ -1413,13 +1413,14 @@ html, body {
     }
 
 }
-/* ===== FIX GRID BULET BENERAN RAPI ===== */
+
+/* ===== FIX GRID KOTAK + DARK THEME ===== */
 #live-tv #content {
     display: grid !important;
     grid-template-columns: repeat(5, 1fr) !important;
     gap: 12px !important;
     width: 100% !important;
-    background-color: #000 !important;
+    background-color: #0d1117 !important;
     padding: 12px !important;
     box-sizing: border-box !important;
 }
@@ -1428,32 +1429,32 @@ html, body {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    background-color: #fff !important;
-    padding: 0 !important;
-    border-radius: 50% !important;
+    background-color: #21262d !important;
+    padding: 8px !important;
+    border-radius: 12px !important;
     box-shadow: none !important;
     width: 100% !important;
     height: auto !important;
     aspect-ratio: 1 / 1 !important;
     margin-bottom: 0 !important;
     transition: transform 0.2s !important;
-    border: none !important;
+    border: 1px solid #30363d !important;
     overflow: hidden !important;
 }
 
 #live-tv #content .channel-container:hover,
 #live-tv #content .channel-container.selected {
-    background-color: #fff !important;
-    box-shadow: none !important;
-    transform: scale(1.05) !important;
+    background-color: #30363d !important;
+    transform: scale(1.03) !important;
+    border-color: #0ea5e9 !important;
 }
 
 #live-tv #content .channel-container .logo-container {
     width: 100% !important;
     height: 100% !important;
-    border-radius: 50% !important;
-    background-color: #fff !important;
-    padding: 15% !important;
+    border-radius: 8px !important;
+    background-color: #0d1117 !important;
+    padding: 10% !important;
     box-sizing: border-box !important;
     margin: 0 !important;
     display: flex !important;
@@ -1467,9 +1468,10 @@ html, body {
     object-fit: contain !important;
     max-width: 100% !important;
     max-height: 100% !important;
+    border-radius: 6px !important;
 }
 
-/* Paksa hide semua info biar ukurannya sama */
+/* Tetep hide semua info biar ukurannya sama */
 #live-tv #content .channel-container .info-container,
 #live-tv #content .channel-container .channel-name,
 #live-tv #content .channel-container .status {
@@ -1481,7 +1483,7 @@ html, body {
 }
 
 #live-tv #content .channel-container.selected {
-    outline: 3px solid #22c55e !important;
+    outline: 2px solid #0ea5e9 !important;
 }
 
 @media (max-width: 768px) {
@@ -1491,6 +1493,6 @@ html, body {
         padding: 10px !important;
     }
     #live-tv #content .channel-container .logo-container {
-        padding: 15% !important;
+        padding: 12% !important;
     }
 }
