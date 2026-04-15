@@ -3,6 +3,7 @@
     "id": "AtlMadrid-Barcelona",
     "sport": "Football",
     "league": "Europe - Uefa Champions League, Knockout Stage",
+    "country": "EUROPE",
     "team1": {
       "name": "Atl. Madrid",
       "logo": "https://static.flashscore.com/res/image/data/Kv2QSkhT-GhHiNvXF.png"
@@ -17,11 +18,11 @@
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
-      { "url": "https://0.yomitv.workers.dev/?shaka=tnt1", "label": "CH HD 1" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=virginm2", "label": "CH HD 2" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=tnt1", "label": "CH HD 3" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 4" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=tnt1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=tnt2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=espn1", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 5" }
     ],
     "gender": "M"
   },
@@ -29,6 +30,7 @@
     "id": "Liverpool-PSG",
     "sport": "Football",
     "league": "Europe - Uefa Champions League, Knockout Stage",
+    "country": "EUROPE",
     "team1": {
       "name": "Liverpool",
       "logo": "https://static.flashscore.com/res/image/data/nBClzyne-KCp4zq5F.png"
@@ -43,11 +45,11 @@
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
-      { "url": "https://0.yomitv.workers.dev/?shaka=tnt1", "label": "CH HD 1" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=virginm2", "label": "CH HD 2" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=tnt1", "label": "CH HD 3" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 4" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=tnt3", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=tnt4", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=espn2", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo2", "label": "CH HD 5" }
     ],
     "gender": "M"
   },
@@ -55,6 +57,7 @@
     "id": "Arsenal-SportingCP",
     "sport": "Football",
     "league": "Europe - Uefa Champions League, Knockout Stage",
+    "country": "EUROPE",
     "team1": {
       "name": "Arsenal",
       "logo": "https://static.flashscore.com/res/image/data/0n1ffK6k-vcNAdtF9.png"
@@ -69,11 +72,11 @@
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
-      { "url": "https://0.yomitv.workers.dev/?shaka=tnt1", "label": "CH HD 1" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=virginm2", "label": "CH HD 2" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=tnt1", "label": "CH HD 3" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 4" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=tnt1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=espn1", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=sport1", "label": "CH HD 5" }
     ],
     "gender": "M"
   },
@@ -81,6 +84,7 @@
     "id": "BayernMunich-RealMadrid",
     "sport": "Football",
     "league": "Europe - Uefa Champions League, Knockout Stage",
+    "country": "EUROPE",
     "team1": {
       "name": "Bayern Munich",
       "logo": "https://static.flashscore.com/res/image/data/lWGBVoA6-SvLFaVNH.png"
@@ -95,11 +99,11 @@
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
-      { "url": "https://0.yomitv.workers.dev/?shaka=tnt1", "label": "CH HD 1" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=virginm2", "label": "CH HD 2" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=tnt1", "label": "CH HD 3" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 4" },
-      { "url": "https://0.yomitv.workers.dev/?shaka=5sportplus", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=tnt2", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=espn2", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo2", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=sport2", "label": "CH HD 5" }
     ],
     "gender": "M"
   },
@@ -110,15 +114,15 @@
     "country": "EUROPE",
     "team1": {
       "name": "Aston Villa",
-      "logo": "https://static.flashscore.com/res/image/data/hptDt12D-Q2UqGvcJ.png"
+      "logo": "https://static.flashscore.com/res/image/data/8OVB9Xw0-f2Pz7l9F.png"
     },
     "team2": {
       "name": "Bologna",
-      "logo": "https://static.flashscore.com/res/image/data/Wvgq9QBN-SHySPq4C.png"
+      "logo": "https://static.flashscore.com/res/image/data/hL5p4nBG-Ky9V8T9G.png"
     },
-    "kickoff_date": "2026-04-16",
+    "kickoff_date": "2026-04-17",
     "kickoff_time": "02:00",
-    "match_date": "2026-04-16",
+    "match_date": "2026-04-17",
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
@@ -137,15 +141,15 @@
     "country": "EUROPE",
     "team1": {
       "name": "Betis",
-      "logo": "https://static.flashscore.com/res/image/data/nX8RbWFG-ltoXjd13.png"
+      "logo": "https://static.flashscore.com/res/image/data/fm6jQqAG-G2Rq3K7E.png"
     },
     "team2": {
       "name": "Braga",
-      "logo": "https://static.flashscore.com/res/image/data/fetmcl5D-6cfKEKdG.png"
+      "logo": "https://static.flashscore.com/res/image/data/ADUAMPC6-SnZ0uR0F.png"
     },
-    "kickoff_date": "2026-04-16",
+    "kickoff_date": "2026-04-17",
     "kickoff_time": "02:00",
-    "match_date": "2026-04-16",
+    "match_date": "2026-04-17",
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
@@ -170,9 +174,9 @@
       "name": "FC Porto",
       "logo": "https://static.flashscore.com/res/image/data/8p7NqdYk-4k3I5TGN.png"
     },
-    "kickoff_date": "2026-04-16",
+    "kickoff_date": "2026-04-17",
     "kickoff_time": "02:00",
-    "match_date": "2026-04-16",
+    "match_date": "2026-04-17",
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
@@ -191,15 +195,15 @@
     "country": "EUROPE",
     "team1": {
       "name": "AEK Athens",
-      "logo": "https://static.flashscore.com/res/image/data/MC2ePMw0-xoevDVhN.png"
+      "logo": "https://static.flashscore.com/res/image/data/4ApNDXFG-UJqKEz7F.png"
     },
     "team2": {
       "name": "Rayo Vallecano",
-      "logo": "https://static.flashscore.com/res/image/data/jnJklWFG-E6gOGB8G.png"
+      "logo": "https://static.flashscore.com/res/image/data/f6r2m2w0-GC6s7L8H.png"
     },
-    "kickoff_date": "2026-04-16",
+    "kickoff_date": "2026-04-17",
     "kickoff_time": "02:00",
-    "match_date": "2026-04-16",
+    "match_date": "2026-04-17",
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
@@ -218,15 +222,15 @@
     "country": "EUROPE",
     "team1": {
       "name": "Fiorentina",
-      "logo": "https://static.flashscore.com/res/image/data/K4CRYTA6-QYlcmOGl.png"
+      "logo": "https://static.flashscore.com/res/image/data/COQWHJw0-8oKFjX9G.png"
     },
     "team2": {
       "name": "Crystal Palace",
-      "logo": "https://static.flashscore.com/res/image/data/dF2wHNA6-OPz4LVFI.png"
+      "logo": "https://static.flashscore.com/res/image/data/Ko1YjNA6-ltoXjd13.png"
     },
-    "kickoff_date": "2026-04-16",
+    "kickoff_date": "2026-04-17",
     "kickoff_time": "02:00",
-    "match_date": "2026-04-16",
+    "match_date": "2026-04-17",
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
@@ -245,15 +249,15 @@
     "country": "EUROPE",
     "team1": {
       "name": "Strasbourg",
-      "logo": "https://static.flashscore.com/res/image/data/0r6x1f6k-lsTtvqAc.png"
+      "logo": "https://static.flashscore.com/res/image/data/6uT3Rvw0-lsTtvqAc.png"
     },
     "team2": {
       "name": "Mainz",
-      "logo": "https://static.flashscore.com/res/image/data/b4XvrZFG-UvWKJBl9.png"
+      "logo": "https://static.flashscore.com/res/image/data/SY4aYmFG-UvWKJBl9.png"
     },
-    "kickoff_date": "2026-04-16",
+    "kickoff_date": "2026-04-17",
     "kickoff_time": "02:00",
-    "match_date": "2026-04-16",
+    "match_date": "2026-04-17",
     "match_time": "01:55",
     "duration": "3.5",
     "servers": [
@@ -278,9 +282,9 @@
       "name": "Como",
       "logo": "https://static.flashscore.com/res/image/data/OpGEA85D-UdX2PsHe.png"
     },
-    "kickoff_date": "2026-04-15",
+    "kickoff_date": "2026-04-16",
     "kickoff_time": "23:30",
-    "match_date": "2026-04-15",
+    "match_date": "2026-04-16",
     "match_time": "23:25",
     "duration": "3.5",
     "servers": [
