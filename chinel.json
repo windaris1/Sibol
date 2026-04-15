@@ -2,99 +2,246 @@
   {
     "id": "tnt1",
     "name": "TNT Sports 1",
-    "logo": "https://sibaltv.pages.dev/pict/tnt1.png",
-    "url": "https://pluyer.pages.dev/?shaka=TNT1",
+    "logo": "https://sibaltv.pages.dev/logo/tnt1.png",
+    "url": "https://pluyer.pages.dev/?shaka=tnt1",
     "status": "Online"
   },
   {
     "id": "tnt2",
     "name": "TNT Sports 2",
-    "logo": "https://sibaltv.pages.dev/pict/tnt2.png",
-    "url": "https://pluyer.pages.dev/?shaka=TNT2",
+    "logo": "https://sibaltv.pages.dev/logo/tnt2.png",
+    "url": "https://pluyer.pages.dev/?shaka=tnt2",
     "status": "Online"
   },
   {
     "id": "tnt3",
     "name": "TNT Sports 3",
-    "logo": "https://sibaltv.pages.dev/pict/tnt3.png",
-    "url": "https://pluyer.pages.dev/?shaka=TNT3",
+    "logo": "https://sibaltv.pages.dev/logo/tnt3.png",
+    "url": "https://pluyer.pages.dev/?shaka=tnt3",
     "status": "Online"
   },
   {
     "id": "tnt4",
     "name": "TNT Sports 4",
-    "logo": "https://sibaltv.pages.dev/pict/tnt4.png",
-    "url": "https://pluyer.pages.dev/?shaka=TNT4",
-    "status": "Online"
-  },
-  {
-    "id": "tnt5",
-    "name": "TNT Sports 5",
-    "logo": "https://sibaltv.pages.dev/pict/tnt5.png",
-    "url": "https://pluyer.pages.dev/?shaka=TNT5",
+    "logo": "https://sibaltv.pages.dev/logo/tnt4.png",
+    "url": "https://pluyer.pages.dev/?shaka=tnt4",
     "status": "Online"
   },
   {
     "id": "bein1",
     "name": "beIN Sports 1",
-    "logo": "https://sibaltv.pages.dev/pict/bein1.png",
-    "url": "https://pluyer.pages.dev/?shaka=BEIN1",
+    "logo": "https://sibaltv.pages.dev/logo/bein1.png",
+    "url": "https://pluyer.pages.dev/?shaka=bein1",
     "status": "Online"
   },
   {
     "id": "bein2",
     "name": "beIN Sports 2",
-    "logo": "https://sibaltv.pages.dev/pict/bein2.png",
-    "url": "https://pluyer.pages.dev/?shaka=BEIN2",
+    "logo": "https://sibaltv.pages.dev/logo/bein2.png",
+    "url": "https://pluyer.pages.dev/?shaka=bein2",
     "status": "Online"
   },
   {
     "id": "bein3",
     "name": "beIN Sports 3",
-    "logo": "https://sibaltv.pages.dev/pict/bein3.png",
-    "url": "https://pluyer.pages.dev/?shaka=BEIN3",
-    "status": "Online"
-  },
-  {
-    "id": "bein4",
-    "name": "beIN Sports 4",
-    "logo": "https://sibaltv.pages.dev/pict/bein4.png",
-    "url": "https://pluyer.pages.dev/?shaka=BEIN4",
-    "status": "Online"
-  },
-  {
-    "id": "bein5",
-    "name": "beIN Sports 5",
-    "logo": "https://sibaltv.pages.dev/pict/bein5.png",
-    "url": "https://pluyer.pages.dev/?shaka=BEIN5",
+    "logo": "https://sibaltv.pages.dev/logo/bein3.png",
+    "url": "https://pluyer.pages.dev/?shaka=bein3",
     "status": "Online"
   },
   {
     "id": "espn1",
     "name": "ESPN 1",
-    "logo": "https://sibaltv.pages.dev/pict/espn1.png",
-    "url": "https://pluyer.pages.dev/?shaka=ESPN1",
+    "logo": "https://sibaltv.pages.dev/logo/espn1.png",
+    "url": "https://pluyer.pages.dev/?shaka=espn1",
     "status": "Online"
   },
   {
     "id": "espn2",
     "name": "ESPN 2",
-    "logo": "https://sibaltv.pages.dev/pict/espn2.png",
-    "url": "https://pluyer.pages.dev/?shaka=ESPN2",
+    "logo": "https://sibaltv.pages.dev/logo/espn2.png",
+    "url": "https://pluyer.pages.dev/?shaka=espn2",
     "status": "Online"
   },
   {
     "id": "espn3",
     "name": "ESPN 3",
-    "logo": "https://sibaltv.pages.dev/pict/espn3.png",
-    "url": "https://pluyer.pages.dev/?shaka=ESPN3",
+    "logo": "https://sibaltv.pages.dev/logo/espn3.png",
+    "url": "https://pluyer.pages.dev/?shaka=espn3",
     "status": "Online"
   },
   {
-    "id": "espn4",
-    "name": "ESPN 4",
-    "logo": "https://sibaltv.pages.dev/pict/espn4.png",
-    "url": "https://pluyer.pages.dev/?shaka=ESPN4",
+    "id": "tudn",
+    "name": "TUDN",
+    "logo": "https://sibaltv.pages.dev/logo/tudn.png",
+    "url": "https://pluyer.pages.dev/?shaka=tudn",
+    "status": "Online"
+  },
+  {
+    "id": "spotv1",
+    "name": "SPOTV 1",
+    "logo": "https://sibaltv.pages.dev/logo/spotv1.png",
+    "url": "https://pluyer.pages.dev/?shaka=spotv1",
+    "status": "Online"
+  },
+  {
+    "id": "spotv2",
+    "name": "SPOTV 2",
+    "logo": "https://sibaltv.pages.dev/logo/spotv2.png",
+    "url": "https://pluyer.pages.dev/?shaka=spotv2",
+    "status": "Online"
+  },
+  {
+    "id": "vsport1",
+    "name": "V Sport 1",
+    "logo": "https://sibaltv.pages.dev/logo/vsport1.png",
+    "url": "https://pluyer.pages.dev/?shaka=vsport1",
+    "status": "Online"
+  },
+  {
+    "id": "vsport2",
+    "name": "V Sport 2",
+    "logo": "https://sibaltv.pages.dev/logo/vsport2.png",
+    "url": "https://pluyer.pages.dev/?shaka=vsport2",
+    "status": "Online"
+  },
+  {
+    "id": "vsport3",
+    "name": "V Sport 3",
+    "logo": "https://sibaltv.pages.dev/logo/vsport3.png",
+    "url": "https://pluyer.pages.dev/?shaka=vsport3",
+    "status": "Online"
+  },
+  {
+    "id": "vsport4",
+    "name": "V Sport 4",
+    "logo": "https://sibaltv.pages.dev/logo/vsport4.png",
+    "url": "https://pluyer.pages.dev/?shaka=vsport4",
+    "status": "Online"
+  },
+  {
+    "id": "ziggo1",
+    "name": "Ziggo Sport 1",
+    "logo": "https://sibaltv.pages.dev/logo/ziggo1.png",
+    "url": "https://pluyer.pages.dev/?shaka=ziggo1",
+    "status": "Online"
+  },
+  {
+    "id": "ziggo2",
+    "name": "Ziggo Sport 2",
+    "logo": "https://sibaltv.pages.dev/logo/ziggo2.png",
+    "url": "https://pluyer.pages.dev/?shaka=ziggo2",
+    "status": "Online"
+  },
+  {
+    "id": "ziggo3",
+    "name": "Ziggo Sport 3",
+    "logo": "https://sibaltv.pages.dev/logo/ziggo3.png",
+    "url": "https://pluyer.pages.dev/?shaka=ziggo3",
+    "status": "Online"
+  },
+  {
+    "id": "ziggo4",
+    "name": "Ziggo Sport 4",
+    "logo": "https://sibaltv.pages.dev/logo/ziggo4.png",
+    "url": "https://pluyer.pages.dev/?shaka=ziggo4",
+    "status": "Online"
+  },
+  {
+    "id": "ziggo5",
+    "name": "Ziggo Sport 5",
+    "logo": "https://sibaltv.pages.dev/logo/ziggo5.png",
+    "url": "https://pluyer.pages.dev/?shaka=ziggo5",
+    "status": "Online"
+  },
+  {
+    "id": "ziggo6",
+    "name": "Ziggo Sport 6",
+    "logo": "https://sibaltv.pages.dev/logo/ziggo6.png",
+    "url": "https://pluyer.pages.dev/?shaka=ziggo6",
+    "status": "Online"
+  },
+  {
+    "id": "premiersp1",
+    "name": "Premier Sports 1",
+    "logo": "https://sibaltv.pages.dev/logo/premiersp1.png",
+    "url": "https://pluyer.pages.dev/?shaka=premiersp1",
+    "status": "Online"
+  },
+  {
+    "id": "premiersp2",
+    "name": "Premier Sports 2",
+    "logo": "https://sibaltv.pages.dev/logo/premiersp2.png",
+    "url": "https://pluyer.pages.dev/?shaka=premiersp2",
+    "status": "Online"
+  },
+  {
+    "id": "fubo1",
+    "name": "Fubo Sports 1",
+    "logo": "https://sibaltv.pages.dev/logo/fubo1.png",
+    "url": "https://pluyer.pages.dev/?shaka=fubo1",
+    "status": "Online"
+  },
+  {
+    "id": "fubo2",
+    "name": "Fubo Sports 2",
+    "logo": "https://sibaltv.pages.dev/logo/fubo2.png",
+    "url": "https://pluyer.pages.dev/?shaka=fubo2",
+    "status": "Online"
+  },
+  {
+    "id": "laligatv",
+    "name": "LaLiga TV",
+    "logo": "https://sibaltv.pages.dev/logo/laligatv.png",
+    "url": "https://pluyer.pages.dev/?shaka=laligatv",
+    "status": "Online"
+  },
+  {
+    "id": "mutv",
+    "name": "MUTV",
+    "logo": "https://sibaltv.pages.dev/logo/mutv.png",
+    "url": "https://pluyer.pages.dev/?shaka=mutv",
+    "status": "Online"
+  },
+  {
+    "id": "nbc",
+    "name": "NBC Sports",
+    "logo": "https://sibaltv.pages.dev/logo/nbc.png",
+    "url": "https://pluyer.pages.dev/?shaka=nbc",
+    "status": "Online"
+  },
+  {
+    "id": "cbs",
+    "name": "CBS Sports",
+    "logo": "https://sibaltv.pages.dev/logo/cbs.png",
+    "url": "https://pluyer.pages.dev/?shaka=cbs",
+    "status": "Online"
+  },
+  {
+    "id": "sportdigi",
+    "name": "Sport Digital",
+    "logo": "https://sibaltv.pages.dev/logo/sportdigi.png",
+    "url": "https://pluyer.pages.dev/?shaka=sportdigi",
+    "status": "Online"
+  },
+  {
+    "id": "sport1",
+    "name": "Sport 1",
+    "logo": "https://sibaltv.pages.dev/logo/sport1.png",
+    "url": "https://pluyer.pages.dev/?shaka=sport1",
+    "status": "Online"
+  },
+  {
+    "id": "sport2",
+    "name": "Sport 2",
+    "logo": "https://sibaltv.pages.dev/logo/sport2.png",
+    "url": "https://pluyer.pages.dev/?shaka=sport2",
+    "status": "Online"
+  },
+  {
+    "id": "sport3",
+    "name": "Sport 3",
+    "logo": "https://sibaltv.pages.dev/logo/sport3.png",
+    "url": "https://pluyer.pages.dev/?shaka=sport3",
     "status": "Online"
   }
 ]
