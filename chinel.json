@@ -1,0 +1,100 @@
+[
+  {
+    "id": "tnt1",
+    "name": "TNT Sports 1",
+    "logo": "https://sibaltv.pages.dev/pict/tnt1.png",
+    "url": "https://pluyer.pages.dev/?shaka=TNT1",
+    "status": "Online"
+  },
+  {
+    "id": "tnt2",
+    "name": "TNT Sports 2",
+    "logo": "https://sibaltv.pages.dev/pict/tnt2.png",
+    "url": "https://pluyer.pages.dev/?shaka=TNT2",
+    "status": "Online"
+  },
+  {
+    "id": "tnt3",
+    "name": "TNT Sports 3",
+    "logo": "https://sibaltv.pages.dev/pict/tnt3.png",
+    "url": "https://pluyer.pages.dev/?shaka=TNT3",
+    "status": "Online"
+  },
+  {
+    "id": "tnt4",
+    "name": "TNT Sports 4",
+    "logo": "https://sibaltv.pages.dev/pict/tnt4.png",
+    "url": "https://pluyer.pages.dev/?shaka=TNT4",
+    "status": "Online"
+  },
+  {
+    "id": "tnt5",
+    "name": "TNT Sports 5",
+    "logo": "https://sibaltv.pages.dev/pict/tnt5.png",
+    "url": "https://pluyer.pages.dev/?shaka=TNT5",
+    "status": "Online"
+  },
+  {
+    "id": "bein1",
+    "name": "beIN Sports 1",
+    "logo": "https://sibaltv.pages.dev/pict/bein1.png",
+    "url": "https://pluyer.pages.dev/?shaka=BEIN1",
+    "status": "Online"
+  },
+  {
+    "id": "bein2",
+    "name": "beIN Sports 2",
+    "logo": "https://sibaltv.pages.dev/pict/bein2.png",
+    "url": "https://pluyer.pages.dev/?shaka=BEIN2",
+    "status": "Online"
+  },
+  {
+    "id": "bein3",
+    "name": "beIN Sports 3",
+    "logo": "https://sibaltv.pages.dev/pict/bein3.png",
+    "url": "https://pluyer.pages.dev/?shaka=BEIN3",
+    "status": "Online"
+  },
+  {
+    "id": "bein4",
+    "name": "beIN Sports 4",
+    "logo": "https://sibaltv.pages.dev/pict/bein4.png",
+    "url": "https://pluyer.pages.dev/?shaka=BEIN4",
+    "status": "Online"
+  },
+  {
+    "id": "bein5",
+    "name": "beIN Sports 5",
+    "logo": "https://sibaltv.pages.dev/pict/bein5.png",
+    "url": "https://pluyer.pages.dev/?shaka=BEIN5",
+    "status": "Online"
+  },
+  {
+    "id": "espn1",
+    "name": "ESPN 1",
+    "logo": "https://sibaltv.pages.dev/pict/espn1.png",
+    "url": "https://pluyer.pages.dev/?shaka=ESPN1",
+    "status": "Online"
+  },
+  {
+    "id": "espn2",
+    "name": "ESPN 2",
+    "logo": "https://sibaltv.pages.dev/pict/espn2.png",
+    "url": "https://pluyer.pages.dev/?shaka=ESPN2",
+    "status": "Online"
+  },
+  {
+    "id": "espn3",
+    "name": "ESPN 3",
+    "logo": "https://sibaltv.pages.dev/pict/espn3.png",
+    "url": "https://pluyer.pages.dev/?shaka=ESPN3",
+    "status": "Online"
+  },
+  {
+    "id": "espn4",
+    "name": "ESPN 4",
+    "logo": "https://sibaltv.pages.dev/pict/espn4.png",
+    "url": "https://pluyer.pages.dev/?shaka=ESPN4",
+    "status": "Online"
+  }
+]
