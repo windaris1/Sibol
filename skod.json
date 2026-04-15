@@ -118,7 +118,7 @@
     },
     "team2": {
       "name": "Bologna",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1903.png"
+      "logo": "https://tmssl.akamaized.net/images/wappen/head/1025.png"
     },
     "kickoff_date": "2026-04-17",
     "kickoff_time": "02:00",
@@ -145,7 +145,7 @@
     },
     "team2": {
       "name": "Braga",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2046.png"
+      "logo": "https://tmssl.akamaized.net/images/wappen/head/1075.png"
     },
     "kickoff_date": "2026-04-17",
     "kickoff_time": "02:00",
@@ -280,7 +280,7 @@
     },
     "team2": {
       "name": "Como",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8209.png"
+      "logo": "https://tmssl.akamaized.net/images/wappen/head/2697.png"
     },
     "kickoff_date": "2026-04-16",
     "kickoff_time": "23:30",
