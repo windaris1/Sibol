@@ -1414,12 +1414,12 @@ html, body {
 
 }
 
-/* ===== PADDING KECIL = LOGO GEDE ===== */
+
+/* ===== FINAL: BG #1a1f2e + LOGO GEDE ===== */
 #live-tv #content {
     display: grid !important;
     grid-template-columns: repeat(5, 1fr) !important;
     gap: 8px !important;
-    width: 100% !important;
     background-color: #0d1117 !important;
     padding: 10px !important;
     box-sizing: border-box !important;
@@ -1429,30 +1429,28 @@ html, body {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    background-color: #21262d !important;
+    background-color: #1a1f2e !important;
     padding: 0 !important;
     border-radius: 12px !important;
-    width: 100% !important;
     aspect-ratio: 1 / 1 !important;
     transition: all 0.2s !important;
-    border: 1px solid #30363d !important;
+    border: 1px solid #2d3348 !important;
     overflow: hidden !important;
 }
 
 #live-tv #content .channel-container:hover,
 #live-tv #content .channel-container.selected {
-    background-color: #30363d !important;
+    background-color: #252b3d !important;
     transform: scale(1.03) !important;
     border-color: #0ea5e9 !important;
 }
 
-/* PADDING DIKECILIN: 12% -> 6% */
+/* LOGO GEDE PADDING 4% */
 #live-tv #content .channel-container .logo-container {
     width: 100% !important;
     height: 100% !important;
-    border-radius: 12px !important;
     background-color: transparent !important;
-    padding: 6% !important;
+    padding: 4% !important;
     box-sizing: border-box !important;
     display: flex !important;
     align-items: center !important;
@@ -1463,8 +1461,10 @@ html, body {
     width: 100% !important;
     height: 100% !important;
     object-fit: contain !important;
+    border-radius: 8px !important;
 }
 
+/* Hide teks */
 #live-tv #content .channel-container .info-container,
 #live-tv #content .channel-container .channel-name,
 #live-tv #content .channel-container .status {
@@ -1482,8 +1482,7 @@ html, body {
         gap: 6px !important;
         padding: 8px !important;
     }
-    /* PADDING HP: 14% -> 8% */
     #live-tv #content .channel-container .logo-container {
-        padding: 8% !important;
+        padding: 6% !important;
     }
 }
