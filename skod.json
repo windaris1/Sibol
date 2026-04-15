@@ -1,113 +1,5 @@
 [
   {
-    "id": "AtlMadrid-Barcelona",
-    "sport": "Football",
-    "league": "Europe - Uefa Champions League, Knockout Stage",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Atl. Madrid",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
-    },
-    "team2": {
-      "name": "Barcelona",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
-    },
-    "kickoff_date": "2026-04-15",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-15",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=tnt1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=tnt2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=espn1", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Liverpool-PSG",
-    "sport": "Football",
-    "league": "Europe - Uefa Champions League, Knockout Stage",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Liverpool",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
-    },
-    "team2": {
-      "name": "PSG",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
-    },
-    "kickoff_date": "2026-04-15",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-15",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=tnt3", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=tnt4", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=espn2", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo2", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Arsenal-SportingCP",
-    "sport": "Football",
-    "league": "Europe - Uefa Champions League, Knockout Stage",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Arsenal",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
-    },
-    "team2": {
-      "name": "Sporting CP",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2280.png"
-    },
-    "kickoff_date": "2026-04-16",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-16",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=tnt1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=espn1", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=sport1", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "BayernMunich-RealMadrid",
-    "sport": "Football",
-    "league": "Europe - Uefa Champions League, Knockout Stage",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Bayern Munich",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
-    },
-    "team2": {
-      "name": "Real Madrid",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
-    },
-    "kickoff_date": "2026-04-16",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-16",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=tnt2", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=espn2", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo2", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=sport2", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
     "id": "AstonVilla-Bologna",
     "sport": "Football",
     "league": "Europa League - Play Offs",
@@ -162,67 +54,13 @@
     "gender": "M"
   },
   {
-    "id": "Nottingham-Porto",
-    "sport": "Football",
-    "league": "Europa League - Play Offs",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Nottingham",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
-    },
-    "team2": {
-      "name": "FC Porto",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-17",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=tnt3", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=espn3", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo3", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=sport3", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "AEKAthens-RayoVallecano",
-    "sport": "Football",
-    "league": "Conference League - Play Offs",
-    "country": "EUROPE",
-    "team1": {
-      "name": "AEK Athens",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/250.png"
-    },
-    "team2": {
-      "name": "Rayo Vallecano",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-17",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=tnt4", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=vsport1", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=spotv1", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo4", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=premiersp1", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
     "id": "Fiorentina-CrystalPalace",
     "sport": "Football",
     "league": "Conference League - Play Offs",
     "country": "EUROPE",
     "team1": {
       "name": "Fiorentina",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/100.png"
+      "logo": "https://tmssl.akamaized.net/images/wappen/head/430.png"
     },
     "team2": {
       "name": "Crystal Palace",
@@ -249,7 +87,7 @@
     "country": "EUROPE",
     "team1": {
       "name": "Strasbourg",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png"
+      "logo": "https://tmssl.akamaized.net/images/wappen/head/667.png"
     },
     "team2": {
       "name": "Mainz",
@@ -276,7 +114,7 @@
     "country": "ITALY",
     "team1": {
       "name": "Sassuolo",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png"
+      "logo": "https://tmssl.akamaized.net/images/wappen/head/6574.png"
     },
     "team2": {
       "name": "Como",
