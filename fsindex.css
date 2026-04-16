@@ -1486,3 +1486,227 @@ html, body {
         padding: 6% !important;
     }
 }
+
+
+/* STYLE CHATTING */
+
+:root{
+  --sibal-bg:#1a1f2e;
+  --sibal-surface:#11141c;
+  --sibal-border:#2a3040;
+  --sibal-primary:#1e40af;
+  --sibal-text:#e5e5e5;
+  --sibal-text-dim:#8a91a8;
+  --sibal-admin:#f59e0b;
+}
+
+html,body{margin:0;padding:0;background:var(--sibal-bg)}
+
+.sidebar-content{
+  display:none;
+  height:100%;
+  flex-direction:column;
+}
+.sidebar-content.active{
+  display:flex;
+}
+
+#sibaltv-chat{
+  font-family:Roboto,system-ui,sans-serif;
+  background:var(--sibal-bg);
+  height:500px;
+  height:100dvh; /* Tambahin ini */
+  max-height:500px; /* Tambahin ini */
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  border:1px solid var(--sibal-border);
+  border-radius:8px;
+}
+#chat-messages{
+  flex:1;
+  overflow-y:auto;
+  overflow-x:hidden;
+  padding:8px 12px;
+  background:var(--sibal-bg);
+  -webkit-overflow-scrolling:touch;
+}
+#chat-messages::-webkit-scrollbar{width:6px}
+#chat-messages::-webkit-scrollbar-thumb{background:#333;border-radius:3px}
+
+.chat-item{
+  display:flex;
+  gap:8px;
+  margin-bottom:8px;
+  align-items:flex-start;
+  animation:fadeIn.15s ease
+}
+.chat-avatar{
+  width:28px;
+  height:28px;
+  border-radius:50%;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:600;
+  font-size:12px;
+  flex-shrink:0;
+  margin-top:2px
+}
+.chat-body{flex:1;min-width:0}
+.chat-meta{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  width:100%;
+  margin-bottom:2px
+}
+.chat-time{
+  color:var(--sibal-text-dim);
+  font-size:11px;
+  white-space:nowrap;
+  order:2
+}
+.chat-name{
+  font-weight:500;
+  font-size:13px;
+  order:1
+}
+.chat-item.admin.chat-name{color:var(--sibal-admin)!important}
+.chat-text{
+  color:var(--sibal-text);
+  font-size:13px;
+  line-height:1.4;
+  word-break:break-word
+}
+
+/* ===== INPUT + ICON FONTAWESOME ===== */
+.chat-input-wrap{
+  background:var(--sibal-surface);
+  border-top:1px solid var(--sibal-border);
+  padding:8px 12px;
+  flex-shrink:0;
+  position:fixed;
+  bottom:calc(48px + env(safe-area-inset-bottom));
+  left:0;
+  right:0;
+  z-index:999;
+}
+.chat-row{
+  display:flex;
+  gap:4px;
+  align-items:center;
+  max-width:1000px;
+  margin:0 auto;
+}
+.chat-row button{
+  background:transparent;
+  border:none;
+  color:var(--sibal-text-dim);
+  font-size:20px;
+  cursor:pointer;
+  flex-shrink:0;
+  padding:6px;
+  line-height:1;
+  transition:.15s;
+  border-radius:50%;
+  width:34px;
+  height:34px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.chat-row button:hover{
+  color:var(--sibal-primary);
+  background:#1e40af20;
+}
+.chat-row button:active{
+  transform:scale(0.9);
+  color:var(--sibal-primary);
+}
+#chat-send{
+  color:var(--sibal-primary);
+  font-size:20px;
+}
+#chat-send:hover{
+  color:#2563eb;
+  background:#1e40af30;
+}
+#chat-send:disabled{
+  opacity:0.4;
+  cursor:not-allowed;
+  background:transparent;
+}
+
+#chat-msg{
+  flex:1;
+  background:var(--sibal-bg);
+  border:1px solid var(--sibal-border);
+  color:var(--sibal-text);
+  border-radius:18px;
+  padding:12px 14px;
+  font-size:16px;
+  min-width:0;
+  font-family:inherit;
+  margin:0 4px;
+}
+#chat-msg:focus{
+  outline:none;
+  border-color:var(--sibal-primary)
+}
+#chat-msg::placeholder{color:var(--sibal-text-dim)}
+
+@keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+
+/* ===== MOBILE ===== */
+@media (max-width:900px){
+  #sibaltv-chat{
+    height:calc(100dvh - 340px);
+  }
+  #chat-messages{
+    padding:8px 12px 70px 12px;
+  }
+.chat-avatar{width:24px;height:24px;font-size:11px}
+.chat-text{font-size:12px}
+  #chat-msg{font-size:16px;padding:10px 12px}
+.chat-row button{font-size:18px;width:32px;height:32px}
+}
+
+/* ===== PC: INPUT BALIK KE SIDEBAR ===== */
+@media (min-width:901px){
+.chat-input-wrap{
+    position:static;
+    bottom:auto;
+    left:auto;
+    right:auto;
+    margin-top:auto;
+    z-index:1;
+  }
+}
+
+.emoji-picker{
+  position: absolute;
+  bottom: 55px;
+  left: 10px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  padding: 8px;
+  max-width: 320px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 9999;
+  box-shadow: 0 8px 24px rgba(0,0,0,.5);
+}
+.emoji-picker button{
+  background: #374151;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .1s;
+}
+.emoji-picker button:hover{
+  background: #4b5563;
+  transform: scale(1.1);
+}
