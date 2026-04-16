@@ -1,25 +1,82 @@
 [
   {
-    "id": "IndonesiaU17-MalaysiaU17",
+    "id": "AlAhli-JohorDT",
     "sport": "Football",
-    "league": "International Friendly U17",
-    "country": "INDONESIA",
+    "league": "Liga Champions AFC - Play Off",
+    "country": "ASIA",
     "team1": {
-      "name": "Indonesia U17",
-      "logo": "https://static.flashscore.com/res/image/data/WvrcHkXg-QBz8eAFI.png"
+      "name": "Al Ahli SC",
+      "logo": "https://static.flashscore.com/res/image/data/dkOUp9fM-WKkseVL6.png"
     },
     "team2": {
-      "name": "Malaysia U17",
-      "logo": "https://static.flashscore.com/res/image/data/W6ZspTcM-QHeKqeWC.png"
+      "name": "Johor DT",
+      "logo": "https://static.flashscore.com/res/image/data/l8ipVwbM-lvUG6Spd.png"
     },
-    "kickoff_date": "2026-04-16",
-    "kickoff_time": "19:30",
-    "match_date": "2026-04-16",
-    "match_time": "19:25",
-    "duration": "2.5",
+    "kickoff_date": "2026-04-17",
+    "kickoff_time": "21:45",
+    "match_date": "2026-04-17",
+    "match_time": "21:40",
+    "duration": "3.5",
     "servers": [
-      { "url": "https://ifro.pages.dev/", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?hls=ch1", "label": "CH HD 2" }
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=sport1", "label": "CH HD 5" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Bhayangkara-PSIM",
+    "sport": "Football",
+    "league": "Super League",
+    "country": "INDONESIA",
+    "team1": {
+      "name": "FC Bhayangkara",
+      "logo": "https://static.flashscore.com/res/image/data/4j6xIFbM-nEzY7I3o.png"
+    },
+    "team2": {
+      "name": "PSIM Yogyakarta",
+      "logo": "https://static.flashscore.com/res/image/data/zJ6vQddM-UX5JGLqO.png"
+    },
+    "kickoff_date": "2026-04-17",
+    "kickoff_time": "15:30",
+    "match_date": "2026-04-17",
+    "match_time": "15:25",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=vidio1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=vidio2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=indosiar", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=moji", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=nex", "label": "CH HD 5" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Persebaya-Madura",
+    "sport": "Football",
+    "league": "Super League",
+    "country": "INDONESIA",
+    "team1": {
+      "name": "Persebaya",
+      "logo": "https://static.flashscore.com/res/image/data/nRn4d8EG-QnmPG3Y9.png"
+    },
+    "team2": {
+      "name": "Madura United",
+      "logo": "https://static.flashscore.com/res/image/data/YcqWq8bM-QnmPG3Y9.png"
+    },
+    "kickoff_date": "2026-04-17",
+    "kickoff_time": "19:00",
+    "match_date": "2026-04-17",
+    "match_time": "18:55",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=vidio1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=vidio2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=indosiar", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=moji", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=nex", "label": "CH HD 5" }
     ],
     "gender": "M"
   },
@@ -36,9 +93,9 @@
       "name": "Como",
       "logo": "https://static.flashscore.com/res/image/data/Cf5pQNyS-hpmw8K1h.png"
     },
-    "kickoff_date": "2026-04-16",
+    "kickoff_date": "2026-04-17",
     "kickoff_time": "23:30",
-    "match_date": "2026-04-16",
+    "match_date": "2026-04-17",
     "match_time": "23:25",
     "duration": "3.5",
     "servers": [
@@ -47,114 +104,6 @@
       { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" },
       { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
       { "url": "https://pluyer.pages.dev/?shaka=sportdigi", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "AstonVilla-Bologna",
-    "sport": "Football",
-    "league": "Europa League - Play Offs",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Aston Villa",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
-    },
-    "team2": {
-      "name": "Bologna",
-      "logo": "https://tmssl.akamaized.net/images/wappen/head/1025.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-17",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=tnt1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=espn1", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=sport1", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Betis-Braga",
-    "sport": "Football",
-    "league": "Europa League - Play Offs",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Betis",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
-    },
-    "team2": {
-      "name": "Braga",
-      "logo": "https://tmssl.akamaized.net/images/wappen/head/1075.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-17",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=tnt2", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=espn2", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo2", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=sport2", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Fiorentina-CrystalPalace",
-    "sport": "Football",
-    "league": "Conference League - Play Offs",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Fiorentina",
-      "logo": "https://tmssl.akamaized.net/images/wappen/head/430.png"
-    },
-    "team2": {
-      "name": "Crystal Palace",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-17",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=vsport2", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=spotv2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo5", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=premiersp2", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=fubo1", "label": "CH HD 5" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Strasbourg-Mainz",
-    "sport": "Football",
-    "league": "Conference League - Play Offs",
-    "country": "EUROPE",
-    "team1": {
-      "name": "Strasbourg",
-      "logo": "https://tmssl.akamaized.net/images/wappen/head/667.png"
-    },
-    "team2": {
-      "name": "Mainz",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "02:00",
-    "match_date": "2026-04-17",
-    "match_time": "01:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=vsport3", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo6", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=fubo2", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=tudn", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=laligatv", "label": "CH HD 5" }
     ],
     "gender": "M"
   },
