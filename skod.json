@@ -107,33 +107,33 @@
     ],
     "gender": "M"
   },
-{
-  "id": "Sassuolo-Como",
-  "sport": "Football",
-  "league": "Serie A",
-  "country": "ITALY",
-  "team1": {
-    "name": "Sassuolo",
-    "logo": "https://tmssl.akamaized.net/images/wappen/head/6574.png"
+  {
+    "id": "Sassuolo-Como",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALY",
+    "team1": {
+      "name": "Sassuolo",
+      "logo": "https://tmssl.akamaized.net/images/wappen/head/6574.png"
+    },
+    "team2": {
+      "name": "Como",
+      "logo": "https://static.flashscore.com/res/image/data/Cf5pQNyS-hpmw8K1h.png"
+    },
+    "kickoff_date": "2026-04-16",
+    "kickoff_time": "23:30",
+    "match_date": "2026-04-16",
+    "match_time": "23:25",
+    "duration": "3.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" },
+      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
+      { "url": "https://pluyer.pages.dev/?shaka=sportdigi", "label": "CH HD 5" }
+    ],
+    "gender": "M"
   },
-  "team2": {
-    "name": "Como",
-    "logo": "https://api.sofascore.app/api/v1/team/2697/image"
-  },
-  "kickoff_date": "2026-04-16",
-  "kickoff_time": "23:30",
-  "match_date": "2026-04-16",
-  "match_time": "23:25",
-  "duration": "3.5",
-  "servers": [
-    { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-    { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-    { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" },
-    { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
-    { "url": "https://pluyer.pages.dev/?shaka=sportdigi", "label": "CH HD 5" }
-  ],
-  "gender": "M"
-},
   {
     "id": "Machida-AlIttihad",
     "sport": "Football",
@@ -141,11 +141,11 @@
     "country": "ASIA",
     "team1": {
       "name": "Machida Zelvia",
-      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Japan/Machida%20Zelvia.png"
+      "logo": "https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png"
     },
     "team2": {
       "name": "Al-Ittihad",
-      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Saudi%20Arabia/Al-Ittihad.png"
+      "logo": "https://static.flashscore.com/res/image/data/UmlxT0ZA-jeFu6Qy4.png"
     },
     "kickoff_date": "2026-04-18",
     "kickoff_time": "01:00",
@@ -168,11 +168,11 @@
     "country": "ASIA",
     "team1": {
       "name": "Buriram United",
-      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/Thailand/Buriram%20United.png"
+      "logo": "https://static.flashscore.com/res/image/data/KCS8nzyS-AHLMjQO5.png"
     },
     "team2": {
       "name": "Al Ahli Dubai",
-      "logo": "https://cdn.jsdelivr.net/gh/luukhopman/football-logos@master/logos/UAE/Shabab%20Al-Ahli.png"
+      "logo": "https://static.flashscore.com/res/image/data/0CZOhXDa-8zUcYY2j.png"
     },
     "kickoff_date": "2026-04-18",
     "kickoff_time": "23:15",
