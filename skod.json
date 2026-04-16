@@ -18,9 +18,9 @@
     "match_time": "19:25",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=indosiar", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=vidio1", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=moji", "label": "CH HD 3" }
+      { "url": "https://ifro.pages.dev/", "label": "CH HD 1" },
+      { "url": "https://ifro.pages.dev/", "label": "CH HD 2" },
+      { "url": "https://ifro.pages.dev/", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
