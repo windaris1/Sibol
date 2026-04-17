@@ -18,8 +18,8 @@
     "match_time": "21:40",
     "duration": "3.5",
     "servers": [
-      { "url": "=bein1", "label": "CH HD 1" },
-      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2826391-persebaya-surabaya-vs-madura-united.html", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?hls=https://hls.686868.me/live/AMIKE/index.m3u8?expire=1922359320&sign=83372e206c208bbc12257cf3651c5fc8", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?hls=https://live5.msrktz.app/live/90865415.m3u8", "label": "CH HD 2" },
       { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
     ],
     "gender": "M"
