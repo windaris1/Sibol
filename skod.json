@@ -25,31 +25,6 @@
     "gender": "M"
   },
   {
-    "id": "Bhayangkara-PSIM",
-    "sport": "Football",
-    "league": "Super League",
-    "country": "INDONESIA",
-    "team1": {
-      "name": "FC Bhayangkara",
-      "logo": "https://static.flashscore.com/res/image/data/8jnKBPkl-UBTLvuxH.png"
-    },
-    "team2": {
-      "name": "PSIM Yogyakarta",
-      "logo": "https://static.flashscore.com/res/image/data/8jnKBPkl-UBTLvuxH.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "15:30",
-    "match_date": "2026-04-17",
-    "match_time": "15:25",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2826390-bhayangkara-solo-fc-vs-psim-yogyakarta.html", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?hls=ch1", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?hls=ch2", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
     "id": "Persebaya-Madura",
     "sport": "Football",
     "league": "Super League",
@@ -68,7 +43,7 @@
     "match_time": "18:55",
     "duration": "3.5",
     "servers": [
-      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/others/7471-bwf-thailand-masters.html", "label": "CH HD 1" },
+      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2975691-alahli-sfc-vs-johor-darul-takzim.html", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?hls=ch1", "label": "CH HD 2" },
       { "url": "https://pluyer.pages.dev/?hls=ch2", "label": "CH HD 3" }
     ],
