@@ -289,5 +289,196 @@
       { "url": "https://pluyer.pages.dev/?shaka=sport1", "label": "CH HD 5" }
     ],
     "gender": "M"
+  },
+
+[
+  {
+    "id": "Newcastle-Bournemouth",
+    "sport": "Football",
+    "league": "Liga Primer",
+    "country": "INGGRIS",
+    "countryFlag": "https://flagcdn.com/w20/gb-eng.png",
+    "leagueLogo": "https://static.flashscore.com/res/image/data/premier-league.png",
+    "team1": {
+      "name": "Newcastle Utd",
+      "logo": "https://static.flashscore.com/res/image/data/fojwJwZA-2Vnc5VQf.png"
+    },
+    "team2": {
+      "name": "Bournemouth",
+      "logo": "https://static.flashscore.com/res/image/data/2Pb55xWg-fVlIcxl3.png"
+    },
+    "kickoff_date": "2026-04-18",
+    "kickoff_time": "21:00",
+    "match_date": "2026-04-18",
+    "match_time": "21:00",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Tottenham-Brighton",
+    "sport": "Football",
+    "league": "Liga Primer",
+    "country": "INGGRIS",
+    "countryFlag": "https://flagcdn.com/w20/gb-eng.png",
+    "leagueLogo": "https://static.flashscore.com/res/image/data/premier-league.png",
+    "team1": {
+      "name": "Tottenham",
+      "logo": "https://static.flashscore.com/res/image/data/ARC62UAr-Ig5FKJZ5.png"
+    },
+    "team2": {
+      "name": "Brighton",
+      "logo": "https://static.flashscore.com/res/image/data/40juIezB-b92lfEJC.png"
+    },
+    "kickoff_date": "2026-04-18",
+    "kickoff_time": "23:30",
+    "match_date": "2026-04-18",
+    "match_time": "23:30",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Inter-Cagliari",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALIA",
+    "countryFlag": "https://flagcdn.com/w20/it.png",
+    "leagueLogo": "https://static.flashscore.com/res/image/data/serie-a.png",
+    "team1": {
+      "name": "Inter",
+      "logo": "https://static.flashscore.com/res/image/data/lxz64qDa-O8c8nWOb.png"
+    },
+    "team2": {
+      "name": "Cagliari",
+      "logo": "https://static.flashscore.com/res/image/data/IBlLf9f5-McvX4bye.png"
+    },
+    "kickoff_date": "2026-04-18",
+    "kickoff_time": "01:45",
+    "match_date": "2026-04-18",
+    "match_time": "01:45",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Udinese-Parma",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALIA",
+    "countryFlag": "https://flagcdn.com/w20/it.png",
+    "leagueLogo": "https://static.flashscore.com/res/image/data/serie-a.png",
+    "team1": {
+      "name": "Udinese",
+      "logo": "https://static.flashscore.com/res/image/data/AZBQMaYA-SYw7EcY6.png"
+    },
+    "team2": {
+      "name": "Parma",
+      "logo": "https://static.flashscore.com/res/image/data/YcrE7ae5-fydXzLY6.png"
+    },
+    "kickoff_date": "2026-04-18",
+    "kickoff_time": "20:00",
+    "match_date": "2026-04-18",
+    "match_time": "20:00",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Napoli-Lazio",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALIA",
+    "countryFlag": "https://flagcdn.com/w20/it.png",
+    "leagueLogo": "https://static.flashscore.com/res/image/data/serie-a.png",
+    "team1": {
+      "name": "Napoli",
+      "logo": "https://static.flashscore.com/res/image/data/lhPsgJWg-Stb48WaO.png"
+    },
+    "team2": {
+      "name": "Lazio",
+      "logo": "https://static.flashscore.com/res/image/data/zXqymff5-EaFfQ9z6.png"
+    },
+    "kickoff_date": "2026-04-18",
+    "kickoff_time": "23:00",
+    "match_date": "2026-04-18",
+    "match_time": "23:00",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "StPauli-Koln",
+    "sport": "Football",
+    "league": "Bundesliga",
+    "country": "JERMAN",
+    "countryFlag": "https://flagcdn.com/w20/de.png",
+    "leagueLogo": "https://static.flashscore.com/res/image/data/bundesliga.png",
+    "team1": {
+      "name": "St. Pauli",
+      "logo": "https://static.flashscore.com/res/image/data/QZX02wCr-lrmFNGea.png"
+    },
+    "team2": {
+      "name": "Köln",
+      "logo": "https://static.flashscore.com/res/image/data/8hxnRHEa-86lnAaq9.png"
+    },
+    "kickoff_date": "2026-04-18",
+    "kickoff_time": "01:30",
+    "match_date": "2026-04-18",
+    "match_time": "01:30",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Leverkusen-Augsburg",
+    "sport": "Football",
+    "league": "Bundesliga",
+    "country": "JERMAN",
+    "countryFlag": "https://flagcdn.com/w20/de.png",
+    "leagueLogo": "https://static.flashscore.com/res/image/data/bundesliga.png",
+    "team1": {
+      "name": "Bayer Leverkusen",
+      "logo": "https://static.flashscore.com/res/image/data/OWpaDOYA-WrjrBuU2.png"
+    },
+    "team2": {
+      "name": "Augsburg",
+      "logo": "https://static.flashscore.com/res/image/data/6ZUvwjgl-Qmnf8wEL.png"
+    },
+    "kickoff_date": "2026-04-18",
+    "kickoff_time": "20:30",
+    "match_date": "2026-04-18",
+    "match_time": "20:30",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+    ],
+    "gender": "M"
   }
 ]
