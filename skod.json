@@ -70,7 +70,7 @@
     "servers": [
       { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2826391-persebaya-surabaya-vs-madura-united.html", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?hls=ch1", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=indosiar", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?hls=ch2", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
