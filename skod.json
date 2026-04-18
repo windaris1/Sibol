@@ -6,36 +6,11 @@
     "country": "INDONESIA",
     "team1": {
       "name": "Persik Kediri",
-      "logo": "https://static.flashscore.com/res/image/data/n5HTzvg5-f56mT9cO.png"
+      "logo": "https://static.flashscore.com/res/image/data/IgemUgg5-fudV7NWp.png"
     },
     "team2": {
       "name": "Persita",
-      "logo": "https://static.flashscore.com/res/image/data/IUlHOUlg-I3H7dYxC.png"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "15:30",
-    "match_date": "2026-04-19",
-    "match_time": "15:25",
-    "duration": "2.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "SemenPadang-Persijap",
-    "sport": "Football",
-    "league": "Super League",
-    "country": "INDONESIA",
-    "team1": {
-      "name": "Semen Padang",
-      "logo": "https://static.flashscore.com/res/image/data/YIfFHlZA-lYVjOwzj.png"
-    },
-    "team2": {
-      "name": "Persijap Jepara",
-      "logo": "https://static.flashscore.com/res/image/data/dZywdOCr-tQFkMBuJ.png"
+      "logo": "https://static.flashscore.com/res/image/data/IefKuzwS-Mw6HAN8i.png"
     },
     "kickoff_date": "2026-04-19",
     "kickoff_time": "15:30",
@@ -81,11 +56,11 @@
     "country": "INDONESIA",
     "team1": {
       "name": "Bali United",
-      "logo": "https://static.flashscore.com/res/image/data/MD8uD7Ya-bhSUvrXR.png"
+      "logo": "https://static.flashscore.com/res/image/data/tInTP6zB-K6ujqDls.png"
     },
     "team2": {
       "name": "Malut United",
-      "logo": "https://static.flashscore.com/res/image/data/QXVxXizB-MEc7OWEa.png"
+      "logo": "https://static.flashscore.com/res/image/data/CzyPAuZA-IijC3nOP.png"
     },
     "kickoff_date": "2026-04-19",
     "kickoff_time": "19:00",
@@ -106,11 +81,11 @@
     "country": "INDONESIA",
     "team1": {
       "name": "Dewa United",
-      "logo": "https://static.flashscore.com/res/image/data/tj7pFDf5-x5Iv5Whf.png"
+      "logo": "https://static.flashscore.com/res/image/data/nmnoOY9r-fJYKj2Xi.png"
     },
     "team2": {
       "name": "Persib Bandung",
-      "logo": "https://static.flashscore.com/res/image/data/K8iuLpzB-4yW0q9o7.png"
+      "logo": "https://static.flashscore.com/res/image/data/QuGrSijl-fXN2TGqm.png"
     },
     "kickoff_date": "2026-04-19",
     "kickoff_time": "19:00",
@@ -156,11 +131,11 @@
     "country": "INGGRIS",
     "team1": {
       "name": "Aston Villa",
-      "logo": "https://static.flashscore.com/res/image/data/QSGzxDGl-hfW4cRkg.png"
+      "logo": "https://static.flashscore.com/res/image/data/QsnteKXg-jwz95gs0.png"
     },
     "team2": {
       "name": "Sunderland",
-      "logo": "https://static.flashscore.com/res/image/data/t5RvByfa-xEX8mLHR.png"
+      "logo": "https://static.flashscore.com/res/image/data/ln86XXjl-0d34NJCO.png"
     },
     "kickoff_date": "2026-04-19",
     "kickoff_time": "20:00",
@@ -181,11 +156,11 @@
     "country": "INGGRIS",
     "team1": {
       "name": "Everton",
-      "logo": "https://static.flashscore.com/res/image/data/d0FzC9zB-WGXv0dC6.png"
+      "logo": "https://static.flashscore.com/res/image/data/Gr0cGteM-KCp4zq5F.png"
     },
     "team2": {
       "name": "Liverpool",
-      "logo": "https://static.flashscore.com/res/image/data/zASnkOYA-8qGyhGWm.png"
+      "logo": "https://static.flashscore.com/res/image/data/Gr0cGteM-KCp4zq5F.png"
     },
     "kickoff_date": "2026-04-19",
     "kickoff_time": "20:00",
@@ -206,11 +181,11 @@
     "country": "INGGRIS",
     "team1": {
       "name": "Nottingham",
-      "logo": "https://static.flashscore.com/res/image/data/IwBPl4YA-6uT7i1if.png"
+      "logo": "https://static.flashscore.com/res/image/data/GCLLkTzB-ImKwLTtA.png"
     },
     "team2": {
       "name": "Burnley",
-      "logo": "https://static.flashscore.com/res/image/data/txWx42YA-fU0ztc4d.png"
+      "logo": "https://static.flashscore.com/res/image/data/UaPJjYBr-6PhTI7J6.png"
     },
     "kickoff_date": "2026-04-19",
     "kickoff_time": "20:00",
@@ -381,11 +356,11 @@
     "country": "INGGRIS",
     "team1": {
       "name": "Manchester City",
-      "logo": "https://static.flashscore.com/res/image/data/xO6sgCYA-8cGJg5UF.png"
+      "logo": "https://static.flashscore.com/res/image/data/UXcqj7HG-lQuhqN8N.png"
     },
     "team2": {
       "name": "Arsenal",
-      "logo": "https://static.flashscore.com/res/image/data/EeCjvUYA-WKwXZvF2.png"
+      "logo": "https://static.flashscore.com/res/image/data/pfchdCg5-vcNAdtF9.png"
     },
     "kickoff_date": "2026-04-19",
     "kickoff_time": "22:30",
@@ -531,11 +506,11 @@
     "country": "INDONESIA",
     "team1": {
       "name": "Semen Padang",
-      "logo": "https://static.flashscore.com/res/image/data/YIfFHlZA-lYVjOwzj.png"
+      "logo": "https://static.flashscore.com/res/image/data/GCMr4XCr-K4Cn0tro.png"
     },
     "team2": {
       "name": "Persijap Jepara",
-      "logo": "https://static.flashscore.com/res/image/data/dZywdOCr-tQFkMBuJ.png"
+      "logo": "https://static.flashscore.com/res/image/data/tjn8RjEa-ngTEm5d7.png"
     },
     "kickoff_date": "2026-04-20",
     "kickoff_time": "15:30",
@@ -556,11 +531,11 @@
     "country": "INDONESIA",
     "team1": {
       "name": "Dewa United",
-      "logo": "https://static.flashscore.com/res/image/data/tj7pFDf5-x5Iv5Whf.png"
+      "logo": "https://static.flashscore.com/res/image/data/nmnoOY9r-fJYKj2Xi.png"
     },
     "team2": {
       "name": "Persib Bandung",
-      "logo": "https://static.flashscore.com/res/image/data/K8iuLpzB-4yW0q9o7.png"
+      "logo": "https://static.flashscore.com/res/image/data/QuGrSijl-fXN2TGqm.png"
     },
     "kickoff_date": "2026-04-20",
     "kickoff_time": "19:00",
