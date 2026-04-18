@@ -1,104 +1,5 @@
 [
   {
-    "id": "AlAhli-JohorDT",
-    "sport": "Football",
-    "league": "Liga Champions AFC - Play Off",
-    "country": "ASIA",
-    "team1": {
-      "name": "Al Ahli SC",
-      "logo": "https://static.flashscore.com/res/image/data/rkvFdlDa-tjD2oGGi.png"
-    },
-    "team2": {
-      "name": "Johor DT",
-      "logo": "https://static.flashscore.com/res/image/data/SlUDTKeM-d29rUy0U.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "21:45",
-    "match_date": "2026-04-17",
-    "match_time": "21:40",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?hls=https://hls.686868.me/live/AMIKE/index.m3u8?expire=1922359320&sign=83372e206c208bbc12257cf3651c5fc8", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?hls=https://live5.msrktz.app/live/90865415.m3u8", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?hls=https://hls.livelivelive.space/live/4531040.m3u8", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Persebaya-Madura",
-    "sport": "Football",
-    "league": "Super League",
-    "country": "INDONESIA",
-    "team1": {
-      "name": "Persebaya",
-      "logo": "https://static.flashscore.com/res/image/data/8MQJKwvS-jaJfGoOS.png"
-    },
-    "team2": {
-      "name": "Madura United",
-      "logo": "https://static.flashscore.com/res/image/data/8rLZRaFa-llzIXtHf.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "19:00",
-    "match_date": "2026-04-17",
-    "match_time": "18:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2975691-alahli-sfc-vs-johor-darul-takzim.html", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?hls=ch1", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?hls=ch2", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Sassuolo-Como",
-    "sport": "Football",
-    "league": "Serie A",
-    "country": "ITALY",
-    "team1": {
-      "name": "Sassuolo",
-      "logo": "https://tmssl.akamaized.net/images/wappen/head/6574.png"
-    },
-    "team2": {
-      "name": "Como",
-      "logo": "https://static.flashscore.com/res/image/data/Cf5pQNyS-hpmw8K1h.png"
-    },
-    "kickoff_date": "2026-04-17",
-    "kickoff_time": "23:30",
-    "match_date": "2026-04-17",
-    "match_time": "23:25",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein3aus", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=fubo2", "label": "CH HD 2" },
-      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2784810-sassuolo-vs-como.html", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Machida-AlIttihad",
-    "sport": "Football",
-    "league": "Liga Champions AFC - Play Off",
-    "country": "ASIA",
-    "team1": {
-      "name": "Machida Zelvia",
-      "logo": "https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png"
-    },
-    "team2": {
-      "name": "Al-Ittihad",
-      "logo": "https://static.flashscore.com/res/image/data/UmlxT0ZA-jeFu6Qy4.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "01:00",
-    "match_date": "2026-04-18",
-    "match_time": "00:55",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2976008-machida-zelvia-vs-alittihad.html", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2aus", "label": "CH HD 2" }
-    ],
-    "gender": "M"
-  },
-  {
     "id": "Arema-Persis",
     "sport": "Football",
     "league": "Super League",
@@ -112,16 +13,14 @@
       "logo": "https://static.flashscore.com/res/image/data/j3lsUVCa-UHp0ZgHn.png"
     },
     "kickoff_date": "2026-04-18",
-    "kickoff_time": "15:30",
+    "kickoff_time": "12:30",
     "match_date": "2026-04-18",
-    "match_time": "15:25",
+    "match_time": "12:25",
     "duration": "3.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=vidio1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=vidio2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=indosiar", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=moji", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=nex", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=https://hls.livelivelive.space/live/4514922.m3u8", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -144,11 +43,9 @@
     "match_time": "18:25",
     "duration": "3.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=vidioepl1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=vidioepl2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -171,11 +68,9 @@
     "match_time": "18:55",
     "duration": "3.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=vidio1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=vidio2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=indosiar", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=moji", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=nex", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -198,11 +93,9 @@
     "match_time": "18:55",
     "duration": "3.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=vidio1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=vidio2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=indosiar", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=moji", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=nex", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -225,11 +118,9 @@
     "match_time": "20:55",
     "duration": "3.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=vidioepl1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=vidioepl2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -252,11 +143,9 @@
     "match_time": "23:10",
     "duration": "3.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo1", "label": "CH HD 4" },
-      { "url": "https://pluyer.pages.dev/?shaka=sport1", "label": "CH HD 5" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -281,9 +170,9 @@
     "match_time": "21:00",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -308,9 +197,9 @@
     "match_time": "23:30",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -335,9 +224,9 @@
     "match_time": "01:45",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -362,9 +251,9 @@
     "match_time": "20:00",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -389,9 +278,9 @@
     "match_time": "23:00",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -416,9 +305,9 @@
     "match_time": "01:30",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
@@ -443,9 +332,9 @@
     "match_time": "20:30",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein1", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein2", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=bein3", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   }
