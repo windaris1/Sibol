@@ -18,7 +18,7 @@
     "match_time": "12:25",
     "duration": "3.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?hls=https://hls.livelivelive.space/live/4514922.m3u8", "label": "CH HD 1" },
+      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2826392-arema-fc-vs-persis-solo-fc.html", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
