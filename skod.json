@@ -1,72 +1,47 @@
 [
   {
-    "id": "Arema-Persis",
+    "id": "Persik-Persita",
     "sport": "Football",
     "league": "Super League",
     "country": "INDONESIA",
     "team1": {
-      "name": "Arema FC",
-      "logo": "https://static.flashscore.com/res/image/data/CnpWgcCa-nm2W7Uxp.png"
+      "name": "Persik Kediri",
+      "logo": "https://static.flashscore.com/res/image/data/n5HTzvg5-f56mT9cO.png"
     },
     "team2": {
-      "name": "Persis Solo",
-      "logo": "https://static.flashscore.com/res/image/data/j3lsUVCa-UHp0ZgHn.png"
+      "name": "Persita",
+      "logo": "https://static.flashscore.com/res/image/data/IUlHOUlg-I3H7dYxC.png"
     },
-    "kickoff_date": "2026-04-18",
+    "kickoff_date": "2026-04-19",
     "kickoff_time": "15:30",
-    "match_date": "2026-04-18",
+    "match_date": "2026-04-19",
     "match_time": "15:25",
-    "duration": "3.5",
+    "duration": "2.5",
     "servers": [
-      { "url": "https://ifro.pages.dev/?scr=https://idn267.marza12.shop/football/2826392-arema-fc-vs-persis-solo-fc.html", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
   {
-    "id": "Brentford-Fulham",
-    "sport": "Football",
-    "league": "Liga Primer",
-    "country": "INGGRIS",
-    "team1": {
-      "name": "Brentford",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
-    },
-    "team2": {
-      "name": "Fulham",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "18:30",
-    "match_date": "2026-04-18",
-    "match_time": "18:25",
-    "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=fubo", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=tnt1", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=universo", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "PSBS-Persija",
+    "id": "SemenPadang-Persijap",
     "sport": "Football",
     "league": "Super League",
     "country": "INDONESIA",
     "team1": {
-      "name": "PSBS Biak",
-      "logo": "https://static.flashscore.com/res/image/data/YTyuYOfM-phR6Gnck.png"
+      "name": "Semen Padang",
+      "logo": "https://static.flashscore.com/res/image/data/YIfFHlZA-lYVjOwzj.png"
     },
     "team2": {
-      "name": "Persija Jakarta",
-      "logo": "https://static.flashscore.com/res/image/data/2uyZBddM-65biHEjh.png"
+      "name": "Persijap Jepara",
+      "logo": "https://static.flashscore.com/res/image/data/dZywdOCr-tQFkMBuJ.png"
     },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "19:00",
-    "match_date": "2026-04-18",
-    "match_time": "18:55",
-    "duration": "3.5",
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "15:30",
+    "match_date": "2026-04-19",
+    "match_time": "15:25",
+    "duration": "2.5",
     "servers": [
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
@@ -75,23 +50,48 @@
     "gender": "M"
   },
   {
-    "id": "PSM-Borneo",
+    "id": "Cremonese-Torino",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALIA",
+    "team1": {
+      "name": "Cremonese",
+      "logo": "https://static.flashscore.com/res/image/data/jpHPmkDA-l0xDBECn.png"
+    },
+    "team2": {
+      "name": "Torino",
+      "logo": "https://static.flashscore.com/res/image/data/dEi0SJf5-0D1JQwom.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "17:30",
+    "match_date": "2026-04-19",
+    "match_time": "17:25",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Bali-Malut",
     "sport": "Football",
     "league": "Super League",
     "country": "INDONESIA",
     "team1": {
-      "name": "PSM Makassar",
-      "logo": "https://static.flashscore.com/res/image/data/825RIjg5-jNkiROW3.png"
+      "name": "Bali United",
+      "logo": "https://static.flashscore.com/res/image/data/MD8uD7Ya-bhSUvrXR.png"
     },
     "team2": {
-      "name": "Borneo FC",
-      "logo": "https://static.flashscore.com/res/image/data/WtXOUJEG-SKnIGW8l.png"
+      "name": "Malut United",
+      "logo": "https://static.flashscore.com/res/image/data/QXVxXizB-MEc7OWEa.png"
     },
-    "kickoff_date": "2026-04-18",
+    "kickoff_date": "2026-04-19",
     "kickoff_time": "19:00",
-    "match_date": "2026-04-18",
+    "match_date": "2026-04-19",
     "match_time": "18:55",
-    "duration": "3.5",
+    "duration": "2.5",
     "servers": [
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
@@ -100,23 +100,73 @@
     "gender": "M"
   },
   {
-    "id": "Leeds-Wolves",
+    "id": "DewaUnited-Persib",
+    "sport": "Football",
+    "league": "Super League",
+    "country": "INDONESIA",
+    "team1": {
+      "name": "Dewa United",
+      "logo": "https://static.flashscore.com/res/image/data/tj7pFDf5-x5Iv5Whf.png"
+    },
+    "team2": {
+      "name": "Persib Bandung",
+      "logo": "https://static.flashscore.com/res/image/data/K8iuLpzB-4yW0q9o7.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "19:00",
+    "match_date": "2026-04-19",
+    "match_time": "18:55",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "IndonesiaU17-VietnamU17",
+    "sport": "Football",
+    "league": "AFC U17 Asian Cup",
+    "country": "ASIA",
+    "team1": {
+      "name": "Indonesia U17",
+      "logo": "https://static.flashscore.com/res/image/data/6GQhOkf5-jAZ3xW0M.png"
+    },
+    "team2": {
+      "name": "Vietnam U17",
+      "logo": "https://static.flashscore.com/res/image/data/OfB2t6eM-Q5L89vYF.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "19:30",
+    "match_date": "2026-04-19",
+    "match_time": "19:25",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "AstonVilla-Sunderland",
     "sport": "Football",
     "league": "Liga Primer",
     "country": "INGGRIS",
     "team1": {
-      "name": "Leeds United",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+      "name": "Aston Villa",
+      "logo": "https://static.flashscore.com/res/image/data/QSGzxDGl-hfW4cRkg.png"
     },
     "team2": {
-      "name": "Wolves",
-      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
+      "name": "Sunderland",
+      "logo": "https://static.flashscore.com/res/image/data/t5RvByfa-xEX8mLHR.png"
     },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "21:00",
-    "match_date": "2026-04-18",
-    "match_time": "20:55",
-    "duration": "3.5",
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "20:00",
+    "match_date": "2026-04-19",
+    "match_time": "19:55",
+    "duration": "2.5",
     "servers": [
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
@@ -125,212 +175,423 @@
     "gender": "M"
   },
   {
-    "id": "Buriram-AlAhliDubai",
+    "id": "Everton-Liverpool",
+    "sport": "Football",
+    "league": "Liga Primer",
+    "country": "INGGRIS",
+    "team1": {
+      "name": "Everton",
+      "logo": "https://static.flashscore.com/res/image/data/d0FzC9zB-WGXv0dC6.png"
+    },
+    "team2": {
+      "name": "Liverpool",
+      "logo": "https://static.flashscore.com/res/image/data/zASnkOYA-8qGyhGWm.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "20:00",
+    "match_date": "2026-04-19",
+    "match_time": "19:55",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Nottingham-Burnley",
+    "sport": "Football",
+    "league": "Liga Primer",
+    "country": "INGGRIS",
+    "team1": {
+      "name": "Nottingham",
+      "logo": "https://static.flashscore.com/res/image/data/IwBPl4YA-6uT7i1if.png"
+    },
+    "team2": {
+      "name": "Burnley",
+      "logo": "https://static.flashscore.com/res/image/data/txWx42YA-fU0ztc4d.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "20:00",
+    "match_date": "2026-04-19",
+    "match_time": "19:55",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Verona-ACMilan",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALIA",
+    "team1": {
+      "name": "Verona",
+      "logo": "https://static.flashscore.com/res/image/data/QZNdJmZA-bpxu6DQE.png"
+    },
+    "team2": {
+      "name": "AC Milan",
+      "logo": "https://static.flashscore.com/res/image/data/vIpvGRZA-6ANFl4V7.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "20:00",
+    "match_date": "2026-04-19",
+    "match_time": "19:55",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Monaco-Auxerre",
+    "sport": "Football",
+    "league": "Ligue 1",
+    "country": "PERANCIS",
+    "team1": {
+      "name": "Monaco",
+      "logo": "https://static.flashscore.com/res/image/data/zC8IH0fM-I0AwZheP.png"
+    },
+    "team2": {
+      "name": "Auxerre",
+      "logo": "https://static.flashscore.com/res/image/data/SrQyA3fM-QClxzBhb.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "20:00",
+    "match_date": "2026-04-19",
+    "match_time": "19:55",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Freiburg-Heidenheim",
+    "sport": "Football",
+    "league": "Bundesliga",
+    "country": "JERMAN",
+    "team1": {
+      "name": "Freiburg",
+      "logo": "https://static.flashscore.com/res/image/data/WOPqSnZA-ffPz9SSq.png"
+    },
+    "team2": {
+      "name": "Heidenheim",
+      "logo": "https://static.flashscore.com/res/image/data/QnNTQqZA-I7Vuf26C.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "20:30",
+    "match_date": "2026-04-19",
+    "match_time": "20:25",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Metz-ParisFC",
+    "sport": "Football",
+    "league": "Ligue 1",
+    "country": "PERANCIS",
+    "team1": {
+      "name": "Metz",
+      "logo": "https://static.flashscore.com/res/image/data/v5Rp5BZA-0hEg4a1j.png"
+    },
+    "team2": {
+      "name": "Paris FC",
+      "logo": "https://static.flashscore.com/res/image/data/0WiAroZA-hrZ3C3R5.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:15",
+    "match_date": "2026-04-19",
+    "match_time": "22:10",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Nantes-Brest",
+    "sport": "Football",
+    "league": "Ligue 1",
+    "country": "PERANCIS",
+    "team1": {
+      "name": "Nantes",
+      "logo": "https://static.flashscore.com/res/image/data/0Wml87ZA-2sO1xOKI.png"
+    },
+    "team2": {
+      "name": "Brest",
+      "logo": "https://static.flashscore.com/res/image/data/zt7zpPZA-Iv5O7hUO.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:15",
+    "match_date": "2026-04-19",
+    "match_time": "22:10",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Strasbourg-Rennes",
+    "sport": "Football",
+    "league": "Ligue 1",
+    "country": "PERANCIS",
+    "team1": {
+      "name": "Strasbourg",
+      "logo": "https://static.flashscore.com/res/image/data/4XPZzpfM-hrp03NJ9.png"
+    },
+    "team2": {
+      "name": "Rennes",
+      "logo": "https://static.flashscore.com/res/image/data/SuGRPVYA-6EEtZxtM.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:15",
+    "match_date": "2026-04-19",
+    "match_time": "22:10",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "ManCity-Arsenal",
+    "sport": "Football",
+    "league": "Liga Primer",
+    "country": "INGGRIS",
+    "team1": {
+      "name": "Manchester City",
+      "logo": "https://static.flashscore.com/res/image/data/xO6sgCYA-8cGJg5UF.png"
+    },
+    "team2": {
+      "name": "Arsenal",
+      "logo": "https://static.flashscore.com/res/image/data/EeCjvUYA-WKwXZvF2.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:30",
+    "match_date": "2026-04-19",
+    "match_time": "22:25",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Bayern-Stuttgart",
+    "sport": "Football",
+    "league": "Bundesliga",
+    "country": "JERMAN",
+    "team1": {
+      "name": "Bayern Munich",
+      "logo": "https://static.flashscore.com/res/image/data/8MOG4vYA-6qQpWGBJ.png"
+    },
+    "team2": {
+      "name": "VfB Stuttgart",
+      "logo": "https://static.flashscore.com/res/image/data/6qEVcPyS-jNVjY42d.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "22:30",
+    "match_date": "2026-04-19",
+    "match_time": "22:25",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Pisa-Genoa",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALIA",
+    "team1": {
+      "name": "Pisa",
+      "logo": "https://static.flashscore.com/res/image/data/dKW3Q0eM-l0kNKvwT.png"
+    },
+    "team2": {
+      "name": "Genoa",
+      "logo": "https://static.flashscore.com/res/image/data/0y2oB3e5-WKY93bB1.png"
+    },
+    "kickoff_date": "2026-04-19",
+    "kickoff_time": "23:00",
+    "match_date": "2026-04-19",
+    "match_time": "22:55",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Monchengladbach-Mainz",
+    "sport": "Football",
+    "league": "Bundesliga",
+    "country": "JERMAN",
+    "team1": {
+      "name": "B. Monchengladbach",
+      "logo": "https://static.flashscore.com/res/image/data/QQW8bBZA-fB4Ce37r.png"
+    },
+    "team2": {
+      "name": "Mainz",
+      "logo": "https://static.flashscore.com/res/image/data/jnNLRtzB-lrNmjTTg.png"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "00:30",
+    "match_date": "2026-04-20",
+    "match_time": "00:25",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Juventus-Bologna",
+    "sport": "Football",
+    "league": "Serie A",
+    "country": "ITALIA",
+    "team1": {
+      "name": "Juventus",
+      "logo": "https://static.flashscore.com/res/image/data/dyZ02vf5-Ephjge5C.png"
+    },
+    "team2": {
+      "name": "Bologna",
+      "logo": "https://static.flashscore.com/res/image/data/nrKYGJZA-AAvSi4Vq.png"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "01:45",
+    "match_date": "2026-04-20",
+    "match_time": "01:40",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "PSG-Lyon",
+    "sport": "Football",
+    "league": "Ligue 1",
+    "country": "PERANCIS",
+    "team1": {
+      "name": "PSG",
+      "logo": "https://static.flashscore.com/res/image/data/EjnwPEf5-WBjMy4Z5.png"
+    },
+    "team2": {
+      "name": "Lyon",
+      "logo": "https://static.flashscore.com/res/image/data/zAbOGmyS-hWj2BcmA.png"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "01:45",
+    "match_date": "2026-04-20",
+    "match_time": "01:40",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "SemenPadang-Persijap",
+    "sport": "Football",
+    "league": "Super League",
+    "country": "INDONESIA",
+    "team1": {
+      "name": "Semen Padang",
+      "logo": "https://static.flashscore.com/res/image/data/YIfFHlZA-lYVjOwzj.png"
+    },
+    "team2": {
+      "name": "Persijap Jepara",
+      "logo": "https://static.flashscore.com/res/image/data/dZywdOCr-tQFkMBuJ.png"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "15:30",
+    "match_date": "2026-04-20",
+    "match_time": "15:25",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "DewaUnited-Persib",
+    "sport": "Football",
+    "league": "Super League",
+    "country": "INDONESIA",
+    "team1": {
+      "name": "Dewa United",
+      "logo": "https://static.flashscore.com/res/image/data/tj7pFDf5-x5Iv5Whf.png"
+    },
+    "team2": {
+      "name": "Persib Bandung",
+      "logo": "https://static.flashscore.com/res/image/data/K8iuLpzB-4yW0q9o7.png"
+    },
+    "kickoff_date": "2026-04-20",
+    "kickoff_time": "19:00",
+    "match_date": "2026-04-20",
+    "match_time": "18:55",
+    "duration": "2.5",
+    "servers": [
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+    ],
+    "gender": "M"
+  },
+  {
+    "id": "Kobe-AlAhliSC",
     "sport": "Football",
     "league": "Liga Champions AFC - Play Off",
     "country": "ASIA",
     "team1": {
-      "name": "Buriram United",
-      "logo": "https://static.flashscore.com/res/image/data/KCS8nzyS-AHLMjQO5.png"
+      "name": "Kobe",
+      "logo": "https://static.flashscore.com/res/image/data/Wy5ePHlG-0yY8M3bT.png"
     },
     "team2": {
-      "name": "Al Ahli Dubai",
-      "logo": "https://static.flashscore.com/res/image/data/0CZOhXDa-8zUcYY2j.png"
+      "name": "Al Ahli SC",
+      "logo": "https://static.flashscore.com/res/image/data/zJ8TfDzB-64nQQX4a.png"
     },
-    "kickoff_date": "2026-04-18",
+    "kickoff_date": "2026-04-20",
     "kickoff_time": "23:15",
-    "match_date": "2026-04-18",
+    "match_date": "2026-04-20",
     "match_time": "23:10",
     "duration": "3.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Newcastle-Bournemouth",
-    "sport": "Football",
-    "league": "Liga Primer",
-    "country": "INGGRIS",
-    "countryFlag": "https://flagcdn.com/w20/gb-eng.png",
-    "leagueLogo": "https://static.flashscore.com/res/image/data/premier-league.png",
-    "team1": {
-      "name": "Newcastle Utd",
-      "logo": "https://static.flashscore.com/res/image/data/fojwJwZA-2Vnc5VQf.png"
-    },
-    "team2": {
-      "name": "Bournemouth",
-      "logo": "https://static.flashscore.com/res/image/data/2Pb55xWg-fVlIcxl3.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "21:00",
-    "match_date": "2026-04-18",
-    "match_time": "21:00",
-    "duration": "2.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Tottenham-Brighton",
-    "sport": "Football",
-    "league": "Liga Primer",
-    "country": "INGGRIS",
-    "countryFlag": "https://flagcdn.com/w20/gb-eng.png",
-    "leagueLogo": "https://static.flashscore.com/res/image/data/premier-league.png",
-    "team1": {
-      "name": "Tottenham",
-      "logo": "https://static.flashscore.com/res/image/data/ARC62UAr-Ig5FKJZ5.png"
-    },
-    "team2": {
-      "name": "Brighton",
-      "logo": "https://static.flashscore.com/res/image/data/40juIezB-b92lfEJC.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "23:30",
-    "match_date": "2026-04-18",
-    "match_time": "23:30",
-    "duration": "2.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Inter-Cagliari",
-    "sport": "Football",
-    "league": "Serie A",
-    "country": "ITALIA",
-    "countryFlag": "https://flagcdn.com/w20/it.png",
-    "leagueLogo": "https://static.flashscore.com/res/image/data/serie-a.png",
-    "team1": {
-      "name": "Inter",
-      "logo": "https://static.flashscore.com/res/image/data/lxz64qDa-O8c8nWOb.png"
-    },
-    "team2": {
-      "name": "Cagliari",
-      "logo": "https://static.flashscore.com/res/image/data/IBlLf9f5-McvX4bye.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "01:45",
-    "match_date": "2026-04-18",
-    "match_time": "01:45",
-    "duration": "2.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Udinese-Parma",
-    "sport": "Football",
-    "league": "Serie A",
-    "country": "ITALIA",
-    "countryFlag": "https://flagcdn.com/w20/it.png",
-    "leagueLogo": "https://static.flashscore.com/res/image/data/serie-a.png",
-    "team1": {
-      "name": "Udinese",
-      "logo": "https://static.flashscore.com/res/image/data/AZBQMaYA-SYw7EcY6.png"
-    },
-    "team2": {
-      "name": "Parma",
-      "logo": "https://static.flashscore.com/res/image/data/YcrE7ae5-fydXzLY6.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "20:00",
-    "match_date": "2026-04-18",
-    "match_time": "20:00",
-    "duration": "2.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=bein3aus", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=ziggo", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Napoli-Lazio",
-    "sport": "Football",
-    "league": "Serie A",
-    "country": "ITALIA",
-    "countryFlag": "https://flagcdn.com/w20/it.png",
-    "leagueLogo": "https://static.flashscore.com/res/image/data/serie-a.png",
-    "team1": {
-      "name": "Napoli",
-      "logo": "https://static.flashscore.com/res/image/data/lhPsgJWg-Stb48WaO.png"
-    },
-    "team2": {
-      "name": "Lazio",
-      "logo": "https://static.flashscore.com/res/image/data/zXqymff5-EaFfQ9z6.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "23:00",
-    "match_date": "2026-04-18",
-    "match_time": "23:00",
-    "duration": "2.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "StPauli-Koln",
-    "sport": "Football",
-    "league": "Bundesliga",
-    "country": "JERMAN",
-    "countryFlag": "https://flagcdn.com/w20/de.png",
-    "leagueLogo": "https://static.flashscore.com/res/image/data/bundesliga.png",
-    "team1": {
-      "name": "St. Pauli",
-      "logo": "https://static.flashscore.com/res/image/data/QZX02wCr-lrmFNGea.png"
-    },
-    "team2": {
-      "name": "Köln",
-      "logo": "https://static.flashscore.com/res/image/data/8hxnRHEa-86lnAaq9.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "01:30",
-    "match_date": "2026-04-18",
-    "match_time": "01:30",
-    "duration": "2.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
-    "id": "Leverkusen-Augsburg",
-    "sport": "Football",
-    "league": "Bundesliga",
-    "country": "JERMAN",
-    "countryFlag": "https://flagcdn.com/w20/de.png",
-    "leagueLogo": "https://static.flashscore.com/res/image/data/bundesliga.png",
-    "team1": {
-      "name": "Bayer Leverkusen",
-      "logo": "https://static.flashscore.com/res/image/data/OWpaDOYA-WrjrBuU2.png"
-    },
-    "team2": {
-      "name": "Augsburg",
-      "logo": "https://static.flashscore.com/res/image/data/6ZUvwjgl-Qmnf8wEL.png"
-    },
-    "kickoff_date": "2026-04-18",
-    "kickoff_time": "20:30",
-    "match_date": "2026-04-18",
-    "match_time": "20:30",
-    "duration": "2.5",
     "servers": [
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
