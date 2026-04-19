@@ -19,8 +19,8 @@
     "duration": "2.5",
     "servers": [
       { "url": "https://ifro.pages.dev/?scr=https://idn269.marza12.shop/football/2826395-persik-kediri-vs-persita-tangerang.html", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?hls=https://tfv60gr3uomttgr31hcttfa5dqmmcpf5gkcjqqb3g6cudctzga4mscwzgg55p.100ycdn.com/live1.pro2cdnlive.com/live/channel23/playlist.m3u8?wsSecret=18c46aefa8d290b18fd45d8a8bf5516a&wsABSTime=1776631868&wsSession=77e40e0a652d9c55e3e1bcab-177658867075952&wsIPSercert=9c5c7372c9df90f3d45493ab86a1f1de&wsBindIP=2&wsserid=1168278524586706381", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?hls=https://tfv60gr3uomttgr31hcttfa5dqmmcpf5gkcjqqb3g6cudctzga4mscwzgg55p.100ycdn.com/live1.pro2cdnlive.com/live/channel23/playlist.m3u8?wsSecret=18c46aefa8d290b18fd45d8a8bf5516a&wsABSTime=1776631868&wsSession=77e40e0a652d9c55e3e1bcab-177658867075952&wsIPSercert=9c5c7372c9df90f3d45493ab86a1f1de&wsBindIP=2&wsserid=1168278524586706381", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
