@@ -92,7 +92,7 @@
     "match_time": "19:25",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?hls=https://live5.msrktz.app/live/14707124.m3u8", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?hls=https://tfv64gr3uomttgr31hcjtgozdkqbpptwzc3jtf3a8r531cp1gh5djq31o.100ycdn.com/live1.pro2cdnlive.com/live/channel19/playlist.m3u8?wsSecret=93d9347624ff6acbf6887f9e307666b1&wsABSTime=1776645482&wsSession=f30b28844ea2b6e9cfc41902-177660228389097&wsIPSercert=9c5c7372c9df90f3d45493ab86a1f1de&wsBindIP=2&wsserid=1168240905485119020", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
