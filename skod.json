@@ -92,7 +92,7 @@
     "match_time": "19:25",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?hls=https://live5.msrktz.app/live/14707124.m3u8", "label": "CH HD 1" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
