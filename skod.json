@@ -69,8 +69,7 @@
     "duration": "2.5",
     "servers": [
       { "url": "https://pluyer.pages.dev/?hls=https://hls-ls.cdnok9.com/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?hls=https://hls-ls.cdnok9.com/live/MOTCHAN1/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?hls=https://hls-ls.cdnok9.com/live/MOTCHAN1/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299", "label": "CH HD 2" }
     ],
     "gender": "M"
   },
