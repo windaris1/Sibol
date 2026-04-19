@@ -217,8 +217,8 @@
     "match_time": "19:55",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?envivo=20", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?envivo=69", "label": "CH HD 2" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
