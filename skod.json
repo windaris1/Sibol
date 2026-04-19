@@ -75,31 +75,6 @@
     "gender": "M"
   },
   {
-    "id": "DewaUnited-Persib",
-    "sport": "Football",
-    "league": "Super League",
-    "country": "INDONESIA",
-    "team1": {
-      "name": "Dewa United",
-      "logo": "https://static.flashscore.com/res/image/data/nmnoOY9r-fJYKj2Xi.png"
-    },
-    "team2": {
-      "name": "Persib Bandung",
-      "logo": "https://static.flashscore.com/res/image/data/QuGrSijl-fXN2TGqm.png"
-    },
-    "kickoff_date": "2026-04-19",
-    "kickoff_time": "19:00",
-    "match_date": "2026-04-19",
-    "match_time": "18:55",
-    "duration": "2.5",
-    "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
-    ],
-    "gender": "M"
-  },
-  {
     "id": "IndonesiaU17-VietnamU17",
     "sport": "Football",
     "league": "AFC U17 Asian Cup",
@@ -143,8 +118,8 @@
     "match_time": "19:55",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?envivo=13", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?envivo=129", "label": "CH HD 2" },
       { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
     ],
     "gender": "M"
