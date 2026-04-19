@@ -43,9 +43,9 @@
     "match_time": "17:25",
     "duration": "2.5",
     "servers": [
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 1" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 2" },
-      { "url": "https://pluyer.pages.dev/?shaka=", "label": "CH HD 3" }
+      { "url": "https://pluyer.pages.dev/?shaka=bein3aus", "label": "CH HD 1" },
+      { "url": "https://pluyer.pages.dev/?envivo=70", "label": "CH HD 2" },
+      { "url": "https://pluyer.pages.dev/?hls=https://hls-ls.cdnok9.com/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6", "label": "CH HD 3" }
     ],
     "gender": "M"
   },
