@@ -155,14 +155,21 @@ function openPopup(type, title = '') {
 
   activeLeague = type;
   popupTitle.innerText = title || (type === 'LIVE' ? 'Pertandingan LIVE' : type);
+  
+  // Set top = tinggi .left-sidebar biar mentok
+  const sidebarHeight = leftSidebar.offsetHeight;
+  matchPopup.style.top = sidebarHeight + 'px';
+  
   renderPopupList();
   popupOverlay.classList.add('show');
   matchPopup.classList.add('show');
+  document.body.style.overflow = 'hidden';
 }
 
 function closePopup() {
   popupOverlay.classList.remove('show');
   matchPopup.classList.remove('show');
+  document.body.style.overflow = '';
 }
 popupOverlay.onclick = closePopup;
 popupClose.onclick = closePopup;
@@ -192,7 +199,6 @@ function renderPopupList() {
           <div class="popup-match-name">${match.team1.name} vs ${match.team2.name}</div>
           <div class="popup-match-league">${match.league} • ${tgl}</div>
         </div>
-      </div>
       <div class="popup-match-info">
         ${isLive ? '<div class="popup-match-live">● LIVE</div>' : ''}
         <div class="popup-match-time">${match.kickoff_time}</div>
