@@ -1,3 +1,9 @@
+@supports not (height: 100dvh) {
+  html, body { height: 100%; }
+  body, .main-layout { height: calc(100% - var(--chat-height)) !important; }
+  .main-layout { height: calc(100% - var(--chat-height)) !important; }
+}
+
 :root {
   --bg: #0a0a0f; --card: #15151f; --primary: #3b82f6;
   --text: #e5e5e5; --border: #2a2a3a; --yellow: #facc15;
@@ -11,14 +17,20 @@ body {
   color: var(--text); 
   padding-bottom: var(--chat-height);
   overflow: hidden;
-  height: 100vh;
+  height: 100dvh;
+  position: fixed;
+  width: 100%;
 }
 
 /* LAYOUT DEFAULT: FULL LAYAR */
 .main-layout {
   display: flex;
-  height: calc(100vh - var(--chat-height));
+  height: calc(100dvh - var(--chat-height));
   flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .left-sidebar {
@@ -434,7 +446,6 @@ body {
 .popup-match-info { text-align: right; font-size: 13px; }
 .popup-match-time { color: var(--blue); font-weight: 700; }
 .popup-match-live { color: var(--red); font-weight: 700; font-size: 12px; }
-
 
 /* MOBILE: STACK ATAS BAWAH TAPI FULL LAYAR */
 @media (max-width: 768px) {
