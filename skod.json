@@ -1,34 +1,44 @@
 [
   {
-    "id": "ManCity-Arsenal",
+    "id": "Machida-AlAhliDubai",
     "sport": "football",
-    "league": "Premier League",
+    "league": "Liga Champions AFC - Play Off",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Manchester City" },
-    "team2": { "name": "Arsenal" },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "23:30",
+    "team1": { "name": "Machida Zelvia", "country": "JPN" },
+    "team2": { "name": "Al Ahli Dubai", "country": "UAE" },
+    "kickoff_date": "2026-04-21",
+    "kickoff_time": "23:15",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://pluyer.pages.dev/?shaka=spotv" },
-      { "name": "CH 2 - FHD", "url": "https://pluyer.pages.dev/?shaka=spotv2" },
-      { "name": "CH 3 - Backup", "url": "https://pluyer.pages.dev/?shaka=tnt1" }
+      { "name": "CH 1 - HD", "url": "https://pluyer.pages.dev/?shaka=afc1" }
     ]
   },
   {
-    "id": "ManCity-Arsenal",
+    "id": "Lecce-Fiorentina",
+    "sport": "football",
+    "league": "Serie A",
+    "league_logo": "https://static.flashscore.com/res/image/data/EZqsxLtM-42ZiZu1I.png",
+    "team1": { "name": "Lecce", "country": "ITA" },
+    "team2": { "name": "Fiorentina", "country": "ITA" },
+    "kickoff_date": "2026-04-22",
+    "kickoff_time": "01:45",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://pluyer.pages.dev/?shaka=seriea1" }
+    ]
+  },
+  {
+    "id": "CrystalPalace-WestHam",
     "sport": "football",
     "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Manchester City" },
-    "team2": { "name": "Arsenal" },
-    "kickoff_date": "2026-04-20",
-    "kickoff_time": "23:30",
+    "team1": { "name": "Crystal Palace", "country": "ENG" },
+    "team2": { "name": "West Ham", "country": "ENG" },
+    "kickoff_date": "2026-04-22",
+    "kickoff_time": "02:00",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://pluyer.pages.dev/?shaka=spotv" },
-      { "name": "CH 2 - FHD", "url": "https://pluyer.pages.dev/?shaka=spotv2" },
-      { "name": "CH 3 - Backup", "url": "https://pluyer.pages.dev/?shaka=tnt1" }
+      { "name": "CH 1 - HD", "url": "https://pluyer.pages.dev/?shaka=epl1" }
     ]
   }
 ]
