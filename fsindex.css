@@ -316,6 +316,7 @@ body {
   left: 0;
   right: 0;
   display: flex;
+  align-items: center; /* tambah ini */
   gap: 6px;
   padding: 8px;
   padding-bottom: calc(8px + env(safe-area-inset-bottom));
@@ -327,34 +328,30 @@ body {
 
 #chat-name {
   width: 75px;
+  height: 42px; /* tambah ini */
   background: #0a0a0f;
   border: 1px solid #2a2a3a;
   border-radius: 20px;
-  padding: 10px 12px;
+  padding: 0 12px; /* ganti dari 10px 12px */
   color: #fff;
   font-size: 12px;
 }
 
 #chat-msg {
   flex: 1;
+  height: 42px; /* tambah ini */
   background: #0a0a0f;
   border: 1px solid #2a2a3a;
   border-radius: 20px;
-  padding: 10px 16px;
+  padding: 0 16px; /* ganti dari 10px 16px */
   color: #fff;
-  font-size: 16px; /* wajib 16px biar iOS ga zoom */
-}
-
-#chat-name:focus, #chat-msg:focus {
-  outline: none;
-  border-color: #3b82f6;
+  font-size: 16px;
 }
 
 #chat-send {
-  background: #0a0a0f;
+  background: #3b82f6; /* ganti biar keliatan, tadinya sama kayak bg */
   border: none;
   border-radius: 50%;
-  border: 1px solid #2a2a3a;
   width: 42px;
   height: 42px;
   color: #fff;
@@ -363,11 +360,12 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0;
+  flex-shrink: 0; /* tambah ini biar ga gepeng */
 }
 
 #chat-send svg {
-  margin-left: 2px;
-}
+  margin-left: 0; /* hapus margin */
+  width: 22
 
 #chat-send:active {
   background: #2563eb;
