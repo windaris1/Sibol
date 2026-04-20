@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
   <title>Sibal TV</title>
-
-<link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#15151f">
-<link rel="apple-touch-icon" href="/icoxs.png">
-
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#15151f">
+  <link rel="apple-touch-icon" href="/icoxs.png">
   <link rel="stylesheet" href="fsindex.css">
 </head>
 <body>
@@ -72,9 +69,19 @@
   </button>
 </div>
 
+<!-- TV MODAL -->
+<div class="tv-modal" id="tvModal">
+  <div class="tv-modal-content">
+    <div class="tv-modal-header">
+      <span>Pilih Channel TV</span>
+      <button class="close-btn" id="tvClose">✕</button>
+    </div>
+    <div class="tv-grid" id="tvGrid"></div>
+  </div>
+</div>
+
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
-
 <script src="fsindex.js"></script>
 
 </body>
