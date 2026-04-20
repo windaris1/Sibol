@@ -530,6 +530,7 @@ body {
   transform: scale(0.9);
 }
 
+
 /* === TV MODAL === */
 .tv-modal {
   display: none;
@@ -539,35 +540,36 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(4px);
 }
 
 .tv-modal.show {
   display: flex;
-  align-items: center;
+  align-items: flex-end; /* diubah ke bawah */
   justify-content: center;
   animation: fadeIn 0.2s;
 }
 
 .tv-modal-content {
   background: #0a0a0f;
-  width: 95%;
+  width: 100%; /* full width */
   max-width: 600px;
-  max-height: 60vh; /* diubah jadi 60% */
-  border-radius: 20px;
+  max-height: 50vh; /* dikecilin jadi 50% biar ga nutup player */
+  border-radius: 20px 20px 0 0; /* radius cuma atas */
   overflow: hidden;
   animation: slideUp 0.3s;
+  margin-bottom: 0; /* nempel bawah */
 }
 
 .tv-modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
+  padding: 14px 16px;
   background: #1a1a24;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -575,11 +577,11 @@ body {
   background: #2a2a35;
   border: none;
   color: #fff;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
   display: flex;
   align-items: center;
@@ -597,7 +599,7 @@ body {
   gap: 10px;
   padding: 12px;
   overflow-y: auto;
-  max-height: calc(60vh - 65px); /* sesuaikan sama tinggi modal */
+  max-height: calc(50vh - 58px); /* sesuaikan sama tinggi modal */
 }
 
 .channel-card {
@@ -610,11 +612,6 @@ body {
   border: 2px solid transparent;
 }
 
-.channel-card:hover {
-  border-color: #3b82f6;
-  transform: scale(1.05);
-}
-
 .channel-card:active {
   transform: scale(0.95);
   border-color: #3b82f6;
@@ -623,12 +620,12 @@ body {
 .channel-logo {
   width: 100%;
   height: 100%;
-  background: transparent; /* background ungu diilangin */
+  background: transparent; /* background ungu ilang */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0; /* padding diilangin */
+  padding: 0; /* padding ilang */
   position: relative;
 }
 
@@ -657,11 +654,11 @@ body {
 }
 
 @keyframes slideUp {
-  from { transform: translateY(30px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
 }
 
-/* === MOBILE TETEP 4 KOLOM === */
+/* === MOBILE === */
 @media (max-width: 480px) {
   .tv-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -675,11 +672,15 @@ body {
   }
   
   .channel-logo {
-    padding: 0; /* padding tetep 0 di mobile */
+    padding: 0;
   }
   
   .tv-modal-content {
-    width: 98%;
-    max-height: 60vh; /* tetep 60% di mobile */
+    width: 100%;
+    max-height: 45vh; /* mobile lebih pendek lagi */
+  }
+  
+  .tv-grid {
+    max-height: calc(45vh - 58px);
   }
 }
