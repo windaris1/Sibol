@@ -20,24 +20,24 @@ let TV_CHANNELS = [];
 async function openTVModal() {
   const sidebarHeight = leftSidebar.offsetHeight;
   tvModalContent.style.top = sidebarHeight + 'px';
-  
+
   tvModal.classList.add('show');
   document.body.style.overflow = 'hidden';
-  
+
   const grid = document.getElementById('tvGrid');
   grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;color:#666;padding:20px;">Loading...</div>';
-  
+
   try {
     if (TV_CHANNELS.length === 0) {
       const res = await fetch('chinel.json');
       TV_CHANNELS = await res.json();
     }
-    
+
     grid.innerHTML = TV_CHANNELS.map(ch => `
       <div class="channel-card" onclick="selectTVChannel('${ch.url}', '${ch.name}')">
         <div class="channel-logo">
           <img src="${ch.logo}" alt="${ch.name}" loading="lazy">
-          ${ch.status !== 'Online' ? '<div class="offline-badge">OFF</div>' : ''}
+          ${ch.status!== 'Online'? '<div class="offline-badge">OFF</div>' : ''}
         </div>
       </div>
     `).join('');
@@ -67,7 +67,7 @@ function selectTVChannel(url, name) {
 // === END MODAL TV ===
 
 const SPORTS = [
-  { id: 'livetv', name: 'TV', icon:'●'},
+  { id: 'livetv', name: 'TV', icon:''},
   { id: 'football', name: 'Football', icon: '⚽' },
   { id: 'badminton', name: 'Badminton', icon: '🏸' },
   { id: 'tennis', name: 'Tennis', icon: '🎾' },
@@ -128,11 +128,17 @@ function renderLeagueBar() {
     const btn = document.createElement('div');
     btn.className = 'league-item';
     btn.dataset.sport = sport.id;
-    btn.innerHTML = `
-      <span class="sport-icon">${sport.icon}</span>
-      ${sport.name}
-      ${count > 0 ? `<span class="badge">${count}</span>` : ''}
-    `;
+
+    if (sport.id === 'livetv') {
+      btn.innerHTML = `<span class="dot" style="background:#3b82f6;animation:none;"></span>${sport.name}`;
+    } else {
+      btn.innerHTML = `
+        <span class="sport-icon">${sport.icon}</span>
+        ${sport.name}
+        ${count > 0? `<span class="badge">${count}</span>` : ''}
+      `;
+    }
+
     btn.onclick = () => openPopup(sport.id, sport.name);
     leagueBar.appendChild(btn);
   });
@@ -154,12 +160,12 @@ function openPopup(type, title = '') {
   }
 
   activeLeague = type;
-  popupTitle.innerText = title || (type === 'LIVE' ? 'Pertandingan LIVE' : type);
-  
-  // Set top = tinggi .left-sidebar biar mentok
+  popupTitle.innerText = title || (type === 'LIVE'? 'Pertandingan LIVE' : type);
+
+  // Set top = tinggi.left-sidebar biar mentok
   const sidebarHeight = leftSidebar.offsetHeight;
   matchPopup.style.top = sidebarHeight + 'px';
-  
+
   renderPopupList();
   popupOverlay.classList.add('show');
   matchPopup.classList.add('show');
@@ -177,10 +183,10 @@ popupClose.onclick = closePopup;
 function renderPopupList() {
   filterActiveMatches();
   popupList.innerHTML = '';
-  let filtered = activeLeague === 'LIVE' 
-    ? MATCHES.filter(m => isMatchLive(m)) 
+  let filtered = activeLeague === 'LIVE'
+   ? MATCHES.filter(m => isMatchLive(m))
     : MATCHES.filter(m => m.sport === activeLeague);
-    
+
   if (filtered.length === 0) {
     popupList.innerHTML = '<div style="padding: 20px; text-align: center; color: #6b7280;">Ga ada jadwal</div>';
     return;
@@ -189,7 +195,7 @@ function renderPopupList() {
     const isLive = isMatchLive(match);
     const dateObj = new Date(`${match.kickoff_date}T00:00:00`);
     const tgl = dateObj.toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' });
-    
+
     const item = document.createElement('div');
     item.className = 'popup-match-item';
     item.innerHTML = `
@@ -199,8 +205,9 @@ function renderPopupList() {
           <div class="popup-match-name">${match.team1.name} vs ${match.team2.name}</div>
           <div class="popup-match-league">${match.league} • ${tgl}</div>
         </div>
+      </div>
       <div class="popup-match-info">
-        ${isLive ? '<div class="popup-match-live">● LIVE</div>' : ''}
+        ${isLive? '<div class="popup-match-live">● LIVE</div>' : ''}
         <div class="popup-match-time">${match.kickoff_time}</div>
       </div>
     `;
@@ -250,10 +257,10 @@ async function init() {
   try {
     const res = await fetch('skod.json');
     if (!res.ok) throw new Error('matches.json 404');
-    
+
     ALL_MATCHES = await res.json();
     renderLeagueBar();
-    
+
     const firstLive = MATCHES.find(m => isMatchLive(m));
     if (firstLive) {
       selectMatch(firstLive);
@@ -265,7 +272,7 @@ async function init() {
     setInterval(() => {
       renderLeagueBar();
       if (matchPopup.classList.contains('show')) renderPopupList();
-      if (currentMatch && !isMatchLive(currentMatch)) {
+      if (currentMatch &&!isMatchLive(currentMatch)) {
         playerFrame.src = '';
         channelSelectBar.style.display = 'none';
         playerPoster.classList.remove('hide');
@@ -323,13 +330,13 @@ function formatTime(timestamp) {
 
 db.limitToLast(50).on('child_added', (data) => {
   const msg = data.val();
-  if (!msg || !msg.name || !msg.text) return;
-  
+  if (!msg ||!msg.name ||!msg.text) return;
+
   const isAdmin = ADMIN_NAMES.includes(msg.name);
   const color = getUserColor(msg.name);
   const initial = msg.name.charAt(0).toUpperCase();
-  const time = msg.time ? formatTime(msg.time) : '';
-  
+  const time = msg.time? formatTime(msg.time) : '';
+
   const el = document.createElement('div');
   el.className = 'chat-msg';
   el.innerHTML = `
@@ -337,7 +344,7 @@ db.limitToLast(50).on('child_added', (data) => {
     <div class="chat-content">
       <div class="chat-header">
         <span class="chat-name" style="color:${color}">
-          ${isAdmin ? '⭐ ' : ''}${msg.name}
+          ${isAdmin? '⭐ ' : ''}${msg.name}
         </span>
         <span class="chat-time">${time}</span>
       </div>
@@ -352,7 +359,7 @@ function sendChat() {
   const name = nameInput.value.trim() || 'Anon';
   const text = msgInput.value.trim();
   if (!text) return;
-  
+
   db.push({
     name: name,
     text: text,
