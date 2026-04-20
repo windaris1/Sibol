@@ -530,6 +530,66 @@ body {
   transform: scale(0.9);
 }
 
+/* === TV MODAL === */
+.tv-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+}
+
+.tv-modal.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s;
+}
+
+.tv-modal-content {
+  background: #0a0a0f;
+  width: 95%;
+  max-width: 600px;
+  max-height: 60vh; /* diubah jadi 60% */
+  border-radius: 20px;
+  overflow: hidden;
+  animation: slideUp 0.3s;
+}
+
+.tv-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: #1a1a24;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.close-btn {
+  background: #2a2a35;
+  border: none;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:active {
+  transform: scale(0.9);
+}
+
 /* === TV GRID 4 KOLOM === */
 .tv-grid {
   display: grid;
@@ -537,7 +597,7 @@ body {
   gap: 10px;
   padding: 12px;
   overflow-y: auto;
-  max-height: calc(80vh - 65px);
+  max-height: calc(60vh - 65px); /* sesuaikan sama tinggi modal */
 }
 
 .channel-card {
@@ -563,12 +623,12 @@ body {
 .channel-logo {
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #1e1b4b 0%, #581c87 100%);
+  background: transparent; /* background ungu diilangin */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 0; /* padding diilangin */
   position: relative;
 }
 
@@ -615,11 +675,11 @@ body {
   }
   
   .channel-logo {
-    padding: 10px;
+    padding: 0; /* padding tetep 0 di mobile */
   }
   
   .tv-modal-content {
     width: 98%;
-    max-height: 85vh;
+    max-height: 60vh; /* tetep 60% di mobile */
   }
 }
