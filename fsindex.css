@@ -545,21 +545,23 @@ body {
 }
 
 .tv-modal.show {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  display: block; /* ganti dari flex */
   animation: fadeIn 0.2s;
 }
 
 .tv-modal-content {
+  position: fixed; /* bikin fixed biar bisa atur top bottom */
+  left: 0;
+  right: 0;
+  bottom: 56px; /* mentok di atas chat bar */
+  top: 45%; /* mentok di bawah player, sesuaikan % ini */
   background: #0a0a0f;
-  width: 100%;
   max-width: 600px;
-  max-height: 50vh;
+  margin: 0 auto;
+  width: 100%;
   border-radius: 20px 20px 0 0;
   overflow: hidden;
   animation: slideUp 0.3s;
-  margin-bottom: 60px; /* tambahin ini biar naik di atas chat bar */
 }
 
 .tv-modal-header {
@@ -597,9 +599,9 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  padding: 12px 12px 20px 12px; /* padding bawah ditambah */
+  padding: 12px 12px 16px 12px;
   overflow-y: auto;
-  max-height: calc(60vh - 58px);
+  height: calc(100% - 58px); /* ngisi sisa tinggi modal dikurangi header */
 }
 
 .channel-card {
@@ -661,16 +663,15 @@ body {
 /* === MOBILE === */
 @media (max-width: 480px) {
   .tv-modal-content {
-    width: 100%;
-    max-height: 45vh;
-    margin-bottom: 56px; /* sesuaikan tinggi chat bar di mobile */
+    top: 40%; /* mobile player biasanya lebih tinggi, jadi 40% */
+    bottom: 56px; /* tinggi chat bar */
   }
   
   .tv-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
-    padding: 10px 10px 16px 10px; /* padding bawah */
-    max-height: calc(45vh - 58px);
+    padding: 10px 10px 16px 10px;
+    height: calc(100% - 58px);
   }
   
   .channel-card {
