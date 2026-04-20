@@ -396,7 +396,7 @@ body {
 }
 
 .popup-header { 
-  background: #1a1a24;
+  background: #15151f;
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
@@ -499,7 +499,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 14px 16px;
-  background: #1a1a24;
+  background: #15151f;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
