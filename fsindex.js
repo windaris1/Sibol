@@ -15,6 +15,7 @@ window.addEventListener('resize', () => {
 
 
 const SPORTS = [
+  { id: 'luvetv', name: 'Channel, icon: '🛜' },
   { id: 'football', name: 'Football', icon: '⚽' },
   { id: 'badminton', name: 'Badminton', icon: '🏸' },
   { id: 'tennis', name: 'Tennis', icon: '🎾' },
