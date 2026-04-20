@@ -14,7 +14,6 @@ body {
   height: 100vh;
 }
 
-/* LAYOUT DEFAULT: FULL LAYAR */
 .main-layout {
   display: flex;
   height: calc(100vh - var(--chat-height));
@@ -128,7 +127,7 @@ body {
   padding: 8px 12px; 
   overflow-x: auto;
   flex-shrink: 0;
-  height: 45px; /* fix tinggi */
+  height: 45px;
 }
 .channel-select-bar::-webkit-scrollbar { display: none; }
 .channel-btn { flex-shrink: 0; background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 6px 14px; border-radius: 6px; font-size: 12px; font-weight: 700; cursor: pointer; }
@@ -139,7 +138,7 @@ body {
   background: var(--card); 
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
-  height: 61px; /* fix tinggi */
+  height: 61px;
 }
 .league-bar { 
   display: flex; 
@@ -224,7 +223,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   flex-shrink: 0;
-  height: 41px; /* fix tinggi */
+  height: 41px;
 }
 .notice a { 
   color: var(--blue); 
@@ -438,7 +437,6 @@ body {
 .popup-match-time { color: var(--blue); font-weight: 700; }
 .popup-match-live { color: var(--red); font-weight: 700; font-size: 12px; }
 
-/* MOBILE: STACK ATAS BAWAH TAPI FULL LAYAR */
 @media (max-width: 768px) {
   .main-layout {
     flex-direction: column;
@@ -472,7 +470,7 @@ body {
   }
 }
 
-/* === TV MODAL - FIXED POSITION === */
+/* === TV MODAL - UDAH FIX NEMPEL === */
 .tv-modal {
   display: none;
   position: fixed;
@@ -492,8 +490,6 @@ body {
   left: 0;
   right: 0;
   bottom: var(--chat-height);
-  top: calc(56.25vw + 45px + 61px + 41px); 
-  /* video 16:9 + channel-select-bar + league-bar + notice */
   background: #0a0a0f;
   max-width: 600px;
   margin: 0 auto;
@@ -534,7 +530,6 @@ body {
   opacity: 1;
 }
 
-/* === TV GRID 4 KOLOM === */
 .tv-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -589,7 +584,6 @@ body {
   font-weight: 600;
 }
 
-/* === ANIMASI === */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -600,11 +594,8 @@ body {
   to { transform: translateY(0); }
 }
 
-/* === DESKTOP 60/40 === */
 @media (min-width: 769px) {
   .tv-modal-content {
-    /* 60% lebar = 0.6 * 100vw, tinggi video = 0.6 * 56.25vw = 33.75vw */
-    top: calc(33.75vw + 45px + 61px + 41px);
     max-width: 60%;
     left: 0;
     right: auto;
@@ -612,12 +603,7 @@ body {
   }
 }
 
-/* === MOBILE === */
 @media (max-width: 480px) {
-  .tv-modal-content {
-    top: calc(56.25vw + 45px + 61px + 41px);
-  }
-  
   .tv-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
