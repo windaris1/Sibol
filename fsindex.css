@@ -1,9 +1,3 @@
-@supports not (height: 100dvh) {
-  html, body { height: 100%; }
-  body, .main-layout { height: calc(100% - var(--chat-height)) !important; }
-  .main-layout { height: calc(100% - var(--chat-height)) !important; }
-}
-
 :root {
   --bg: #0a0a0f; --card: #15151f; --primary: #3b82f6;
   --text: #e5e5e5; --border: #2a2a3a; --yellow: #facc15;
@@ -11,26 +5,29 @@
   --chat-height: 58px;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
 body { 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
   background: var(--bg); 
   color: var(--text); 
   padding-bottom: var(--chat-height);
-  overflow: hidden;
-  height: 100dvh;
-  position: fixed;
-  width: 100%;
 }
 
 /* LAYOUT DEFAULT: FULL LAYAR */
 .main-layout {
   display: flex;
-  height: calc(100dvh - var(--chat-height));
+  height: calc(100% - var(--chat-height));
   flex-direction: row;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  bottom: var(--chat-height);
 }
 
 .left-sidebar {
@@ -345,7 +342,7 @@ body {
   border-radius: 20px;
   padding: 10px 16px;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px; /* wajib 16px biar iOS ga zoom */
 }
 
 #chat-name:focus, #chat-msg:focus {
