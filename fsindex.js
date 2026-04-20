@@ -130,7 +130,7 @@ function renderLeagueBar() {
     btn.dataset.sport = sport.id;
 
     if (sport.id === 'livetv') {
-      btn.innerHTML = `<span class="dot" style="background:#3b82f6;animation:none;"></span>${sport.name}`;
+      btn.innerHTML = `<span class="dot" style="background:#3b82f6;"></span>${sport.name}`;
     } else {
       btn.innerHTML = `
         <span class="sport-icon">${sport.icon}</span>
