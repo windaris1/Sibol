@@ -5,30 +5,25 @@ function lockHeight() {
 }
 lockHeight();
 window.addEventListener('resize', () => {
-  // Cuma update kalo bedanya gede, biar ga ke-trigger keyboard
   if (Math.abs(window.innerHeight - parseInt(getComputedStyle(document.documentElement).getPropertyValue('--vh'))) > 150) {
     lockHeight();
   }
 });
 
 // === MODAL TV CHANNELS ===
-document.body.insertAdjacentHTML('beforeend', `
-  <div id="tvModal" class="tv-modal">
-    <div class="tv-modal-content">
-      <div class="tv-modal-header">
-        <span>Pilih Channel TV</span>
-        <button class="close-btn" onclick="closeTVModal()">✕</button>
-      </div>
-      <div class="tv-grid" id="tvGrid"></div>
-    </div>
-  </div>
-`);
-
 const tvModal = document.getElementById('tvModal');
+const tvClose = document.getElementById('tvClose');
+const tvModalContent = document.querySelector('.tv-modal-content');
+const leftSidebar = document.querySelector('.left-sidebar');
 let TV_CHANNELS = [];
 
 async function openTVModal() {
+  const sidebarHeight = leftSidebar.offsetHeight;
+  tvModalContent.style.top = sidebarHeight + 'px';
+  
   tvModal.classList.add('show');
+  document.body.style.overflow = 'hidden';
+  
   const grid = document.getElementById('tvGrid');
   grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;color:#666;padding:20px;">Loading...</div>';
   
@@ -53,8 +48,10 @@ async function openTVModal() {
 
 function closeTVModal() {
   tvModal.classList.remove('show');
+  document.body.style.overflow = '';
 }
 
+tvClose.addEventListener('click', closeTVModal);
 tvModal.addEventListener('click', (e) => {
   if (e.target === tvModal) closeTVModal();
 });
@@ -151,7 +148,6 @@ scrollRightBtn.onclick = () => leagueBar.scrollBy({ left: 200, behavior: 'smooth
 leagueBar.addEventListener('scroll', updateScrollButtons);
 
 function openPopup(type, title = '') {
-  // Kalo yang diklik TV, buka modal channel
   if (type === 'livetv') {
     openTVModal();
     return;
@@ -348,22 +344,3 @@ db.limitToLast(50).on('child_added', (data) => {
 
 function sendChat() {
   const name = nameInput.value.trim() || 'Anon';
-  const text = msgInput.value.trim();
-  if (!text) return;
-  
-  db.push({
-    name: name,
-    text: text,
-    time: Date.now()
-  }).then(() => {
-    msgInput.value = '';
-  }).catch((error) => {
-    console.error('GAGAL KIRIM:', error);
-    alert('Gagal kirim chat: ' + error.message);
-  });
-}
-
-sendBtn.onclick = sendChat;
-msgInput.onkeydown = (e) => { if (e.key === 'Enter') sendChat(); };
-
-init();
