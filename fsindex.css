@@ -217,13 +217,17 @@ body {
 
 .notice { 
   background: #1e293b; 
-  padding: 10px 16px; 
-  font-size: 13px; 
+  font-size: 12px; 
   border-bottom: 1px solid var(--border);
-  text-align: center;
   text-transform: uppercase;
   flex-shrink: 0;
   height: 41px;
+  line-height: 41px;
+  padding: 0 16px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .notice a { 
   color: var(--blue); 
