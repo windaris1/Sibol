@@ -520,9 +520,9 @@ body {
 
 .tv-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  padding: 16px;
+  grid-template-columns: repeat(4, 1fr); /* 4 kolom */
+  gap: 10px; /* jarak antar card dikecilin */
+  padding: 12px; /* padding luar dikecilin */
   overflow-y: auto;
   max-height: calc(80vh - 65px);
 }
@@ -530,15 +530,10 @@ body {
 .channel-card {
   aspect-ratio: 1;
   background: #1a1a24;
-  border-radius: 16px;
-  padding: 8px;
+  border-radius: 12px; /* radius dikecilin dikit */
+  padding: 6px; /* padding card dikecilin */
   cursor: pointer;
   border: 2px solid transparent;
-}
-
-.channel-card:active {
-  transform: scale(0.95);
-  border-color: #3b82f6;
 }
 
 .channel-logo {
@@ -549,32 +544,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 12px; /* padding logo dikecilin biar logo lebih gede */
   position: relative;
 }
 
-.channel-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.offline-badge {
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  background: #ef4444;
-  color: #fff;
-  font-size: 8px;
-  padding: 2px 4px;
-  border-radius: 4px;
-  font-weight: 600;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; } to { opacity: 1; }
-}
-
 @media (max-width: 480px) {
-  .tv-grid { grid-template-columns: repeat(3, 1fr); }
+  .tv-grid { 
+    grid-template-columns: repeat(4, 1fr); /* HP tetep 4 kolom */
+    gap: 8px;
+    padding: 10px;
+  }
+  .channel-card {
+    padding: 4px;
+    border-radius: 10px;
+  }
+  .channel-logo {
+    padding: 10px;
+  }
 }
