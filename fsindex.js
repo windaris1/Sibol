@@ -344,3 +344,22 @@ db.limitToLast(50).on('child_added', (data) => {
 
 function sendChat() {
   const name = nameInput.value.trim() || 'Anon';
+  const text = msgInput.value.trim();
+  if (!text) return;
+  
+  db.push({
+    name: name,
+    text: text,
+    time: Date.now()
+  }).then(() => {
+    msgInput.value = '';
+  }).catch((error) => {
+    console.error('GAGAL KIRIM:', error);
+    alert('Gagal kirim chat: ' + error.message);
+  });
+}
+
+sendBtn.onclick = sendChat;
+msgInput.onkeydown = (e) => { if (e.key === 'Enter') sendChat(); };
+
+init();
