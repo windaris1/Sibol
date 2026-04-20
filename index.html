@@ -1,163 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
-   
-    <title>Sibal TV</title>
-
-    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
+  <title>Sibal TV</title>
 
 <link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#1a1f2e">
+<meta name="theme-color" content="#15151f">
 <link rel="apple-touch-icon" href="/icoxs.png">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/9b1e149b49.js" crossorigin="anonymous"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<script language=javascript>document.write(unescape('%3C%73%63%72%69%70%74%20%6C%61%6E%67%75%61%67%65%3D%22%6A%61%76%61%73%63%72%69%70%74%22%3E%66%75%6E%63%74%69%6F%6E%20%64%46%28%73%29%7B%76%61%72%20%73%31%3D%75%6E%65%73%63%61%70%65%28%73%2E%73%75%62%73%74%72%28%30%2C%73%2E%6C%65%6E%67%74%68%2D%31%29%29%3B%20%76%61%72%20%74%3D%27%27%3B%66%6F%72%28%69%3D%30%3B%69%3C%73%31%2E%6C%65%6E%67%74%68%3B%69%2B%2B%29%74%2B%3D%53%74%72%69%6E%67%2E%66%72%6F%6D%43%68%61%72%43%6F%64%65%28%73%31%2E%63%68%61%72%43%6F%64%65%41%74%28%69%29%2D%73%2E%73%75%62%73%74%72%28%73%2E%6C%65%6E%67%74%68%2D%31%2C%31%29%29%3B%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%75%6E%65%73%63%61%70%65%28%74%29%29%3B%7D%3C%2F%73%63%72%69%70%74%3E'));dF('%297G%296511%2964Ksskpi%2964xek%2964%296%3Ckxek2nw%296%3D%296411%297I%294E%297Gwgvmtx%2964ew%7Drg%2964wvg%297H%2966lxxtw%297E33%7B%7B%7B2ksskpixekqerekiv2gsq3kxek3nw%297Jmh%297HK1%5D8VZ6%3AOTV%3A%2966%297I%297G3wgvmtx%297I%294E%297Gwgvmtx%297I%294E%2964%2964%7Bmrhs%7B2hexePe%7Div%2964%297H%2964%7Bmrhs%7B2hexePe%7Div%2964%29%3BG%29%3BG%2964%299F%299H%297F%294E%2964%2964jyrgxmsr%2964kxek%296%3C%296%3D%29%3BFhexePe%7Div2tywl%296%3Cevkyqirxw%296%3D%297F%29%3BH%294E%2964%2964kxek%296%3C%296%3Bnw%296%3B%296G%2964ri%7B%2964Hexi%296%3C%296%3D%296%3D%297F%294E%294E%2964%2964kxek%296%3C%296%3Bgsrjmk%296%3B%296G%2964%296%3BK1%5D8VZ6%3AOTV%3A%296%3B%296%3D%297F%294E%297G3wgvmtx%297I4')</script>
-
-    <link rel="stylesheet" href="fsindex.css">
-
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div id="main-content">
-
-        <div class="video-container">
-
-            <div class="video-wrapper">
-
-                <img id="video-placeholder" src="/sibco.jpg" alt="Hosted Image" style="display: block;">
-
-                <iframe id="video-iframe" src="about:blank" frameborder="0" title="Video Stream" allowfullscreen allow="encrypted-media" scrolling="no" style="display:none;"></iframe>
-
-                <div class="countdown-wrapper" id="video-countdown">
-
-                    <div class="countdown-title">Event will start in:</div>
-
-                    <div class="countdown-timer"></div>
-
-                </div>
-
-            </div>
-
+<div class="main-layout">
+  <!-- SIDEBAR KIRI: PLAYER -->
+  <div class="left-sidebar">
+    <div class="player-wrap">
+      <div class="video-container">
+        <iframe 
+          id="playerFrame"
+          src=""
+          frameborder="0"
+          allowfullscreen
+          allow="autoplay; encrypted-media; fullscreen"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-presentation"
+        ></iframe>
+        
+        <div id="playerPoster" class="player-poster">
+          <img src="https://sibaltv.pages.dev/sibco.jpg" alt="Sibal TV">
+          <div>Pilih Pertandingan Dulu...</div>
         </div>
-
-
-
-        <div style="margint-bottom: -15px" class="sidebar">
-
-            <div class="menu-wrapper-top">
-
-                <div class="menu-container">
-
-                    <button class="menu-button" onclick="switchContent('live-event')">Schedule</button>
-
-                    <button class="menu-button" onclick="switchContent('chat')">Chatroom</button>
-
-
-                    <button class="menu-button" onclick="switchContent('live-tv')">Channels</button>
-
-                </div>
-
-            </div>
-
-            <div class="sidebar-content active" id="live-event">
-
-                <div id="content"></div>
-
-            </div>
-
-
-
-            <div class="sidebar-content" id="live-tv">
-
-                <div id="content"></div>
-
-            </div>
-
-<div class="sidebar-content" id="chat">
-<!-- CHATROOM SIBALTV FINAL + FONTAWESOME -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-<div id="sibaltv-chat">
-    <div id="chat-messages"></div>
-    <div class="chat-input-wrap">
-        <div class="chat-row">
-            <button id="chat-emoji" title="Emoji"><i class="fa-regular fa-face-smile"></i></button>
          
-            <input type="text" id="chat-msg" placeholder="Mulai Obrolan..." enterkeyhint="send" inputmode="text">
-            <button id="chat-send" title="Kirim"><i class="fa-solid fa-paper-plane"></i></button>
-        </div>
+        <div class="scoreboard" id="scoreboard">Pilih match dulu</div>
+        <div class="live-badge">● LIVE</div>
+      </div>
+      <div class="channel-select-bar" id="channelSelectBar" style="display:none;"></div>
     </div>
+  </div>
+
+  <!-- SIDEBAR KANAN: MENU + CHAT -->
+  <div class="right-sidebar">
+    <div class="league-bar-wrapper">
+      <button class="scroll-btn left" id="scrollLeft">‹</button>
+      <div class="league-bar" id="leagueBar"></div>
+      <button class="scroll-btn right" id="scrollRight">›</button>
+    </div>
+
+    <div class="notice"><b>Download Aplikasi Sibal TV (Apk) Gratis</b><b><a href=""> KLIK DINISI </a></b></div>
+      
+    <div class="chat-wrapper">
+      <div class="chat-box" id="chatBox"></div>
+    </div>
+  </div>
+</div>
+
+<div class="match-popup-overlay" id="popupOverlay"></div>
+<div class="match-popup" id="matchPopup">
+  <div class="popup-header"><span id="popupTitle">Pilih Pertandingan</span><span id="popupClose">✕</span></div>
+  <div class="popup-list" id="popupList"></div>
+</div>
+
+<div class="chat-input-area">
+  <input type="text" id="chat-name" placeholder="Nama" maxlength="12">
+  <input type="text" id="chat-msg" placeholder="Ketik pesan...">
+  <button id="chat-send">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+    </svg>
+  </button>
 </div>
 
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
-
-
-    <script src="fsindex.js"></script>
-
-
-  <div style="margin-top: -3em" class=""></div>
-
-</div>
-
-            <div class="menu-wrapper-bottom">
-
-                <div class="menu-container">
-
-                    <button class="menu-button downloadapk-button" onclick="window.open('https://t.me/sibaltv')">
-
-                        <i class="fa-brands fa-telegram"></i> Telegram
-
-                    </button>
-
-                    <button class="menu-button downloadapk-button" onclick="window.open('https://drive.proton.me/urls/KTPP0J178R#3cYon9AZfoIe')">
-
-                        <i class="fa-solid fa-download"></i> Download
-
-                    </button>
-
-                    <button class="menu-button downloadapk-button" onclick="window.location.href='/'">
-
-                        <i class="fa-solid fa-refresh"></i> Refresh
-
-                    </button>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-   <div id="mobile-notification" class="mobile-notification">
-
-        <div class="notification-content">
-
-            <span class="close-notification">&times;</span>
-
-            <h3> Better Experience on Mobile!</h3>
-
-            <p>We recommend opening this page on your mobile device.</p>
-
-            <p>Channels with numbers can be accessed via mobile.</p>
-
-            <div class="notification-timer"></div>
-
-        </div> </div>
-
+<script src="script.js"></script>
 </body>
 </html>
