@@ -599,7 +599,7 @@ body {
   gap: 10px;
   padding: 12px 12px 20px 12px; /* padding bawah ditambah */
   overflow-y: auto;
-  max-height: calc(50vh - 58px);
+  max-height: calc(60vh - 58px);
 }
 
 .channel-card {
