@@ -27,7 +27,6 @@ body {
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--border);
-  position: relative; /* PENTING: buat anchor modal */
 }
 
 .right-sidebar {
@@ -129,6 +128,7 @@ body {
   padding: 8px 12px; 
   overflow-x: auto;
   flex-shrink: 0;
+  height: 45px; /* fix tinggi */
 }
 .channel-select-bar::-webkit-scrollbar { display: none; }
 .channel-btn { flex-shrink: 0; background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 6px 14px; border-radius: 6px; font-size: 12px; font-weight: 700; cursor: pointer; }
@@ -139,6 +139,7 @@ body {
   background: var(--card); 
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
+  height: 61px; /* fix tinggi */
 }
 .league-bar { 
   display: flex; 
@@ -223,6 +224,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   flex-shrink: 0;
+  height: 41px; /* fix tinggi */
 }
 .notice a { 
   color: var(--blue); 
@@ -470,10 +472,10 @@ body {
   }
 }
 
-/* === TV MODAL - UDAH FIX NEMPEL === */
+/* === TV MODAL - FIXED POSITION === */
 .tv-modal {
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 9999;
   inset: 0;
   background: rgba(0, 0, 0, 0.7);
@@ -486,18 +488,19 @@ body {
 }
 
 .tv-modal-content {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
-  bottom: 0;
-  top: 100%; /* Kunci: mulai pas di bawah .notice */
+  bottom: var(--chat-height);
+  top: calc(56.25vw + 45px + 61px + 41px); 
+  /* video 16:9 + channel-select-bar + league-bar + notice */
   background: #0a0a0f;
+  max-width: 600px;
+  margin: 0 auto;
   width: 100%;
   border-radius: 16px 16px 0 0;
   overflow: hidden;
   animation: slideUp 0.3s;
-  transform: translateY(calc(-1 * var(--chat-height))); 
-  /* Angkat ke atas setinggi chat bar biar ga ketutup */
 }
 
 .tv-modal-header {
@@ -597,8 +600,24 @@ body {
   to { transform: translateY(0); }
 }
 
+/* === DESKTOP 60/40 === */
+@media (min-width: 769px) {
+  .tv-modal-content {
+    /* 60% lebar = 0.6 * 100vw, tinggi video = 0.6 * 56.25vw = 33.75vw */
+    top: calc(33.75vw + 45px + 61px + 41px);
+    max-width: 60%;
+    left: 0;
+    right: auto;
+    margin: 0;
+  }
+}
+
 /* === MOBILE === */
 @media (max-width: 480px) {
+  .tv-modal-content {
+    top: calc(56.25vw + 45px + 61px + 41px);
+  }
+  
   .tv-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
