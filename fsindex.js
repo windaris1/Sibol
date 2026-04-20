@@ -167,7 +167,7 @@ function loadChannel(url, name) {
 
 async function init() {
   try {
-    const res = await fetch('matches.json');
+    const res = await fetch('skod.json');
     if (!res.ok) throw new Error('matches.json 404');
     
     ALL_MATCHES = await res.json();
