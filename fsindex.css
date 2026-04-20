@@ -476,7 +476,6 @@ body {
   position: fixed;
   z-index: 9999;
   inset: 0;
-  background: rgba(0, 0, 0, 0.7);
 }
 
 .tv-modal.show {
@@ -493,7 +492,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   width: 100%;
-  border-radius: 16px 16px 0 0;
+  border-radius: 0px 0px 0 0;
   overflow: hidden;
   animation: slideUp 0.3s;
 }
