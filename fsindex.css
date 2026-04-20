@@ -217,7 +217,7 @@ body {
 
 .notice { 
   background: #1e293b; 
-  font-size: 12px; 
+  font-size: 13px; 
   border-bottom: 1px solid var(--border);
   text-transform: uppercase;
   flex-shrink: 0;
