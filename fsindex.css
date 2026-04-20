@@ -3,23 +3,21 @@
   --text: #e5e5e5; --border: #2a2a3a; --yellow: #facc15;
   --red: #ef4444; --blue: #3b82f6;
   --chat-height: 58px;
-  --app-height: 100%;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html, body {
-  height: var(--app-height);
-  overflow: hidden;
-}
 body { 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
   background: var(--bg); 
   color: var(--text); 
+  padding-bottom: var(--chat-height);
+  overflow: hidden;
+  height: 100vh;
 }
 
 /* LAYOUT DEFAULT: FULL LAYAR */
 .main-layout {
   display: flex;
-  height: calc(var(--app-height) - var(--chat-height));
+  height: calc(100vh - var(--chat-height));
   flex-direction: row;
 }
 
@@ -335,7 +333,7 @@ body {
   border-radius: 20px;
   padding: 10px 16px;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #chat-name:focus, #chat-msg:focus {
@@ -436,6 +434,7 @@ body {
 .popup-match-info { text-align: right; font-size: 13px; }
 .popup-match-time { color: var(--blue); font-weight: 700; }
 .popup-match-live { color: var(--red); font-weight: 700; font-size: 12px; }
+
 
 /* MOBILE: STACK ATAS BAWAH TAPI FULL LAYAR */
 @media (max-width: 768px) {
