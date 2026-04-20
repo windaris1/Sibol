@@ -549,13 +549,18 @@ body {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 56px; /* tinggi chat bar */
-  top: calc(56.25vw + 50px); /* 56.25vw = tinggi player 16:9 + 50px header */
+  bottom: var(--chat-height); /* 58px, udah ada variable */
+  top: calc(56.25vw + 44px + 61px + 41px); 
+  /* 56.25vw = video 16:9 */
+  /* 44px = .channel-select-bar tinggi */
+  /* 61px = .league-bar-wrapper tinggi */
+  /* 41px = .notice tinggi */
+  /* Total = bawah notice pas */
   background: #0a0a0f;
   max-width: 600px;
   margin: 0 auto;
   width: 100%;
-  border-radius: 16px 16px 0 0; /* samain kayak Vidio */
+  border-radius: 16px 16px 0 0;
   overflow: hidden;
   animation: slideUp 0.3s;
 }
@@ -660,8 +665,9 @@ body {
 /* === MOBILE === */
 @media (max-width: 480px) {
   .tv-modal-content {
-    top: calc(56.25vw + 48px); /* 48px header mobile */
-    bottom: 56px;
+    /* di mobile .left-sidebar height auto, jadi pake kalkulasi sama */
+    top: calc(56.25vw + 44px + 61px + 41px);
+    bottom: var(--chat-height);
     border-radius: 16px 16px 0 0;
   }
   
@@ -675,5 +681,19 @@ body {
   .channel-card {
     padding: 4px;
     border-radius: 10px;
+  }
+}
+
+/* === DESKTOP 60/40 === */
+@media (min-width: 769px) {
+  .tv-modal-content {
+    /* di desktop player di kiri 60%, tinggi beda */
+    /* 60% dari lebar viewport = 0.6 * 100vw */
+    /* tinggi video = 0.6 * 100vw * 9/16 = 33.75vw */
+    top: calc(33.75vw + 44px + 61px + 41px);
+    max-width: calc(60% - 1px); /* ngikutin lebar .left-sidebar */
+    left: 0;
+    right: auto;
+    margin: 0;
   }
 }
