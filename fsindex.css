@@ -368,11 +368,8 @@ body {
 
 .match-popup-overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0,0,0,0.6);
+  inset: 0;
+  background: rgba(0,0,0,0.7);
   z-index: 9998;
   display: none;
   pointer-events: auto;
@@ -385,9 +382,8 @@ body {
   left: 0;
   right: 0;
   bottom: var(--chat-height);
-  background: #111;
-  border-radius: 16px 16px 0 0;
-  height: 55vh;
+  background: #0a0a0f;
+  border-radius: 0;
   transform: translateY(100%);
   transition: transform 0.3s ease;
   z-index: 9998;
@@ -470,7 +466,7 @@ body {
   }
 }
 
-/* === TV MODAL - UDAH FIX NEMPEL === */
+/* === TV MODAL === */
 .tv-modal {
   display: none;
   position: fixed;
@@ -492,7 +488,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   width: 100%;
-  border-radius: 0px 0px 0 0;
+  border-radius: 0;
   overflow: hidden;
   animation: slideUp 0.3s;
 }
@@ -598,6 +594,12 @@ body {
     left: 0;
     right: auto;
     margin: 0;
+  }
+  
+  .match-popup {
+    max-width: 60%;
+    left: 0;
+    right: auto;
   }
 }
 
