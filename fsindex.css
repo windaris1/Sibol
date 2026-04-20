@@ -3,31 +3,24 @@
   --text: #e5e5e5; --border: #2a2a3a; --yellow: #facc15;
   --red: #ef4444; --blue: #3b82f6;
   --chat-height: 58px;
+  --app-height: 100%;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html, body {
-  height: 100%;
+  height: var(--app-height);
   overflow: hidden;
-  position: fixed;
-  width: 100%;
 }
 body { 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
   background: var(--bg); 
   color: var(--text); 
-  padding-bottom: var(--chat-height);
 }
 
 /* LAYOUT DEFAULT: FULL LAYAR */
 .main-layout {
   display: flex;
-  height: calc(100% - var(--chat-height));
+  height: calc(var(--app-height) - var(--chat-height));
   flex-direction: row;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: var(--chat-height);
 }
 
 .left-sidebar {
@@ -316,7 +309,6 @@ body {
   left: 0;
   right: 0;
   display: flex;
-  align-items: center; /* tambah ini */
   gap: 6px;
   padding: 8px;
   padding-bottom: calc(8px + env(safe-area-inset-bottom));
@@ -328,30 +320,34 @@ body {
 
 #chat-name {
   width: 75px;
-  height: 42px; /* tambah ini */
   background: #0a0a0f;
   border: 1px solid #2a2a3a;
   border-radius: 20px;
-  padding: 0 12px; /* ganti dari 10px 12px */
+  padding: 10px 12px;
   color: #fff;
   font-size: 12px;
 }
 
 #chat-msg {
   flex: 1;
-  height: 42px; /* tambah ini */
   background: #0a0a0f;
   border: 1px solid #2a2a3a;
   border-radius: 20px;
-  padding: 0 16px; /* ganti dari 10px 16px */
+  padding: 10px 16px;
   color: #fff;
   font-size: 16px;
 }
 
+#chat-name:focus, #chat-msg:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
 #chat-send {
-  background: #3b82f6; /* ganti biar keliatan, tadinya sama kayak bg */
+  background: #0a0a0f;
   border: none;
   border-radius: 50%;
+  border: 1px solid #2a2a3a;
   width: 42px;
   height: 42px;
   color: #fff;
@@ -360,12 +356,11 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0;
-  flex-shrink: 0; /* tambah ini biar ga gepeng */
 }
 
 #chat-send svg {
-  margin-left: 0; /* hapus margin */
-  width: 22
+  margin-left: 2px;
+}
 
 #chat-send:active {
   background: #2563eb;
