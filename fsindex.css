@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--border);
+  position: relative; /* PENTING: buat anchor modal */
 }
 
 .right-sidebar {
@@ -77,7 +78,7 @@ body {
     transform: scale(1);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    box-shadow: 0 0 rgba(239, 68, 68, 0);
     transform: scale(1);
   }
 }
@@ -435,7 +436,6 @@ body {
 .popup-match-time { color: var(--blue); font-weight: 700; }
 .popup-match-live { color: var(--red); font-weight: 700; font-size: 12px; }
 
-
 /* MOBILE: STACK ATAS BAWAH TAPI FULL LAYAR */
 @media (max-width: 768px) {
   .main-layout {
@@ -470,70 +470,10 @@ body {
   }
 }
 
-/* === TV MODAL === */
+/* === TV MODAL - UDAH FIX NEMPEL === */
 .tv-modal {
   display: none;
-  position: fixed;
-  z-index: 9999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  backdrop-filter: blur(4px);
-}
-
-.tv-modal.show {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: fadeIn 0.2s;
-}
-
-.tv-modal-content {
-  background: #0a0a0f;
-  width: 95%;
-  max-width: 600px;
-  max-height: 80vh;
-  border-radius: 20px;
-  overflow: hidden;
-  animation: slideUp 0.3s;
-}
-
-.tv-modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 20px;
-  background: #1a1a24;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.close-btn {
-  background: #2a2a35;
-  border: none;
-  color: #fff;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 18px;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.close-btn:active {
-  transform: scale(0.9);
-}
-
-/* === TV MODAL === */
-.tv-modal {
-  display: none;
-  position: fixed;
+  position: absolute;
   z-index: 9999;
   inset: 0;
   background: rgba(0, 0, 0, 0.7);
@@ -546,23 +486,18 @@ body {
 }
 
 .tv-modal-content {
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
-  bottom: var(--chat-height); /* 58px, udah ada variable */
-  top: calc(56.25vw + 44px + 61px + 41px); 
-  /* 56.25vw = video 16:9 */
-  /* 44px = .channel-select-bar tinggi */
-  /* 61px = .league-bar-wrapper tinggi */
-  /* 41px = .notice tinggi */
-  /* Total = bawah notice pas */
+  bottom: 0;
+  top: 100%; /* Kunci: mulai pas di bawah .notice */
   background: #0a0a0f;
-  max-width: 600px;
-  margin: 0 auto;
   width: 100%;
   border-radius: 16px 16px 0 0;
   overflow: hidden;
   animation: slideUp 0.3s;
+  transform: translateY(calc(-1 * var(--chat-height))); 
+  /* Angkat ke atas setinggi chat bar biar ga ketutup */
 }
 
 .tv-modal-header {
@@ -664,13 +599,6 @@ body {
 
 /* === MOBILE === */
 @media (max-width: 480px) {
-  .tv-modal-content {
-    /* di mobile .left-sidebar height auto, jadi pake kalkulasi sama */
-    top: calc(56.25vw + 44px + 61px + 41px);
-    bottom: var(--chat-height);
-    border-radius: 16px 16px 0 0;
-  }
-  
   .tv-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
@@ -681,19 +609,5 @@ body {
   .channel-card {
     padding: 4px;
     border-radius: 10px;
-  }
-}
-
-/* === DESKTOP 60/40 === */
-@media (min-width: 769px) {
-  .tv-modal-content {
-    /* di desktop player di kiri 60%, tinggi beda */
-    /* 60% dari lebar viewport = 0.6 * 100vw */
-    /* tinggi video = 0.6 * 100vw * 9/16 = 33.75vw */
-    top: calc(33.75vw + 44px + 61px + 41px);
-    max-width: calc(60% - 1px); /* ngikutin lebar .left-sidebar */
-    left: 0;
-    right: auto;
-    margin: 0;
   }
 }
