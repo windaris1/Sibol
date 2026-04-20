@@ -11,8 +11,63 @@ window.addEventListener('resize', () => {
   }
 });
 
-// Kode lu yang lama taro di bawah sini...
+// === MODAL TV CHANNELS ===
+document.body.insertAdjacentHTML('beforeend', `
+  <div id="tvModal" class="tv-modal">
+    <div class="tv-modal-content">
+      <div class="tv-modal-header">
+        <span>Pilih Channel TV</span>
+        <button class="close-btn" onclick="closeTVModal()">✕</button>
+      </div>
+      <div class="tv-grid" id="tvGrid"></div>
+    </div>
+  </div>
+`);
 
+const tvModal = document.getElementById('tvModal');
+let TV_CHANNELS = [];
+
+async function openTVModal() {
+  tvModal.classList.add('show');
+  const grid = document.getElementById('tvGrid');
+  grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;color:#666;padding:20px;">Loading...</div>';
+  
+  try {
+    if (TV_CHANNELS.length === 0) {
+      const res = await fetch('chinel.json');
+      TV_CHANNELS = await res.json();
+    }
+    
+    grid.innerHTML = TV_CHANNELS.map(ch => `
+      <div class="channel-card" onclick="selectTVChannel('${ch.url}', '${ch.name}')">
+        <div class="channel-logo">
+          <img src="${ch.logo}" alt="${ch.name}" loading="lazy">
+          ${ch.status !== 'Online' ? '<div class="offline-badge">OFF</div>' : ''}
+        </div>
+      </div>
+    `).join('');
+  } catch (err) {
+    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;color:#ef4444;padding:20px;">Gagal load channel</div>';
+  }
+}
+
+function closeTVModal() {
+  tvModal.classList.remove('show');
+}
+
+tvModal.addEventListener('click', (e) => {
+  if (e.target === tvModal) closeTVModal();
+});
+
+function selectTVChannel(url, name) {
+  closeTVModal();
+  playerPoster.classList.add('hide');
+  scoreboard.innerText = name;
+  playerFrame.src = url;
+  channelSelectBar.style.display = 'none';
+  currentMatch = null;
+}
+// === END MODAL TV ===
 
 const SPORTS = [
   { id: 'livetv', name: 'TV', icon:'●'},
@@ -96,12 +151,19 @@ scrollRightBtn.onclick = () => leagueBar.scrollBy({ left: 200, behavior: 'smooth
 leagueBar.addEventListener('scroll', updateScrollButtons);
 
 function openPopup(type, title = '') {
+  // Kalo yang diklik TV, buka modal channel
+  if (type === 'livetv') {
+    openTVModal();
+    return;
+  }
+
   activeLeague = type;
   popupTitle.innerText = title || (type === 'LIVE' ? 'Pertandingan LIVE' : type);
   renderPopupList();
   popupOverlay.classList.add('show');
   matchPopup.classList.add('show');
 }
+
 function closePopup() {
   popupOverlay.classList.remove('show');
   matchPopup.classList.remove('show');
