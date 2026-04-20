@@ -1,3 +1,19 @@
+// LOCK HEIGHT BIAR GA KETARIK KEYBOARD
+function lockHeight() {
+  const vh = window.innerHeight;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+lockHeight();
+window.addEventListener('resize', () => {
+  // Cuma update kalo bedanya gede, biar ga ke-trigger keyboard
+  if (Math.abs(window.innerHeight - parseInt(getComputedStyle(document.documentElement).getPropertyValue('--vh'))) > 150) {
+    lockHeight();
+  }
+});
+
+// Kode lu yang lama taro di bawah sini...
+
+
 const SPORTS = [
   { id: 'football', name: 'Football', icon: '⚽' },
   { id: 'badminton', name: 'Badminton', icon: '🏸' },
