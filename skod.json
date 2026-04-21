@@ -1,19 +1,5 @@
 [
   {
-    "id": "Machida-AlAhliDubai",
-    "sport": "football",
-    "league": "Liga Champions AFC - Play Off",
-    "league_logo": "https://static.flashscore.com/res/image/data/vyvCT5Tp-xGRIAs4N.png",
-    "team1": { "name": "Machida Zelvia" },
-    "team2": { "name": "Al Ahli Dubai" },
-    "kickoff_date": "2026-04-21",
-    "kickoff_time": "23:15",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=tnt2" }
-    ]
-  },
-  {
     "id": "Persis-Bhayangkara",
     "sport": "football",
     "league": "Super League",
@@ -42,59 +28,143 @@
     ]
   },
   {
-    "id": "Brighton-Chelsea",
+    "id": "PSG-Nantes",
+    "sport": "football",
+    "league": "Ligue 1",
+    "league_logo": "https://static.flashscore.com/res/image/data/Ert5p6LO-4xAs8Jml.png",
+    "team1": { "name": "PSG" },
+    "team2": { "name": "Nantes" },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "00:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=ligue1-1" }
+    ]
+  },
+  {
+    "id": "Elche-AtlMadrid",
+    "sport": "football",
+    "league": "LaLiga",
+    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
+    "team1": { "name": "Elche" },
+    "team2": { "name": "Atl. Madrid" },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "00:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-3" }
+    ]
+  },
+  {
+    "id": "RealSociedad-Getafe",
+    "sport": "football",
+    "league": "LaLiga",
+    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
+    "team1": { "name": "Real Sociedad" },
+    "team2": { "name": "Getafe" },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "01:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-4" }
+    ]
+  },
+  {
+    "id": "Bournemouth-Leeds",
     "sport": "football",
     "league": "Liga Primer",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Brighton" },
-    "team2": { "name": "Chelsea" },
-    "kickoff_date": "2026-04-22",
+    "team1": { "name": "Bournemouth" },
+    "team2": { "name": "Leeds" },
+    "kickoff_date": "2026-04-23",
     "kickoff_time": "02:00",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=epl-1" }
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=epl-2" }
     ]
   },
   {
-    "id": "Inter-Como",
+    "id": "Burnley-ManCity",
+    "sport": "football",
+    "league": "Liga Primer",
+    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
+    "team1": { "name": "Burnley" },
+    "team2": { "name": "Manchester City" },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "02:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=epl-3" }
+    ]
+  },
+  {
+    "id": "Atalanta-Lazio",
     "sport": "football",
     "league": "Coppa Italia",
     "league_logo": "https://static.flashscore.com/res/image/data/KAR6wqDO-d6RcxKXk.png",
-    "team1": { "name": "Inter" },
-    "team2": { "name": "Como" },
-    "kickoff_date": "2026-04-22",
+    "team1": { "name": "Atalanta" },
+    "team2": { "name": "Lazio" },
+    "kickoff_date": "2026-04-23",
     "kickoff_time": "02:00",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=coppa-1" }
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=coppa-2" }
     ]
   },
   {
-    "id": "Bilbao-Osasuna",
+    "id": "Barcelona-CeltaVigo",
     "sport": "football",
     "league": "LaLiga",
     "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Ath Bilbao" },
-    "team2": { "name": "Osasuna" },
-    "kickoff_date": "2026-04-22",
-    "kickoff_time": "00:00",
+    "team1": { "name": "Barcelona" },
+    "team2": { "name": "Celta Vigo" },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "02:30",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-1" }
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-5" }
     ]
   },
   {
-    "id": "Mallorca-Valencia",
+    "id": "Persita-BaliUnited",
     "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Mallorca" },
-    "team2": { "name": "Valencia" },
-    "kickoff_date": "2026-04-22",
-    "kickoff_time": "00:00",
+    "league": "Super League",
+    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
+    "team1": { "name": "Persita" },
+    "team2": { "name": "Bali United" },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "15:30",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-2" }
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-3" }
+    ]
+  },
+  {
+    "id": "PSM-Persik",
+    "sport": "football",
+    "league": "Super League",
+    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
+    "team1": { "name": "PSM Makassar" },
+    "team2": { "name": "Persik Kediri" },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "15:30",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-4" }
+    ]
+  },
+  {
+    "id": "MalutUnited-Persebaya",
+    "sport": "football",
+    "league": "Super League",
+    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
+    "team1": { "name": "Malut United" },
+    "team2": { "name": "Persebaya" },
+    "kickoff_date": "2026-04-23",
+    "kickoff_time": "19:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-5" }
     ]
   }
 ]
