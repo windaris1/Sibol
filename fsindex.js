@@ -162,7 +162,6 @@ function openPopup(type, title = '') {
   activeLeague = type;
   popupTitle.innerText = title || (type === 'LIVE'? 'Pertandingan LIVE' : type);
 
-  // Set top = tinggi.left-sidebar biar mentok
   const sidebarHeight = leftSidebar.offsetHeight;
   matchPopup.style.top = sidebarHeight + 'px';
 
@@ -184,7 +183,7 @@ function renderPopupList() {
   filterActiveMatches();
   popupList.innerHTML = '';
   let filtered = activeLeague === 'LIVE'
-   ? MATCHES.filter(m => isMatchLive(m))
+  ? MATCHES.filter(m => isMatchLive(m))
     : MATCHES.filter(m => m.sport === activeLeague);
 
   if (filtered.length === 0) {
@@ -300,6 +299,7 @@ const firebaseConfig = {
 
 const ADMIN_NAMES = ["Admin", "SibalTV"];
 const USER_COLORS = ['#14b8a6', '#22c55e', '#eab308', '#ef4444', '#a855f7', '#ec4899', '#3b82f6', '#f97316'];
+const CHAT_EXPIRE_DAYS = 2;
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref('sibaltv_chat');
@@ -328,9 +328,24 @@ function formatTime(timestamp) {
   return `${hours}.${minutes} WIB`;
 }
 
+function cleanOldChat() {
+  const cutoff = Date.now() - (CHAT_EXPIRE_DAYS * 24 * 60 * 60 * 1000);
+  db.orderByChild('time').endAt(cutoff).once('value', snapshot => {
+    snapshot.forEach(child => {
+      child.ref.remove();
+    });
+  });
+}
+
+cleanOldChat();
+setInterval(cleanOldChat, 60 * 60 * 1000);
+
 db.limitToLast(50).on('child_added', (data) => {
   const msg = data.val();
-  if (!msg ||!msg.name ||!msg.text) return;
+  if (!msg ||!msg.name ||!msg.text ||!msg.time) return;
+
+  const cutoff = Date.now() - (CHAT_EXPIRE_DAYS * 24 * 60 * 60 * 1000);
+  if (msg.time < cutoff) return;
 
   const isAdmin = ADMIN_NAMES.includes(msg.name);
   const color = getUserColor(msg.name);
