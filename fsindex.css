@@ -370,6 +370,43 @@ body {
   background: #2563eb;
 }
 
+.download-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1a1f2e;
+  color: #fff;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+}
+
+.download-text .link {
+  color: #4da6ff;
+}
+
+.reload-btn {
+  background: #fff;
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.reload-btn svg {
+  color: #000;
+}
+
+.reload-btn:active {
+  transform: scale(0.9);
+}
+
 .match-popup-overlay {
   position: fixed;
   inset: 0;
