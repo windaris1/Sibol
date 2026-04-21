@@ -14,31 +14,93 @@
     ]
   },
   {
-    "id": "Lecce-Fiorentina",
+    "id": "Persis-Bhayangkara",
     "sport": "football",
-    "league": "Serie A",
-    "league_logo": "https://static.flashscore.com/res/image/data/rFHMayEO-2exwJQks.png",
-    "team1": { "name": "Lecce" },
-    "team2": { "name": "Fiorentina" },
+    "league": "Super League",
+    "country": "INDONESIA",
+    "league_logo": "https://static.flashscore.com/res/image/data/2oq6CzEt-xGRIAs4N.png",
+    "team1": { "name": "Persis Solo" },
+    "team2": { "name": "FC Bhayangkara" },
     "kickoff_date": "2026-04-22",
-    "kickoff_time": "01:45",
+    "kickoff_time": "15:30",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://pluyer.pages.dev/?shaka=seriea1" }
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-1" }
     ]
   },
   {
-    "id": "CrystalPalace-WestHam",
+    "id": "PSIM-Persija",
     "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Crystal Palace" },
-    "team2": { "name": "West Ham" },
+    "league": "Super League",
+    "country": "INDONESIA",
+    "league_logo": "https://static.flashscore.com/res/image/data/2oq6CzEt-xGRIAs4N.png",
+    "team1": { "name": "PSIM Yogyakarta" },
+    "team2": { "name": "Persija Jakarta" },
+    "kickoff_date": "2026-04-22",
+    "kickoff_time": "15:30",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-2" }
+    ]
+  },
+  {
+    "id": "Brighton-Chelsea",
+    "sport": "football",
+    "league": "Liga Primer",
+    "country": "INGGRIS",
+    "league_logo": "https://static.flashscore.com/res/image/data/2KxattVM-WKA7lA4p.png",
+    "team1": { "name": "Brighton" },
+    "team2": { "name": "Chelsea" },
     "kickoff_date": "2026-04-22",
     "kickoff_time": "02:00",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://pluyer.pages.dev/?shaka=epl1" }
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=epl-1" }
+    ]
+  },
+  {
+    "id": "Inter-Como",
+    "sport": "football",
+    "league": "Coppa Italia",
+    "country": "ITALIA",
+    "league_logo": "https://static.flashscore.com/res/image/data/QnW9P5VN-EO8ZkQaO.png",
+    "team1": { "name": "Inter" },
+    "team2": { "name": "Como" },
+    "kickoff_date": "2026-04-22",
+    "kickoff_time": "02:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=coppa-1" }
+    ]
+  },
+  {
+    "id": "Bilbao-Osasuna",
+    "sport": "football",
+    "league": "LaLiga",
+    "country": "SPANYOL",
+    "league_logo": "https://static.flashscore.com/res/image/data/W4OFkKzT-vVL3YEFn.png",
+    "team1": { "name": "Ath Bilbao" },
+    "team2": { "name": "Osasuna" },
+    "kickoff_date": "2026-04-22",
+    "kickoff_time": "00:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-1" }
+    ]
+  },
+  {
+    "id": "Mallorca-Valencia",
+    "sport": "football",
+    "league": "LaLiga",
+    "country": "SPANYOL",
+    "league_logo": "https://static.flashscore.com/res/image/data/W4OFkKzT-vVL3YEFn.png",
+    "team1": { "name": "Mallorca" },
+    "team2": { "name": "Valencia" },
+    "kickoff_date": "2026-04-22",
+    "kickoff_time": "00:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-2" }
     ]
   }
 ]
