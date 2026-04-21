@@ -376,7 +376,7 @@ body {
   justify-content: space-between;
   background: #1a1f2e;
   color: #fff;
-  padding: 10px 14px;
+  padding: 8px 12px;
   font-size: 14px;
   font-weight: 600;
   font-family: Arial, sans-serif;
@@ -391,10 +391,10 @@ body {
   text-decoration: underline; /* Opsional: garis muncul pas di-hover doang */
 }
 .reload-btn {
-  background: #fff;
+  background: #0a0a0f;
   border: none;
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -404,7 +404,7 @@ body {
 }
 
 .reload-btn svg {
-  color: #000;
+  color: #fff;
 }
 
 .reload-btn:active {
