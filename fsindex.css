@@ -392,9 +392,9 @@ body {
 }
 .reload-btn {
   background: #0a0a0f;
-  border: none;
-  width: 26px;
-  height: 26px;
+  border-bottom: 1px solid var(--border); 
+  width: 27px;
+  height: 27px;
   border-radius: 4px;
   display: flex;
   align-items: center;
