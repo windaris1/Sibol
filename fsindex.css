@@ -392,7 +392,6 @@ body {
 }
 .reload-btn {
   background: #0a0a0f;
-  border-radius: 4px; 
   width: 27px;
   height: 27px;
   display: flex;
