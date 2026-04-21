@@ -382,10 +382,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.download-text .link {
+.download-bar .link {
   color: #4da6ff;
+  text-decoration: none;
 }
 
+.download-bar .link:hover {
+  text-decoration: underline; /* Opsional: garis muncul pas di-hover doang */
+}
 .reload-btn {
   background: #fff;
   border: none;
