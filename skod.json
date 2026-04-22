@@ -10,7 +10,7 @@
     "kickoff_time": "15:30",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=ch1" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ch2" }
     ]
   },
   {
