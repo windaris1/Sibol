@@ -166,5 +166,75 @@
     "channels": [
       { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-5" }
     ]
+  },
+  {
+    "id": "Levante-Sevilla",
+    "sport": "football",
+    "league": "LaLiga",
+    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
+    "team1": { "name": "Levante" },
+    "team2": { "name": "Sevilla" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "00:00",
+    "duration": 120,
+    "channels": [
+      { "name": "LaLiga TV", "url": "https://plasak.pages.dev/?id=laliga-6" }
+    ]
+  },
+  {
+    "id": "RayoVallecano-Espanyol",
+    "sport": "football",
+    "league": "LaLiga",
+    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
+    "team1": { "name": "Rayo Vallecano" },
+    "team2": { "name": "Espanyol" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "01:00",
+    "duration": 120,
+    "channels": [
+      { "name": "LaLiga TV", "url": "https://plasak.pages.dev/?id=laliga-7" }
+    ]
+  },
+  {
+    "id": "Oviedo-Villarreal",
+    "sport": "football",
+    "league": "LaLiga",
+    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
+    "team1": { "name": "Oviedo" },
+    "team2": { "name": "Villarreal" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "02:30",
+    "duration": 120,
+    "channels": [
+      { "name": "LaLiga TV", "url": "https://plasak.pages.dev/?id=laliga-8" }
+    ]
+  },
+  {
+    "id": "Persijap-PSBSBiak",
+    "sport": "football",
+    "league": "Super League",
+    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
+    "team1": { "name": "Persijap Jepara" },
+    "team2": { "name": "PSBS Biak" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "15:30",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-6" }
+    ]
+  },
+  {
+    "id": "Persib-AremaFC",
+    "sport": "football",
+    "league": "Super League",
+    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
+    "team1": { "name": "Persib Bandung" },
+    "team2": { "name": "Arema FC" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "19:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-7" }
+    ]
   }
 ]
