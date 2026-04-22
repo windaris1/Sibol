@@ -210,13 +210,6 @@
     "status": "Online"
   },
   {
-    "id": "tudn",
-    "name": "TUDN",
-    "logo": "https://sibaltv.pages.dev/logo/tudn.png",
-    "url": "https://plasak.pages.dev/?id=tudn",
-    "status": "Online"
-  },
-  {
     "id": "fubo1",
     "name": "Fubo Sports 1",
     "logo": "https://sibaltv.pages.dev/logo/fubo1.png",
@@ -228,6 +221,69 @@
     "name": "Fubo Sports 2",
     "logo": "https://sibaltv.pages.dev/logo/fubo2.png",
     "url": "https://plasak.pages.dev/?id=fubo2",
+    "status": "Online"
+  },
+{
+    "id": "canale5",
+    "name": "Canale 5",
+    "logo": "https://sibaltv.pages.dev/logo/canale5.png",
+    "url": "https://plasak.pages.dev/?id=canale5",
+    "status": "Online"
+},
+{
+    "id": "ctsport",
+    "name": "CT Sport",
+    "logo": "https://sibaltv.pages.dev/logo/ctsport.png",
+    "url": "https://plasak.pages.dev/?id=ctsport",
+    "status": "Online"
+},
+{
+    "id": "mesport1",
+    "name": "ME Sport 1",
+    "logo": "https://sibaltv.pages.dev/logo/mesport1.png",
+    "url": "https://plasak.pages.dev/?id=mesport1",
+    "status": "Online"
+},
+{
+    "id": "mesport2",
+    "name": "ME Sport 2",
+    "logo": "https://sibaltv.pages.dev/logo/mesport2.png",
+    "url": "https://plasak.pages.dev/?id=mesport2",
+    "status": "Online"
+},
+{
+    "id": "nova1",
+    "name": "Nova Sport 1",
+    "logo": "https://sibaltv.pages.dev/logo/nova1.png",
+    "url": "https://plasak.pages.dev/?id=nova1",
+    "status": "Online"
+},
+{
+    "id": "nova2",
+    "name": "Nova Sport 2",
+    "logo": "https://sibaltv.pages.dev/logo/nova2.png",
+    "url": "https://plasak.pages.dev/?id=nova2",
+    "status": "Online"
+},
+{
+    "id": "universo",
+    "name": "Universo",
+    "logo": "https://sibaltv.pages.dev/logo/universo.png",
+    "url": "https://plasak.pages.dev/?id=universo",
+    "status": "Online"
+},
+{
+    "id": "usa",
+    "name": "USA Network",
+    "logo": "https://sibaltv.pages.dev/logo/usa.png",
+    "url": "https://plasak.pages.dev/?id=usa",
+    "status": "Online"
+},
+  {
+    "id": "tudn",
+    "name": "TUDN",
+    "logo": "https://sibaltv.pages.dev/logo/tudn.png",
+    "url": "https://plasak.pages.dev/?id=tudn",
     "status": "Online"
   },
   {
