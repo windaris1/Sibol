@@ -236,5 +236,117 @@
     "channels": [
       { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-7" }
     ]
+  },
+  {
+    "id": "Sunderland-Nottingham",
+    "sport": "football",
+    "league": "Liga Primer",
+    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
+    "team1": { "name": "Sunderland" },
+    "team2": { "name": "Nottingham" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "02:00",
+    "duration": 120,
+    "channels": [
+      { "name": "TNT Sports 1", "url": "https://plasak.pages.dev/?id=epl-4" }
+    ]
+  },
+  {
+    "id": "MaduraUnited-DewaUnited",
+    "sport": "football",
+    "league": "Super League",
+    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
+    "team1": { "name": "Madura United" },
+    "team2": { "name": "Dewa United" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "15:30",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-8" }
+    ]
+  },
+  {
+    "id": "Fulham-AstonVilla",
+    "sport": "football",
+    "league": "Liga Primer",
+    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
+    "team1": { "name": "Fulham" },
+    "team2": { "name": "Aston Villa" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "18:30",
+    "duration": 120,
+    "channels": [
+      { "name": "TNT Sports 1", "url": "https://plasak.pages.dev/?id=epl-5" }
+    ]
+  },
+  {
+    "id": "Borneo-SemenPadang",
+    "sport": "football",
+    "league": "Super League",
+    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
+    "team1": { "name": "Borneo" },
+    "team2": { "name": "Semen Padang" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "19:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-9" }
+    ]
+  },
+  {
+    "id": "Liverpool-CrystalPalace",
+    "sport": "football",
+    "league": "Liga Primer",
+    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
+    "team1": { "name": "Liverpool" },
+    "team2": { "name": "Crystal Palace" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "21:00",
+    "duration": 120,
+    "channels": [
+      { "name": "TNT Sports 1", "url": "https://plasak.pages.dev/?id=epl-6" }
+    ]
+  },
+  {
+    "id": "WestHam-Everton",
+    "sport": "football",
+    "league": "Liga Primer",
+    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
+    "team1": { "name": "West Ham" },
+    "team2": { "name": "Everton" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "21:00",
+    "duration": 120,
+    "channels": [
+      { "name": "TNT Sports 2", "url": "https://plasak.pages.dev/?id=epl-7" }
+    ]
+  },
+  {
+    "id": "Wolves-Tottenham",
+    "sport": "football",
+    "league": "Liga Primer",
+    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
+    "team1": { "name": "Wolves" },
+    "team2": { "name": "Tottenham" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "21:00",
+    "duration": 120,
+    "channels": [
+      { "name": "TNT Sports 3", "url": "https://plasak.pages.dev/?id=epl-8" }
+    ]
+  },
+  {
+    "id": "Arsenal-NewcastleUtd",
+    "sport": "football",
+    "league": "Liga Primer",
+    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
+    "team1": { "name": "Arsenal" },
+    "team2": { "name": "Newcastle Utd" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "23:30",
+    "duration": 120,
+    "channels": [
+      { "name": "TNT Sports 1", "url": "https://plasak.pages.dev/?id=epl-9" }
+    ]
   }
 ]
