@@ -72,7 +72,7 @@
   {
     "id": "Bournemouth-Leeds",
     "sport": "football",
-    "league": "Liga Primer",
+    "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
     "team1": { "name": "Bournemouth" },
     "team2": { "name": "Leeds" },
@@ -86,7 +86,7 @@
   {
     "id": "Burnley-ManCity",
     "sport": "football",
-    "league": "Liga Primer",
+    "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
     "team1": { "name": "Burnley" },
     "team2": { "name": "Manchester City" },
@@ -238,9 +238,37 @@
     ]
   },
   {
+    "id": "RBLeipzig-UnionBerlin",
+    "sport": "football",
+    "league": "Bundesliga",
+    "league_logo": "https://static.flashscore.com/res/image/data/YFsJ9tdk-WVJfSEiJ.png",
+    "team1": { "name": "RB Leipzig" },
+    "team2": { "name": "Union Berlin" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "01:30",
+    "duration": 120,
+    "channels": [
+      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-1" }
+    ]
+  },
+  {
+    "id": "Napoli-Cremonese",
+    "sport": "football",
+    "league": "Serie A",
+    "league_logo": "https://static.flashscore.com/res/image/data/SYNtQREk-WBLhnF9m.png",
+    "team1": { "name": "Napoli" },
+    "team2": { "name": "Cremonese" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "01:45",
+    "duration": 120,
+    "channels": [
+      { "name": "beIN Sports 1", "url": "https://plasak.pages.dev/?id=seriea-1" }
+    ]
+  },
+  {
     "id": "Sunderland-Nottingham",
     "sport": "football",
-    "league": "Liga Primer",
+    "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
     "team1": { "name": "Sunderland" },
     "team2": { "name": "Nottingham" },
@@ -268,7 +296,7 @@
   {
     "id": "Fulham-AstonVilla",
     "sport": "football",
-    "league": "Liga Primer",
+    "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
     "team1": { "name": "Fulham" },
     "team2": { "name": "Aston Villa" },
@@ -294,9 +322,79 @@
     ]
   },
   {
+    "id": "Parma-Pisa",
+    "sport": "football",
+    "league": "Serie A",
+    "league_logo": "https://static.flashscore.com/res/image/data/SYNtQREk-WBLhnF9m.png",
+    "team1": { "name": "Parma" },
+    "team2": { "name": "Pisa" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "20:00",
+    "duration": 120,
+    "channels": [
+      { "name": "beIN Sports 1", "url": "https://plasak.pages.dev/?id=seriea-2" }
+    ]
+  },
+  {
+    "id": "Augsburg-EintrachtFrankfurt",
+    "sport": "football",
+    "league": "Bundesliga",
+    "league_logo": "https://static.flashscore.com/res/image/data/YFsJ9tdk-WVJfSEiJ.png",
+    "team1": { "name": "Augsburg" },
+    "team2": { "name": "Eintracht Frankfurt" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "20:30",
+    "duration": 120,
+    "channels": [
+      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-2" }
+    ]
+  },
+  {
+    "id": "Heidenheim-StPauli",
+    "sport": "football",
+    "league": "Bundesliga",
+    "league_logo": "https://static.flashscore.com/res/image/data/YFsJ9tdk-WVJfSEiJ.png",
+    "team1": { "name": "Heidenheim" },
+    "team2": { "name": "St. Pauli" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "20:30",
+    "duration": 120,
+    "channels": [
+      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-3" }
+    ]
+  },
+  {
+    "id": "Koln-BayerLeverkusen",
+    "sport": "football",
+    "league": "Bundesliga",
+    "league_logo": "https://static.flashscore.com/res/image/data/YFsJ9tdk-WVJfSEiJ.png",
+    "team1": { "name": "Köln" },
+    "team2": { "name": "Bayer Leverkusen" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "20:30",
+    "duration": 120,
+    "channels": [
+      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-4" }
+    ]
+  },
+  {
+    "id": "Mainz-BayernMunich",
+    "sport": "football",
+    "league": "Bundesliga",
+    "league_logo": "https://static.flashscore.com/res/image/data/YFsJ9tdk-WVJfSEiJ.png",
+    "team1": { "name": "Mainz" },
+    "team2": { "name": "Bayern Munich" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "20:30",
+    "duration": 120,
+    "channels": [
+      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-5" }
+    ]
+  },
+  {
     "id": "Liverpool-CrystalPalace",
     "sport": "football",
-    "league": "Liga Primer",
+    "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
     "team1": { "name": "Liverpool" },
     "team2": { "name": "Crystal Palace" },
@@ -310,7 +408,7 @@
   {
     "id": "WestHam-Everton",
     "sport": "football",
-    "league": "Liga Primer",
+    "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
     "team1": { "name": "West Ham" },
     "team2": { "name": "Everton" },
@@ -324,7 +422,7 @@
   {
     "id": "Wolves-Tottenham",
     "sport": "football",
-    "league": "Liga Primer",
+    "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
     "team1": { "name": "Wolves" },
     "team2": { "name": "Tottenham" },
@@ -336,9 +434,23 @@
     ]
   },
   {
+    "id": "Bologna-ASRoma",
+    "sport": "football",
+    "league": "Serie A",
+    "league_logo": "https://static.flashscore.com/res/image/data/SYNtQREk-WBLhnF9m.png",
+    "team1": { "name": "Bologna" },
+    "team2": { "name": "AS Roma" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "23:00",
+    "duration": 120,
+    "channels": [
+      { "name": "beIN Sports 1", "url": "https://plasak.pages.dev/?id=seriea-3" }
+    ]
+  },
+  {
     "id": "Arsenal-NewcastleUtd",
     "sport": "football",
-    "league": "Liga Primer",
+    "league": "Premier League",
     "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
     "team1": { "name": "Arsenal" },
     "team2": { "name": "Newcastle Utd" },
