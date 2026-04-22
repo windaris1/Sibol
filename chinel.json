@@ -224,17 +224,17 @@
     "status": "Online"
   },
 {
-    "id": "canale5",
-    "name": "Canale 5",
-    "logo": "https://sibaltv.pages.dev/logo/canale5.png",
-    "url": "https://plasak.pages.dev/?id=canale5",
+    "id": "sports1",
+    "name": "Sports 1",
+    "logo": "https://sibaltv.pages.dev/logo/sports1.png",
+    "url": "https://plasak.pages.dev/?id=sports1",
     "status": "Online"
 },
 {
-    "id": "ctsport",
-    "name": "CT Sport",
-    "logo": "https://sibaltv.pages.dev/logo/ctsport.png",
-    "url": "https://plasak.pages.dev/?id=ctsport",
+    "id": "sports2",
+    "name": "Sports 2", 
+    "logo": "https://sibaltv.pages.dev/logo/sports2.png",
+    "url": "https://plasak.pages.dev/?id=sports2",
     "status": "Online"
 },
 {
@@ -263,6 +263,20 @@
     "name": "Nova Sport 2",
     "logo": "https://sibaltv.pages.dev/logo/nova2.png",
     "url": "https://plasak.pages.dev/?id=nova2",
+    "status": "Online"
+},
+{
+    "id": "canale5",
+    "name": "Canale 5",
+    "logo": "https://sibaltv.pages.dev/logo/canale5.png",
+    "url": "https://plasak.pages.dev/?id=canale5",
+    "status": "Online"
+},
+{
+    "id": "ctsport",
+    "name": "CT Sport",
+    "logo": "https://sibaltv.pages.dev/logo/ctsport.png",
+    "url": "https://plasak.pages.dev/?id=ctsport",
     "status": "Online"
 },
 {
