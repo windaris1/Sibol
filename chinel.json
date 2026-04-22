@@ -294,7 +294,7 @@
     "status": "Online"
 },
   {
-    "id": "tudn",
+    "id": "tudnusa",
     "name": "TUDN",
     "logo": "https://sibaltv.pages.dev/logo/tudn.png",
     "url": "https://plasak.pages.dev/?id=tudn",
@@ -354,6 +354,13 @@
     "name": "Sport 3",
     "logo": "https://sibaltv.pages.dev/logo/sport3.png",
     "url": "https://plasak.pages.dev/?id=spotv3",
+    "status": "Online"
+  },
+  {
+    "id": "tv2",
+    "name": "TV 2 Sports",
+    "logo": "https://sibaltv.pages.dev/logo/tv2.png",
+    "url": "https://plasak.pages.dev/?id=tv2",
     "status": "Online"
   }
 ]
