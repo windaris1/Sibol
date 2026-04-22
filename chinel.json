@@ -339,7 +339,7 @@
     "id": "sport1",
     "name": "Sport 1",
     "logo": "https://sibaltv.pages.dev/logo/sport1.png",
-    "url": "https://plasak.pages.dev/?id=sportv",
+    "url": "https://plasak.pages.dev/?id=sportv1",
     "status": "Online"
   },
   {
@@ -353,7 +353,7 @@
     "id": "sport3",
     "name": "Sport 3",
     "logo": "https://sibaltv.pages.dev/logo/sport3.png",
-    "url": "https://plasak.pages.dev/?id=tv2xdk",
+    "url": "https://plasak.pages.dev/?id=spotv3",
     "status": "Online"
   }
 ]
