@@ -1,5 +1,3 @@
-Ini full js 
-
 // LOCK HEIGHT BIAR GA KETARIK KEYBOARD
 function lockHeight() {
   const vh = window.innerHeight;
