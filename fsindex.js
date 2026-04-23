@@ -183,7 +183,7 @@ function renderPopupList() {
   filterActiveMatches();
   popupList.innerHTML = '';
   let filtered = activeLeague === 'LIVE'
-  ? MATCHES.filter(m => isMatchLive(m))
+ ? MATCHES.filter(m => isMatchLive(m))
     : MATCHES.filter(m => m.sport === activeLeague);
 
   if (filtered.length === 0) {
@@ -256,7 +256,7 @@ async function init() {
   try {
     // 1. List semua file JSON yang mau di-load
     const files = ['skod.json', 'badminton.json']; // tambahin file lain di sini
-    
+
     // 2. Fetch semua file barengan
     const allData = await Promise.all(
       files.map(async (file) => {
@@ -265,21 +265,29 @@ async function init() {
         return res.json();
       })
     );
-    
+
     // 3. Gabungin semua array jadi 1
     ALL_MATCHES = allData.flat();
-    
+
     // 4. Sort by tanggal + jam biar urut
     ALL_MATCHES.sort((a, b) => {
-      const dateA = new Date(`${a.kickoff_date} ${a.kickoff_time}`);
-      const dateB = new Date(`${b.kickoff_date} ${b.kickoff_time}`);
+      const dateA = new Date(`${a.kickoff_date}T${a.kickoff_time}:00`);
+      const dateB = new Date(`${b.kickoff_date}T${b.kickoff_time}:00`);
       return dateA - dateB;
     });
-    
+
     renderLeagueBar();
 
-    // 5. Cari match yang lagi live - pake ALL_MATCHES bukan MATCH
+    // 5. Cari match yang lagi live
+    const firstLive = ALL_MATCHES.find(m => isMatchLive(m));
+    if (firstLive) {
+      selectMatch(firstLive);
+    } else {
+      playerPoster.classList.remove('hide');
+      scoreboard.innerText = 'Pilih match dulu';
+    }
 
+    // 6. Interval update tiap menit
     setInterval(() => {
       renderLeagueBar();
       if (matchPopup.classList.contains('show')) renderPopupList();
