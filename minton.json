@@ -28,6 +28,20 @@
     ]
   },
   {
+    "id": "UberCup-RRC-Ukraina",
+    "sport": "badminton",
+    "league": "Piala Uber Tim - Tim Wanita",
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "RRC (Women)" },
+    "team2": { "name": "Ukraina (Women)" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "13:30",
+    "duration": 180,
+    "channels": [
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-6" }
+    ]
+  },
+  {
     "id": "ThomasCup-Perancis-Thailand",
     "sport": "badminton",
     "league": "Piala Thomas Tim - Tim Pria",
@@ -39,6 +53,34 @@
     "duration": 180,
     "channels": [
       { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-3" }
+    ]
+  },
+  {
+    "id": "UberCup-India-Denmark",
+    "sport": "badminton",
+    "league": "Piala Uber Tim - Tim Wanita",
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "India (Women)" },
+    "team2": { "name": "Denmark (Women)" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "17:00",
+    "duration": 180,
+    "channels": [
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-7" }
+    ]
+  },
+  {
+    "id": "UberCup-Korsel-Spanyol",
+    "sport": "badminton",
+    "league": "Piala Uber Tim - Tim Wanita",
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "Korea Selatan (Women)" },
+    "team2": { "name": "Spanyol (Women)" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "17:00",
+    "duration": 180,
+    "channels": [
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-8" }
     ]
   },
   {
@@ -67,6 +109,20 @@
     "duration": 180,
     "channels": [
       { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-5" }
+    ]
+  },
+  {
+    "id": "UberCup-Thailand-Bulgaria",
+    "sport": "badminton",
+    "league": "Piala Uber Tim - Tim Wanita",
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "Thailand (Women)" },
+    "team2": { "name": "Bulgaria (Women)" },
+    "kickoff_date": "2026-04-24",
+    "kickoff_time": "23:30",
+    "duration": 180,
+    "channels": [
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-9" }
     ]
   }
 ]
