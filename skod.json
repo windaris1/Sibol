@@ -1,131 +1,5 @@
 [
   {
-    "id": "Persis-Bhayangkara",
-    "sport": "football",
-    "league": "Super League",
-    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
-    "team1": { "name": "Persis Solo" },
-    "team2": { "name": "FC Bhayangkara" },
-    "kickoff_date": "2026-04-22",
-    "kickoff_time": "15:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ch2" }
-    ]
-  },
-  {
-    "id": "PSIM-Persija",
-    "sport": "football",
-    "league": "Super League",
-    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
-    "team1": { "name": "PSIM Yogyakarta" },
-    "team2": { "name": "Persija Jakarta" },
-    "kickoff_date": "2026-04-22",
-    "kickoff_time": "15:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ch1" }
-    ]
-  },
-  {
-    "id": "PSG-Nantes",
-    "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "PSG" },
-    "team2": { "name": "Nantes" },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "00:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=ligue1-1" }
-    ]
-  },
-  {
-    "id": "Elche-AtlMadrid",
-    "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Elche" },
-    "team2": { "name": "Atl. Madrid" },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "00:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-3" }
-    ]
-  },
-  {
-    "id": "RealSociedad-Getafe",
-    "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Real Sociedad" },
-    "team2": { "name": "Getafe" },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "01:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-4" }
-    ]
-  },
-  {
-    "id": "Bournemouth-Leeds",
-    "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Bournemouth" },
-    "team2": { "name": "Leeds" },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "02:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=epl-2" }
-    ]
-  },
-  {
-    "id": "Burnley-ManCity",
-    "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Burnley" },
-    "team2": { "name": "Manchester City" },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "02:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=epl-3" }
-    ]
-  },
-  {
-    "id": "Atalanta-Lazio",
-    "sport": "football",
-    "league": "Coppa Italia",
-    "league_logo": "https://static.flashscore.com/res/image/data/KAR6wqDO-d6RcxKXk.png",
-    "team1": { "name": "Atalanta" },
-    "team2": { "name": "Lazio" },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "02:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=coppa-2" }
-    ]
-  },
-  {
-    "id": "Barcelona-CeltaVigo",
-    "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Barcelona" },
-    "team2": { "name": "Celta Vigo" },
-    "kickoff_date": "2026-04-23",
-    "kickoff_time": "02:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=laliga-5" }
-    ]
-  },
-  {
     "id": "Persita-BaliUnited",
     "sport": "football",
     "league": "Super League",
@@ -136,7 +10,7 @@
     "kickoff_time": "15:30",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-3" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-3" }
     ]
   },
   {
@@ -150,7 +24,7 @@
     "kickoff_time": "15:30",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-4" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-4" }
     ]
   },
   {
@@ -164,7 +38,7 @@
     "kickoff_time": "19:00",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 - HD", "url": "https://plasak.pages.dev/?id=liga1-5" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-5" }
     ]
   },
   {
@@ -178,7 +52,7 @@
     "kickoff_time": "00:00",
     "duration": 120,
     "channels": [
-      { "name": "LaLiga TV", "url": "https://plasak.pages.dev/?id=laliga-6" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-6" }
     ]
   },
   {
@@ -192,7 +66,7 @@
     "kickoff_time": "01:00",
     "duration": 120,
     "channels": [
-      { "name": "LaLiga TV", "url": "https://plasak.pages.dev/?id=laliga-7" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-7" }
     ]
   },
   {
@@ -206,7 +80,7 @@
     "kickoff_time": "02:30",
     "duration": 120,
     "channels": [
-      { "name": "LaLiga TV", "url": "https://plasak.pages.dev/?id=laliga-8" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-8" }
     ]
   },
   {
@@ -248,7 +122,7 @@
     "kickoff_time": "01:30",
     "duration": 120,
     "channels": [
-      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-1" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-1" }
     ]
   },
   {
@@ -262,7 +136,21 @@
     "kickoff_time": "01:45",
     "duration": 120,
     "channels": [
-      { "name": "beIN Sports 1", "url": "https://plasak.pages.dev/?id=seriea-1" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-1" }
+    ]
+  },
+  {
+    "id": "Brest-Lens",
+    "sport": "football",
+    "league": "Ligue 1",
+    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
+    "team1": { "name": "Brest" },
+    "team2": { "name": "Lens" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "01:45",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-2" }
     ]
   },
   {
@@ -276,7 +164,21 @@
     "kickoff_time": "02:00",
     "duration": 120,
     "channels": [
-      { "name": "TNT Sports 1", "url": "https://plasak.pages.dev/?id=epl-4" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-4" }
+    ]
+  },
+  {
+    "id": "Betis-RealMadrid",
+    "sport": "football",
+    "league": "LaLiga",
+    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
+    "team1": { "name": "Betis" },
+    "team2": { "name": "Real Madrid" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "02:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-9" }
     ]
   },
   {
@@ -304,7 +206,21 @@
     "kickoff_time": "18:30",
     "duration": 120,
     "channels": [
-      { "name": "TNT Sports 1", "url": "https://plasak.pages.dev/?id=epl-5" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-5" }
+    ]
+  },
+  {
+    "id": "Alaves-Mallorca",
+    "sport": "football",
+    "league": "LaLiga",
+    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
+    "team1": { "name": "Alaves" },
+    "team2": { "name": "Mallorca" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "19:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-10" }
     ]
   },
   {
@@ -322,6 +238,20 @@
     ]
   },
   {
+    "id": "Lyon-Auxerre",
+    "sport": "football",
+    "league": "Ligue 1",
+    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
+    "team1": { "name": "Lyon" },
+    "team2": { "name": "Auxerre" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "20:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-3" }
+    ]
+  },
+  {
     "id": "Parma-Pisa",
     "sport": "football",
     "league": "Serie A",
@@ -332,7 +262,21 @@
     "kickoff_time": "20:00",
     "duration": 120,
     "channels": [
-      { "name": "beIN Sports 1", "url": "https://plasak.pages.dev/?id=seriea-2" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-2" }
+    ]
+  },
+  {
+    "id": "Wolfsburg-BMonchengladbach",
+    "sport": "football",
+    "league": "Bundesliga",
+    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
+    "team1": { "name": "Wolfsburg" },
+    "team2": { "name": "B. Monchengladbach" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "20:30",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-6" }
     ]
   },
   {
@@ -346,7 +290,7 @@
     "kickoff_time": "20:30",
     "duration": 120,
     "channels": [
-      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-2" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-2" }
     ]
   },
   {
@@ -360,7 +304,7 @@
     "kickoff_time": "20:30",
     "duration": 120,
     "channels": [
-      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-3" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-3" }
     ]
   },
   {
@@ -374,7 +318,7 @@
     "kickoff_time": "20:30",
     "duration": 120,
     "channels": [
-      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-4" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-4" }
     ]
   },
   {
@@ -388,7 +332,7 @@
     "kickoff_time": "20:30",
     "duration": 120,
     "channels": [
-      { "name": "Mola TV", "url": "https://plasak.pages.dev/?id=bundes-5" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-5" }
     ]
   },
   {
@@ -402,7 +346,7 @@
     "kickoff_time": "21:00",
     "duration": 120,
     "channels": [
-      { "name": "TNT Sports 1", "url": "https://plasak.pages.dev/?id=epl-6" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-6" }
     ]
   },
   {
@@ -416,7 +360,7 @@
     "kickoff_time": "21:00",
     "duration": 120,
     "channels": [
-      { "name": "TNT Sports 2", "url": "https://plasak.pages.dev/?id=epl-7" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-7" }
     ]
   },
   {
@@ -430,7 +374,21 @@
     "kickoff_time": "21:00",
     "duration": 120,
     "channels": [
-      { "name": "TNT Sports 3", "url": "https://plasak.pages.dev/?id=epl-8" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-8" }
+    ]
+  },
+  {
+    "id": "Getafe-Barcelona",
+    "sport": "football",
+    "league": "LaLiga",
+    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
+    "team1": { "name": "Getafe" },
+    "team2": { "name": "Barcelona" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "21:15",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-11" }
     ]
   },
   {
@@ -444,7 +402,21 @@
     "kickoff_time": "23:00",
     "duration": 120,
     "channels": [
-      { "name": "beIN Sports 1", "url": "https://plasak.pages.dev/?id=seriea-3" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-3" }
+    ]
+  },
+  {
+    "id": "Hamburger-Hoffenheim",
+    "sport": "football",
+    "league": "Bundesliga",
+    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
+    "team1": { "name": "Hamburger SV" },
+    "team2": { "name": "Hoffenheim" },
+    "kickoff_date": "2026-04-25",
+    "kickoff_time": "23:30",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-7" }
     ]
   },
   {
@@ -458,7 +430,7 @@
     "kickoff_time": "23:30",
     "duration": 120,
     "channels": [
-      { "name": "TNT Sports 1", "url": "https://plasak.pages.dev/?id=epl-9" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-9" }
     ]
   }
 ]
