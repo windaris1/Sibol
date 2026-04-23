@@ -3,70 +3,70 @@
     "id": "ThomasCup-India-Kanada",
     "sport": "badminton",
     "league": "Piala Thomas Tim - Tim Pria",
-    "league_logo": "https://static.flashscore.com/res/image/data/BtcjpKjD-2NnwsSnk.png",
-    "team1": { "name": "India", "flag": "🇮🇳" },
-    "team2": { "name": "Kanada", "flag": "🇨🇦" },
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "India" },
+    "team2": { "name": "Kanada" },
     "kickoff_date": "2026-04-24",
     "kickoff_time": "13:30",
     "duration": 180,
     "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=badminton-1" }
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-1" }
     ]
   },
   {
     "id": "ThomasCup-RRC-Australia",
     "sport": "badminton",
     "league": "Piala Thomas Tim - Tim Pria",
-    "league_logo": "https://static.flashscore.com/res/image/data/BtcjpKjD-2NnwsSnk.png",
-    "team1": { "name": "RRC", "flag": "🇨🇳" },
-    "team2": { "name": "Australia", "flag": "🇦🇺" },
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "RRC" },
+    "team2": { "name": "Australia" },
     "kickoff_date": "2026-04-24",
     "kickoff_time": "13:30",
     "duration": 180,
     "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=badminton-2" }
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-2" }
     ]
   },
   {
     "id": "ThomasCup-Perancis-Thailand",
     "sport": "badminton",
     "league": "Piala Thomas Tim - Tim Pria",
-    "league_logo": "https://static.flashscore.com/res/image/data/BtcjpKjD-2NnwsSnk.png",
-    "team1": { "name": "Perancis", "flag": "🇫🇷" },
-    "team2": { "name": "Thailand", "flag": "🇹🇭" },
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "Perancis" },
+    "team2": { "name": "Thailand" },
     "kickoff_date": "2026-04-24",
     "kickoff_time": "17:00",
     "duration": 180,
     "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=badminton-3" }
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-3" }
     ]
   },
   {
     "id": "ThomasCup-Denmark-Korsel",
     "sport": "badminton",
     "league": "Piala Thomas Tim - Tim Pria",
-    "league_logo": "https://static.flashscore.com/res/image/data/BtcjpKjD-2NnwsSnk.png",
-    "team1": { "name": "Denmark", "flag": "🇩🇰" },
-    "team2": { "name": "Korea Selatan", "flag": "🇰🇷" },
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "Denmark" },
+    "team2": { "name": "Korea Selatan" },
     "kickoff_date": "2026-04-24",
     "kickoff_time": "23:30",
     "duration": 180,
     "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=badminton-4" }
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-4" }
     ]
   },
   {
     "id": "ThomasCup-Indonesia-Aljazair",
     "sport": "badminton",
     "league": "Piala Thomas Tim - Tim Pria",
-    "league_logo": "https://static.flashscore.com/res/image/data/BtcjpKjD-2NnwsSnk.png",
-    "team1": { "name": "Indonesia", "flag": "🇮🇩" },
-    "team2": { "name": "Aljazair", "flag": "🇩🇿" },
+    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
+    "team1": { "name": "Indonesia" },
+    "team2": { "name": "Aljazair" },
     "kickoff_date": "2026-04-24",
     "kickoff_time": "23:30",
     "duration": 180,
     "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=badminton-5" }
+      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-5" }
     ]
   }
 ]
