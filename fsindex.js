@@ -1,3 +1,5 @@
+Ini full js 
+
 // LOCK HEIGHT BIAR GA KETARIK KEYBOARD
 function lockHeight() {
   const vh = window.innerHeight;
@@ -25,13 +27,7 @@ async function openTVModal() {
   document.body.style.overflow = 'hidden';
 
   const grid = document.getElementById('tvGrid');
-  
-  // SKELETON LOADING FB STYLE
-  grid.innerHTML = `
-    <div class="skeleton-grid">
-      ${Array(12).fill('<div class="skeleton-card"><div class="skeleton-logo"></div></div>').join('')}
-    </div>
-  `;
+  grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;color:#666;padding:20px;">Loading...</div>';
 
   try {
     if (TV_CHANNELS.length === 0) {
