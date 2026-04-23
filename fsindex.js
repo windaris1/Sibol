@@ -255,7 +255,7 @@ function loadChannel(url, name) {
 async function init() {
   try {
     // 1. List semua file JSON yang mau di-load
-    const files = ['skod.json', 'badminton.json']; // tambahin file lain di sini
+    const files = ['skod.json', 'minton.json']; // tambahin file lain di sini
 
     // 2. Fetch semua file barengan
     const allData = await Promise.all(
