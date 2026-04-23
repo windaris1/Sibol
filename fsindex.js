@@ -25,7 +25,13 @@ async function openTVModal() {
   document.body.style.overflow = 'hidden';
 
   const grid = document.getElementById('tvGrid');
-  grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;color:#666;padding:20px;">Loading...</div>';
+  
+  // SKELETON LOADING FB STYLE
+  grid.innerHTML = `
+    <div class="skeleton-grid">
+      ${Array(12).fill('<div class="skeleton-card"><div class="skeleton-logo"></div></div>').join('')}
+    </div>
+  `;
 
   try {
     if (TV_CHANNELS.length === 0) {
