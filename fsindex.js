@@ -160,7 +160,7 @@ function openPopup(type, title = '') {
   }
 
   activeLeague = type;
-  popupTitle.innerText = title || (type === 'LIVE'? 'Pertandingan LIVE' : type);
+  popupTitle.innerText = title || (type === 'LIVE'? 'Sedang Berlangsung' : type);
 
   const sidebarHeight = leftSidebar.offsetHeight;
   matchPopup.style.top = sidebarHeight + 'px';
@@ -187,7 +187,7 @@ function renderPopupList() {
     : MATCHES.filter(m => m.sport === activeLeague);
 
   if (filtered.length === 0) {
-    popupList.innerHTML = '<div style="padding: 20px; text-align: center; color: #6b7280;">Ga ada jadwal</div>';
+    popupList.innerHTML = '<div style="padding: 20px; text-align: center; color: #6b7280;">Belum ada Pertandingan...</div>';
     return;
   }
   filtered.forEach(match => {
