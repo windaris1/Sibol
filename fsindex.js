@@ -254,19 +254,31 @@ function loadChannel(url, name) {
 
 async function init() {
   try {
-    const res = await fetch('skod.json');
-    if (!res.ok) throw new Error('matches.json 404');
-
-    ALL_MATCHES = await res.json();
+    // 1. List semua file JSON yang mau di-load
+    const files = ['skod.json', 'badminton.json']; // tambahin file lain di sini
+    
+    // 2. Fetch semua file barengan
+    const allData = await Promise.all(
+      files.map(async (file) => {
+        const res = await fetch(file);
+        if (!res.ok) throw new Error(`${file} 404`);
+        return res.json();
+      })
+    );
+    
+    // 3. Gabungin semua array jadi 1
+    ALL_MATCHES = allData.flat();
+    
+    // 4. Sort by tanggal + jam biar urut
+    ALL_MATCHES.sort((a, b) => {
+      const dateA = new Date(`${a.kickoff_date} ${a.kickoff_time}`);
+      const dateB = new Date(`${b.kickoff_date} ${b.kickoff_time}`);
+      return dateA - dateB;
+    });
+    
     renderLeagueBar();
 
-    const firstLive = MATCHES.find(m => isMatchLive(m));
-    if (firstLive) {
-      selectMatch(firstLive);
-    } else {
-      playerPoster.classList.remove('hide');
-      scoreboard.innerText = 'Pilih match dulu';
-    }
+    // 5. Cari match yang lagi live - pake ALL_MATCHES bukan MATCH
 
     setInterval(() => {
       renderLeagueBar();
