@@ -26,7 +26,7 @@
     "kickoff_time": "17:00",
     "duration": 180,
     "channels": [
-      { "name": "COURT 2 SD", "url": "https://plasak.pages.dev/?id=court1" },
+      { "name": "COURT 2 SD", "url": "https://plasak.pages.dev/?id=court2" },
       { "name": "COURT 2 HD", "url": "https://plasak.pages.dev/?id=court22" },
       { "name": "COURT 2 AUTO", "url": "https://plasak.pages.dev/?id=court22" }
     ]
