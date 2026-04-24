@@ -10,7 +10,7 @@
     "kickoff_time": "15:30",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-6" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ch1" }
     ]
   },
   {
@@ -24,7 +24,9 @@
     "kickoff_time": "19:00",
     "duration": 120,
     "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-7" }
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ch1" },
+      { "name": "CH 2 HD", "url": "https://plasak.pages.dev/?id=ch2" },
+      { "name": "CH 3 HD", "url": "https://plasak.pages.dev/?id=ch3" }
     ]
   },
   {
