@@ -1,53 +1,5 @@
 [
   {
-    "id": "ThomasCup-India-Kanada",
-    "sport": "badminton",
-    "league": "Piala Thomas Tim - Tim Pria",
-    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
-    "team1": { "name": "India" },
-    "team2": { "name": "Kanada (Court 2)" },
-    "kickoff_date": "2026-04-24",
-    "kickoff_time": "13:00",
-    "duration": 500,
-    "channels": [
-      { "name": "COURT 2 SD", "url": "https://plasak.pages.dev/?id=court2" },
-      { "name": "COURT 2 HD", "url": "https://plasak.pages.dev/?id=court22" },
-      { "name": "COURT 2 AUTO", "url": "https://plasak.pages.dev/?id=court222" }
-    ]
-  },
-  {
-    "id": "ThomasCup-RRC-Australia",
-    "sport": "badminton",
-    "league": "Piala Thomas Tim - Tim Pria",
-    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
-    "team1": { "name": "China" },
-    "team2": { "name": "Australia (Court 3)" },
-    "kickoff_date": "2026-04-24",
-    "kickoff_time": "13:30",
-    "duration": 580,
-    "channels": [
-      { "name": "COURT 3 SD", "url": "https://plasak.pages.dev/?id=court3" },
-      { "name": "COURT 3 HD", "url": "https://plasak.pages.dev/?id=court33" },
-      { "name": "COURT 3 AUTO", "url": "https://plasak.pages.dev/?id=court333" }
-    ]
-  },
-  {
-    "id": "UberCup-RRC-Ukraina",
-    "sport": "badminton",
-    "league": "Piala Uber Tim - Tim Wanita",
-    "league_logo": "https://static.flashscore.com/res/image/data/UJi4Yz8j-23xncWPM.png",
-    "team1": { "name": "China (Women)" },
-    "team2": { "name": "Ukraina (Women) Court 1" },
-    "kickoff_date": "2026-04-24",
-    "kickoff_time": "13:30",
-    "duration": 580,
-    "channels": [
-      { "name": "COURT 1 SD", "url": "https://plasak.pages.dev/?id=court3" },
-      { "name": "COURT 1 HD", "url": "https://plasak.pages.dev/?id=court33" },
-      { "name": "COURT 1 AUTO", "url": "https://plasak.pages.dev/?id=court33" }
-    ]
-  },
-  {
     "id": "ThomasCup-Perancis-Thailand",
     "sport": "badminton",
     "league": "Piala Thomas Tim - Tim Pria",
@@ -58,8 +10,10 @@
     "kickoff_time": "17:00",
     "duration": 180,
     "channels": [
-      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-3" }
-    ]
+      { "name": "COURT 1 SD", "url": "https://plasak.pages.dev/?id=court1" },
+      { "name": "COURT 1 HD", "url": "https://plasak.pages.dev/?id=court11" },
+      { "name": "COURT 1 AUTO", "url": "https://plasak.pages.dev/?id=court111" }
+  ]
   },
   {
     "id": "UberCup-India-Denmark",
@@ -72,7 +26,9 @@
     "kickoff_time": "17:00",
     "duration": 180,
     "channels": [
-      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-7" }
+      { "name": "COURT 2 SD", "url": "https://plasak.pages.dev/?id=court1" },
+      { "name": "COURT 2 HD", "url": "https://plasak.pages.dev/?id=court22" },
+      { "name": "COURT 2 AUTO", "url": "https://plasak.pages.dev/?id=court22" }
     ]
   },
   {
