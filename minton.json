@@ -26,9 +26,9 @@
     "kickoff_time": "13:30",
     "duration": 580,
     "channels": [
-      { "name": "COURT 3 SD", "url": "https://plasak.pages.dev/?id=court2" },
-      { "name": "COURT 3 HD", "url": "https://plasak.pages.dev/?id=court22" },
-      { "name": "COURT 3 AUTO", "url": "https://plasak.pages.dev/?id=court222" }
+      { "name": "COURT 3 SD", "url": "https://plasak.pages.dev/?id=court3" },
+      { "name": "COURT 3 HD", "url": "https://plasak.pages.dev/?id=court33" },
+      { "name": "COURT 3 AUTO", "url": "https://plasak.pages.dev/?id=court333" }
     ]
   },
   {
