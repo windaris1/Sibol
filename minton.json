@@ -42,7 +42,9 @@
     "kickoff_time": "17:00",
     "duration": 180,
     "channels": [
-      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-8" }
+     { "name": "COURT 3 SD", "url": "https://plasak.pages.dev/?id=court3" },
+      { "name": "COURT 3 HD", "url": "https://plasak.pages.dev/?id=court33" },
+      { "name": "COURT 3 AUTO", "url": "https://plasak.pages.dev/?id=court33" }
     ]
   },
   {
