@@ -10,9 +10,10 @@
     "kickoff_time": "13:00",
     "duration": 500,
     "channels": [
-      { "name": "Court 1 HD", "url": "https://plasak.pages.dev/?id=court1" },
-      { "name": "Court 1 HD +", "url": "https://plasak.pages.dev/?id=court1" },
-      { "name": "Court 1 SD", "url": "https://plasak.pages.dev/?id=court1" }
+      { "name": "Court 1 SD", "url": "https://plasak.pages.dev/?id=court1" },
+      { "name": "Court 1 HD", "url": "https://plasak.pages.dev/?id=court11" },
+      { "name": "Court 1 HD +", "url": "https://plasak.pages.dev/?id=court111" },
+      { "name": "Court 1 Auto", "url": "https://plasak.pages.dev/?id=court111" }
     ]
   },
   {
@@ -26,7 +27,10 @@
     "kickoff_time": "13:00",
     "duration": 580,
     "channels": [
-      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-2" }
+      { "name": "Court 1 SD", "url": "https://plasak.pages.dev/?id=court2" },
+      { "name": "Court 2 HD", "url": "https://plasak.pages.dev/?id=court22" },
+      { "name": "Court 2 HD +", "url": "https://plasak.pages.dev/?id=court222" },
+      { "name": "Court 2 Auto", "url": "https://plasak.pages.dev/?id=court111" }
     ]
   },
   {
@@ -40,7 +44,10 @@
     "kickoff_time": "13:00",
     "duration": 580,
     "channels": [
-      { "name": "Court 1", "url": "https://plasak.pages.dev/?id=badminton-6" }
+      { "name": "Court 3 SD", "url": "https://plasak.pages.dev/?id=court3" },
+      { "name": "Court 3 HD", "url": "https://plasak.pages.dev/?id=court33" },
+      { "name": "Court 3 HD +", "url": "https://plasak.pages.dev/?id=court33" },
+      { "name": "Court 3 Auto", "url": "https://plasak.pages.dev/?id=court111" }
     ]
   },
   {
