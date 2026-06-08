@@ -2,7 +2,7 @@
   {
     "id": "Mexico-SouthAfrica",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Mexico" },
     "team2": { "name": "South Africa" },
@@ -14,7 +14,7 @@
   {
     "id": "SouthKorea-CzechRepublic",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "South Korea" },
     "team2": { "name": "Czech Republic" },
@@ -26,7 +26,7 @@
   {
     "id": "Canada-BosniaHerzegovina",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Canada" },
     "team2": { "name": "Bosnia & Herzegovina" },
@@ -38,7 +38,7 @@
   {
     "id": "USA-Paraguay",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "USA" },
     "team2": { "name": "Paraguay" },
@@ -50,7 +50,7 @@
   {
     "id": "Qatar-Switzerland",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Qatar" },
     "team2": { "name": "Switzerland" },
@@ -62,7 +62,7 @@
   {
     "id": "Brazil-Morocco",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Brazil" },
     "team2": { "name": "Morocco" },
@@ -74,7 +74,7 @@
   {
     "id": "Haiti-Scotland",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Haiti" },
     "team2": { "name": "Scotland" },
@@ -86,7 +86,7 @@
   {
     "id": "Australia-Turkey",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Australia" },
     "team2": { "name": "Turkey" },
@@ -98,7 +98,7 @@
   {
     "id": "Germany-Curacao",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Germany" },
     "team2": { "name": "Curacao" },
@@ -110,7 +110,7 @@
   {
     "id": "Netherlands-Japan",
     "sport": "football",
-    "league": "International Friendly",
+    "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Netherlands" },
     "team2": { "name": "Japan" },
