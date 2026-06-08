@@ -1,662 +1,122 @@
 [
   {
-    "id": "Persijap-PSBSBiak",
+    "id": "Mexico-SouthAfrica",
     "sport": "football",
-    "league": "Super League",
-    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
-    "team1": { "name": "Persijap Jepara" },
-    "team2": { "name": "PSBS Biak" },
-    "kickoff_date": "2026-04-24",
-    "kickoff_time": "15:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ch1" }
-    ]
-  },
-  {
-    "id": "Persib-AremaFC",
-    "sport": "football",
-    "league": "Super League",
-    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
-    "team1": { "name": "Persib Bandung" },
-    "team2": { "name": "Arema FC" },
-    "kickoff_date": "2026-04-24",
-    "kickoff_time": "19:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 2 HD", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3 HD", "url": "https://plasak.pages.dev/?id=ch3" }
-    ]
-  },
-  {
-    "id": "RBLeipzig-UnionBerlin",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "RB Leipzig" },
-    "team2": { "name": "Union Berlin" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "01:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-1" }
-    ]
-  },
-  {
-    "id": "Napoli-Cremonese",
-    "sport": "football",
-    "league": "Serie A",
-    "league_logo": "https://static.flashscore.com/res/image/data/rFHMayEO-2exwJQks.png",
-    "team1": { "name": "Napoli" },
-    "team2": { "name": "Cremonese" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "01:45",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-1" }
-    ]
-  },
-  {
-    "id": "Brest-Lens",
-    "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "Brest" },
-    "team2": { "name": "Lens" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "01:45",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-2" }
-    ]
-  },
-  {
-    "id": "Sunderland-Nottingham",
-    "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Sunderland" },
-    "team2": { "name": "Nottingham" },
-    "kickoff_date": "2026-04-25",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Mexico" },
+    "team2": { "name": "South Africa" },
+    "kickoff_date": "2026-06-12",
     "kickoff_time": "02:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-4" }
-    ]
+    "channels": []
   },
   {
-    "id": "Betis-RealMadrid",
+    "id": "SouthKorea-CzechRepublic",
     "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Betis" },
-    "team2": { "name": "Real Madrid" },
-    "kickoff_date": "2026-04-25",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "South Korea" },
+    "team2": { "name": "Czech Republic" },
+    "kickoff_date": "2026-06-12",
+    "kickoff_time": "09:00",
+    "duration": 120,
+    "channels": []
+  },
+  {
+    "id": "Canada-BosniaHerzegovina",
+    "sport": "football",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Canada" },
+    "team2": { "name": "Bosnia & Herzegovina" },
+    "kickoff_date": "2026-06-13",
     "kickoff_time": "02:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-9" }
-    ]
+    "channels": []
   },
   {
-    "id": "MaduraUnited-DewaUnited",
+    "id": "USA-Paraguay",
     "sport": "football",
-    "league": "Super League",
-    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
-    "team1": { "name": "Madura United" },
-    "team2": { "name": "Dewa United" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "15:30",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "USA" },
+    "team2": { "name": "Paraguay" },
+    "kickoff_date": "2026-06-13",
+    "kickoff_time": "08:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-8" }
-    ]
+    "channels": []
   },
   {
-    "id": "Fulham-AstonVilla",
+    "id": "Qatar-Switzerland",
     "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Fulham" },
-    "team2": { "name": "Aston Villa" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "18:30",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Qatar" },
+    "team2": { "name": "Switzerland" },
+    "kickoff_date": "2026-06-14",
+    "kickoff_time": "02:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-5" }
-    ]
+    "channels": []
   },
   {
-    "id": "Alaves-Mallorca",
+    "id": "Brazil-Morocco",
     "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Alaves" },
-    "team2": { "name": "Mallorca" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "19:00",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Brazil" },
+    "team2": { "name": "Morocco" },
+    "kickoff_date": "2026-06-14",
+    "kickoff_time": "05:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-10" }
-    ]
+    "channels": []
   },
   {
-    "id": "Borneo-SemenPadang",
+    "id": "Haiti-Scotland",
     "sport": "football",
-    "league": "Super League",
-    "league_logo": "https://static.flashscore.com/res/image/data/McvmlVT1-h0DHEdD3.png",
-    "team1": { "name": "Borneo" },
-    "team2": { "name": "Semen Padang" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "19:00",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Haiti" },
+    "team2": { "name": "Scotland" },
+    "kickoff_date": "2026-06-14",
+    "kickoff_time": "08:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=liga1-9" }
-    ]
+    "channels": []
   },
   {
-    "id": "Lyon-Auxerre",
+    "id": "Australia-Turkey",
     "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "Lyon" },
-    "team2": { "name": "Auxerre" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "20:00",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Australia" },
+    "team2": { "name": "Turkey" },
+    "kickoff_date": "2026-06-14",
+    "kickoff_time": "11:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-3" }
-    ]
+    "channels": []
   },
   {
-    "id": "Parma-Pisa",
+    "id": "Germany-Curacao",
     "sport": "football",
-    "league": "Serie A",
-    "league_logo": "https://static.flashscore.com/res/image/data/rFHMayEO-2exwJQks.png",
-    "team1": { "name": "Parma" },
-    "team2": { "name": "Pisa" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "20:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-2" }
-    ]
-  },
-  {
-    "id": "Wolfsburg-BMonchengladbach",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "Wolfsburg" },
-    "team2": { "name": "B. Monchengladbach" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "20:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-6" }
-    ]
-  },
-  {
-    "id": "Augsburg-EintrachtFrankfurt",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "Augsburg" },
-    "team2": { "name": "Eintracht Frankfurt" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "20:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-2" }
-    ]
-  },
-  {
-    "id": "Heidenheim-StPauli",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "Heidenheim" },
-    "team2": { "name": "St. Pauli" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "20:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-3" }
-    ]
-  },
-  {
-    "id": "Koln-BayerLeverkusen",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "Köln" },
-    "team2": { "name": "Bayer Leverkusen" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "20:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-4" }
-    ]
-  },
-  {
-    "id": "Mainz-BayernMunich",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "Mainz" },
-    "team2": { "name": "Bayern Munich" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "20:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-5" }
-    ]
-  },
-  {
-    "id": "Liverpool-CrystalPalace",
-    "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Liverpool" },
-    "team2": { "name": "Crystal Palace" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "21:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-6" }
-    ]
-  },
-  {
-    "id": "WestHam-Everton",
-    "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "West Ham" },
-    "team2": { "name": "Everton" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "21:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-7" }
-    ]
-  },
-  {
-    "id": "Wolves-Tottenham",
-    "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Wolves" },
-    "team2": { "name": "Tottenham" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "21:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-8" }
-    ]
-  },
-  {
-    "id": "Getafe-Barcelona",
-    "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Getafe" },
-    "team2": { "name": "Barcelona" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "21:15",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-11" }
-    ]
-  },
-  {
-    "id": "Feyenoord-Groningen",
-    "sport": "football",
-    "league": "Eredivisie",
-    "league_logo": "https://static.flashscore.com/res/image/data/tUREAsfU-GlPCPH4g.png",
-    "team1": { "name": "Feyenoord" },
-    "team2": { "name": "Groningen" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "21:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=eredivisie-5" }
-    ]
-  },
-  {
-    "id": "Bologna-ASRoma",
-    "sport": "football",
-    "league": "Serie A",
-    "league_logo": "https://static.flashscore.com/res/image/data/rFHMayEO-2exwJQks.png",
-    "team1": { "name": "Bologna" },
-    "team2": { "name": "AS Roma" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "23:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-3" }
-    ]
-  },
-  {
-    "id": "AlAhliSC-Machida",
-    "sport": "football",
-    "league": "Liga Champions AFC - Play Off",
-    "league_logo": "https://static.flashscore.com/res/image/data/vyvCT5Tp-xGRIAs4N.png",
-    "team1": { "name": "Al Ahli SC (Sau)" },
-    "team2": { "name": "Machida (Jpn)" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "23:15",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=afc-1" }
-    ]
-  },
-  {
-    "id": "Hamburger-Hoffenheim",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "Hamburger SV" },
-    "team2": { "name": "Hoffenheim" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "23:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-7" }
-    ]
-  },
-  {
-    "id": "Arsenal-NewcastleUtd",
-    "sport": "football",
-    "league": "Premier League",
-    "league_logo": "https://static.flashscore.com/res/image/data/423YHekd-42ZiZu1I.png",
-    "team1": { "name": "Arsenal" },
-    "team2": { "name": "Newcastle Utd" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "23:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=epl-9" }
-    ]
-  },
-  {
-    "id": "Heerenveen-Sittard",
-    "sport": "football",
-    "league": "Eredivisie",
-    "league_logo": "https://static.flashscore.com/res/image/data/tUREAsfU-GlPCPH4g.png",
-    "team1": { "name": "Heerenveen" },
-    "team2": { "name": "Sittard" },
-    "kickoff_date": "2026-04-25",
-    "kickoff_time": "23:45",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=eredivisie-6" }
-    ]
-  },
-  {
-    "id": "Angers-PSG",
-    "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "Angers" },
-    "team2": { "name": "PSG" },
-    "kickoff_date": "2026-04-26",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Germany" },
+    "team2": { "name": "Curacao" },
+    "kickoff_date": "2026-06-15",
     "kickoff_time": "00:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-4" }
-    ]
+    "channels": []
   },
   {
-    "id": "Breda-Ajax",
+    "id": "Netherlands-Japan",
     "sport": "football",
-    "league": "Eredivisie",
-    "league_logo": "https://static.flashscore.com/res/image/data/tUREAsfU-GlPCPH4g.png",
-    "team1": { "name": "Breda" },
-    "team2": { "name": "Ajax" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "01:00",
+    "league": "International Friendly",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Netherlands" },
+    "team2": { "name": "Japan" },
+    "kickoff_date": "2026-06-15",
+    "kickoff_time": "03:00",
     "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=eredivisie-1" }
-    ]
-  },
-  {
-    "id": "Verona-Lecce",
-    "sport": "football",
-    "league": "Serie A",
-    "league_logo": "https://static.flashscore.com/res/image/data/rFHMayEO-2exwJQks.png",
-    "team1": { "name": "Verona" },
-    "team2": { "name": "Lecce" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "01:45",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-4" }
-    ]
-  },
-  {
-    "id": "AtlMadrid-AthBilbao",
-    "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Atl. Madrid" },
-    "team2": { "name": "Ath Bilbao" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "02:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-12" }
-    ]
-  },
-  {
-    "id": "Twente-Nijmegen",
-    "sport": "football",
-    "league": "Eredivisie",
-    "league_logo": "https://static.flashscore.com/res/image/data/tUREAsfU-GlPCPH4g.png",
-    "team1": { "name": "Twente" },
-    "team2": { "name": "Nijmegen" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "02:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=eredivisie-2" }
-    ]
-  },
-  {
-    "id": "Toulouse-Monaco",
-    "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "Toulouse" },
-    "team2": { "name": "Monaco" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "02:05",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-5" }
-    ]
-  },
-  {
-    "id": "Excelsior-Utrecht",
-    "sport": "football",
-    "league": "Eredivisie",
-    "league_logo": "https://static.flashscore.com/res/image/data/tUREAsfU-GlPCPH4g.png",
-    "team1": { "name": "Excelsior" },
-    "team2": { "name": "Utrecht" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "17:15",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=eredivisie-3" }
-    ]
-  },
-  {
-    "id": "Fiorentina-Sassuolo",
-    "sport": "football",
-    "league": "Serie A",
-    "league_logo": "https://static.flashscore.com/res/image/data/rFHMayEO-2exwJQks.png",
-    "team1": { "name": "Fiorentina" },
-    "team2": { "name": "Sassuolo" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "17:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-5" }
-    ]
-  },
-  {
-    "id": "RayoVallecano-RealSociedad",
-    "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Rayo Vallecano" },
-    "team2": { "name": "Real Sociedad" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "19:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-13" }
-    ]
-  },
-  {
-    "id": "Heracles-FCVolendam",
-    "sport": "football",
-    "league": "Eredivisie",
-    "league_logo": "https://static.flashscore.com/res/image/data/tUREAsfU-GlPCPH4g.png",
-    "team1": { "name": "Heracles" },
-    "team2": { "name": "FC Volendam" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "19:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=eredivisie-4" }
-    ]
-  },
-  {
-    "id": "Genoa-Como",
-    "sport": "football",
-    "league": "Serie A",
-    "league_logo": "https://static.flashscore.com/res/image/data/rFHMayEO-2exwJQks.png",
-    "team1": { "name": "Genoa" },
-    "team2": { "name": "Como" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "20:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-6" }
-    ]
-  },
-  {
-    "id": "Lorient-Strasbourg",
-    "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "Lorient" },
-    "team2": { "name": "Strasbourg" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "20:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-6" }
-    ]
-  },
-  {
-    "id": "VfBStuttgart-WerderBremen",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "VfB Stuttgart" },
-    "team2": { "name": "Werder Bremen" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "20:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-8" }
-    ]
-  },
-  {
-    "id": "Oviedo-Elche",
-    "sport": "football",
-    "league": "LaLiga",
-    "league_logo": "https://static.flashscore.com/res/image/data/6aNYx0jD-A3tOPy9B.png",
-    "team1": { "name": "Oviedo" },
-    "team2": { "name": "Elche" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "21:15",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=laliga-14" }
-    ]
-  },
-  {
-    "id": "LeHavre-Metz",
-    "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "Le Havre" },
-    "team2": { "name": "Metz" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:15",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-7" }
-    ]
-  },
-  {
-    "id": "ParisFC-Lille",
-    "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "Paris FC" },
-    "team2": { "name": "Lille" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:15",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-8" }
-    ]
-  },
-  {
-    "id": "Rennes-Nantes",
-    "sport": "football",
-    "league": "Ligue 1",
-    "league_logo": "https://static.flashscore.com/res/image/data/tOAXV6hU-QJIQNuDK.png",
-    "team1": { "name": "Rennes" },
-    "team2": { "name": "Nantes" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:15",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ligue1-9" }
-    ]
-  },
-  {
-    "id": "Dortmund-Freiburg",
-    "sport": "football",
-    "league": "Bundesliga",
-    "league_logo": "https://static.flashscore.com/res/image/data/fqltz6CO-4ATnefbq.png",
-    "team1": { "name": "Dortmund" },
-    "team2": { "name": "Freiburg" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "22:30",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=bundes-9" }
-    ]
-  },
-  {
-    "id": "Torino-Inter",
-    "sport": "football",
-    "league": "Serie A",
-    "league_logo": "https://static.flashscore.com/res/image/data/rFHMayEO-2exwJQks.png",
-    "team1": { "name": "Torino" },
-    "team2": { "name": "Inter" },
-    "kickoff_date": "2026-04-26",
-    "kickoff_time": "23:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=seriea-7" }
-    ]
+    "channels": []
   }
 ]
