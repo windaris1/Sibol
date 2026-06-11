@@ -16,18 +16,6 @@
     ]
   },
   {
-    "id": "Indonesia-Mozambique",
-    "sport": "football",
-    "league": "Friendly International",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/114.png",
-    "team1": { "name": "Indonesia" },
-    "team2": { "name": "Mozambique" },
-    "kickoff_date": "2026-06-09",
-    "kickoff_time": "20:00",
-    "duration": 120,
-    "channels": []
-  },
-  {
     "id": "Mexico-SouthAfrica",
     "sport": "football",
     "league": "FIFA World Cup",
@@ -37,7 +25,9 @@
     "kickoff_date": "2026-06-12",
     "kickoff_time": "02:00",
     "duration": 120,
-    "channels": []
+         { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2 HD", "url": "https://plasak.pages.dev/?id=ch1" },
+      { "name": "CH 3 HD", "url": "https://plasak.pages.dev/?id=tsn1" }
   },
   {
     "id": "SouthKorea-CzechRepublic",
