@@ -28,8 +28,8 @@
  "channels": [
          { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 2 HD", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 3 HD", "url": "https://plasak.pages.dev/?id=itv1" },
-      { "name": "CH 4 HD", "url": "https://plasak.pages.dev/?id=tsn1" },
+      { "name": "CH 3 HD", "url": "https://plasak.pages.dev/?id=tsn3" },
+      { "name": "CH 4 HD", "url": "https://plasak.pages.dev/?id=itv1" },
       { "name": "CH 5 HD", "url": "https://plasak.pages.dev/?id=ch2" }
 ]
   },
