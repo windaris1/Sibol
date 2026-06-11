@@ -25,6 +25,7 @@
     "kickoff_date": "2026-06-12",
     "kickoff_time": "02:00",
     "duration": 120,
+ "channels": [
          { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 2 HD", "url": "https://plasak.pages.dev/?id=ch1" },
       { "name": "CH 3 HD", "url": "https://plasak.pages.dev/?id=tvela1" },
