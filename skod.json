@@ -7,9 +7,11 @@
     "team1": { "name": "Indonesia U19" },
     "team2": { "name": "Australia U19" },
     "kickoff_date": "2026-06-11",
-    "kickoff_time": "20:15",
+    "kickoff_time": "19:45",
     "duration": 120,
-    "channels": []
+    "channels": [
+      { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=ch1" }
+    ]
   },
   {
     "id": "Indonesia-Mozambique",
