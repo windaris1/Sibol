@@ -27,7 +27,9 @@
     "duration": 120,
          { "name": "CH 1 HD", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 2 HD", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 3 HD", "url": "https://plasak.pages.dev/?id=tsn1" }
+      { "name": "CH 3 HD", "url": "https://plasak.pages.dev/?id=tvela1" },
+      { "name": "CH 4 HD", "url": "https://plasak.pages.dev/?id=tsn1" }
+]
   },
   {
     "id": "SouthKorea-CzechRepublic",
