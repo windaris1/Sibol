@@ -1,61 +1,5 @@
 [
-  {
-    "id": "SouthKorea-CzechRepublic",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "South Korea" },
-    "team2": { "name": "Czech Republic" },
-    "kickoff_date": "2026-06-12",
-    "kickoff_time": "09:00",
-    "duration": 120,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
-]
-  },
-  {
-    "id": "Canada-BosniaHerzegovina",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Canada" },
-    "team2": { "name": "Bosnia & Herzegovina" },
-    "kickoff_date": "2026-06-13",
-    "kickoff_time": "02:00",
-    "duration": 120,
-  "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
-]
-  },
-  {
-    "id": "USA-Paraguay",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "USA" },
-    "team2": { "name": "Paraguay" },
-    "kickoff_date": "2026-06-13",
-    "kickoff_time": "08:00",
-    "duration": 120,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
-]
-  },
+
   {
     "id": "Qatar-Switzerland",
     "sport": "football",
@@ -66,7 +10,14 @@
     "kickoff_date": "2026-06-14",
     "kickoff_time": "02:00",
     "duration": 120,
-    "channels": []
+ "channels": [
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=caze1" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
+]
   },
   {
     "id": "Brazil-Morocco",
@@ -78,7 +29,14 @@
     "kickoff_date": "2026-06-14",
     "kickoff_time": "05:00",
     "duration": 120,
-    "channels": []
+ "channels": [
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=caze1" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
+]
   },
   {
     "id": "Haiti-Scotland",
@@ -90,8 +48,15 @@
     "kickoff_date": "2026-06-14",
     "kickoff_time": "08:00",
     "duration": 120,
-    "channels": []
-  },
+  "channels": [
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=caze1" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
+]
+ },
   {
     "id": "Australia-Turkey",
     "sport": "football",
