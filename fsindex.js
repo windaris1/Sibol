@@ -67,13 +67,13 @@ function selectTVChannel(url, name) {
 // === END MODAL TV ===
 
 const SPORTS = [
-  { id: 'livetv', name: 'TV', icon:''},
   { id: 'football', name: 'World Cup', icon: '⚽' },
   { id: 'badminton', name: 'Badminton', icon: '🏸' },
   { id: 'tennis', name: 'Tennis', icon: '🎾' },
   { id: 'motogp', name: 'MotoGP', icon: '🏍️' },
   { id: 'f1', name: 'Formula 1', icon: '🏎️' },
   { id: 'basketball', name: 'Basketball', icon: '🏀' }
+  { id: 'livetv', name: 'TV', icon:''},
 ];
 
 let MATCHES = [];
