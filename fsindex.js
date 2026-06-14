@@ -73,7 +73,7 @@ const SPORTS = [
   { id: 'motogp', name: 'MotoGP', icon: '🏍️' },
   { id: 'f1', name: 'Formula 1', icon: '🏎️' },
   { id: 'basketball', name: 'Basketball', icon: '🏀' }
-  { id: 'livetv', name: 'TV', icon:''},
+  { id: 'livetv', name: 'TV', icon:''}
 ];
 
 let MATCHES = [];
