@@ -8,7 +8,7 @@
     "team2": { "name": "Scotland" },
     "kickoff_date": "2026-06-14",
     "kickoff_time": "08:00",
-    "duration": 120,
+    "duration": 150,
   "channels": [
          { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
@@ -27,7 +27,7 @@
     "team2": { "name": "Turkey" },
     "kickoff_date": "2026-06-14",
     "kickoff_time": "11:00",
-    "duration": 120,
+    "duration": 150,
   "channels": [
          { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
@@ -46,8 +46,15 @@
     "team2": { "name": "Curacao" },
     "kickoff_date": "2026-06-15",
     "kickoff_time": "00:00",
-    "duration": 120,
-    "channels": []
+    "duration": 150,
+  "channels": [
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch1" }
+]
   },
   {
     "id": "Netherlands-Japan",
@@ -58,8 +65,15 @@
     "team2": { "name": "Japan" },
     "kickoff_date": "2026-06-15",
     "kickoff_time": "03:00",
-    "duration": 120,
-    "channels": []
+    "duration": 150,
+  "channels": [
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch1" }
+]
   },
   {
     "id": "IvoryCoast-Ecuador",
@@ -70,8 +84,15 @@
     "team2": { "name": "Ecuador" },
     "kickoff_date": "2026-06-15",
     "kickoff_time": "06:00",
-    "duration": 120,
-    "channels": []
+    "duration": 160,
+  "channels": [
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch1" }
+]
   },
   {
     "id": "Sweden-Tunisia",
@@ -82,8 +103,15 @@
     "team2": { "name": "Tunisia" },
     "kickoff_date": "2026-06-15",
     "kickoff_time": "09:00",
-    "duration": 120,
-    "channels": []
+    "duration": 150,
+   "channels": [
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch1" }
+]
   },
   {
     "id": "Spain-CapeVerde",
