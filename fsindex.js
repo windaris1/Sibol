@@ -116,16 +116,18 @@ function renderLeagueBar() {
   leagueBar.innerHTML = '';
   const liveCount = MATCHES.filter(m => isMatchLive(m)).length;
 
-  const liveBtn = document.createElement('div');
+  const liveBtn = document.createElement('button');
+  liveBtn.type = 'button';
   liveBtn.className = 'league-item';
   liveBtn.dataset.league = 'LIVE';
   liveBtn.innerHTML = `<span class="dot"></span>LIVE<span class="badge">${liveCount}</span>`;
-  liveBtn.onclick = () => openPopup('LIVE');
+  liveBtn.addEventListener('click', () => openPopup('LIVE'));
   leagueBar.appendChild(liveBtn);
 
   SPORTS.forEach(sport => {
     const count = MATCHES.filter(m => m.sport === sport.id).length;
-    const btn = document.createElement('div');
+    const btn = document.createElement('button');
+    btn.type = 'button';
     btn.className = 'league-item';
     btn.dataset.sport = sport.id;
 
@@ -139,7 +141,7 @@ function renderLeagueBar() {
       `;
     }
 
-    btn.onclick = () => openPopup(sport.id, sport.name);
+    btn.addEventListener('click', () => openPopup(sport.id, sport.name));
     leagueBar.appendChild(btn);
   });
   setTimeout(updateScrollButtons, 100);
@@ -183,7 +185,7 @@ function renderPopupList() {
   filterActiveMatches();
   popupList.innerHTML = '';
   let filtered = activeLeague === 'LIVE'
- ? MATCHES.filter(m => isMatchLive(m))
+? MATCHES.filter(m => isMatchLive(m))
     : MATCHES.filter(m => m.sport === activeLeague);
 
   if (filtered.length === 0) {
@@ -236,6 +238,7 @@ function renderChannelButtons(channels) {
   channelSelectBar.style.display = 'flex';
   channels.forEach((ch, i) => {
     const btn = document.createElement('button');
+    btn.type = 'button';
     btn.className = 'channel-btn';
     if (i === 0) btn.classList.add('active');
     btn.innerText = ch.name;
@@ -254,10 +257,7 @@ function loadChannel(url, name) {
 
 async function init() {
   try {
-    // 1. List semua file JSON yang mau di-load
-    const files = ['skod.json', 'minton.json']; // tambahin file lain di sini
-
-    // 2. Fetch semua file barengan
+    const files = ['skod.json', 'minton.json'];
     const allData = await Promise.all(
       files.map(async (file) => {
         const res = await fetch(file);
@@ -266,10 +266,8 @@ async function init() {
       })
     );
 
-    // 3. Gabungin semua array jadi 1
     ALL_MATCHES = allData.flat();
 
-    // 4. Sort by tanggal + jam biar urut
     ALL_MATCHES.sort((a, b) => {
       const dateA = new Date(`${a.kickoff_date}T${a.kickoff_time}:00`);
       const dateB = new Date(`${b.kickoff_date}T${b.kickoff_time}:00`);
@@ -278,7 +276,6 @@ async function init() {
 
     renderLeagueBar();
 
-    // 5. Cari match yang lagi live
     const firstLive = ALL_MATCHES.find(m => isMatchLive(m));
     if (firstLive) {
       selectMatch(firstLive);
@@ -287,7 +284,6 @@ async function init() {
       scoreboard.innerText = 'Pilih match dulu';
     }
 
-    // 6. Interval update tiap menit
     setInterval(() => {
       renderLeagueBar();
       if (matchPopup.classList.contains('show')) renderPopupList();
