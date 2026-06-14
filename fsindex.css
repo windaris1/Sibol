@@ -67,15 +67,15 @@ body {
 }
 
 @keyframes pulse-live {
-  0% {
+ 0% {
     box-shadow: 0 0 rgba(239, 68, 68, 0.7);
     transform: scale(1);
   }
-  70% {
+ 70% {
     box-shadow: 0 0 0 8px rgba(239, 68, 68, 0);
     transform: scale(1);
   }
-  100% {
+ 100% {
     box-shadow: 0 0 rgba(239, 68, 68, 0);
     transform: scale(1);
   }
@@ -177,6 +177,8 @@ body {
   line-height: 1; 
   position: relative; 
   z-index: 1; 
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 .league-item.active { background: var(--blue); border-color: var(--blue); }
 .league-item .sport-icon { font-size: 16px; }
@@ -206,8 +208,6 @@ body {
   color: #fff;
 }
 .scroll-btn:active { transform: translateY(-50%) scale(0.95); }
-.scroll-btn.left { left: 6px; }
-.scroll-btn.right { right: 6px; }
 .scroll-btn:disabled { 
   opacity: 0.2; 
   cursor: not-allowed; 
@@ -253,8 +253,8 @@ body {
 }
 
 @keyframes shimmer {
-  0% { left: -100%; }
-  100% { left: 100%; }
+ 0% { left: -100%; }
+ 100% { left: 100%; }
 }
 
 @media (max-width: 480px) {
@@ -366,7 +366,7 @@ body {
   padding-bottom: calc(8px + env(safe-area-inset-bottom));
   background: #15151f;
   border-top: 1px solid #2a2a3a;
-  z-index: 999999;
+  z-index: 999;
   height: var(--chat-height);
 }
 
@@ -436,7 +436,7 @@ body {
 }
 
 .download-bar .link:hover {
-  text-decoration: underline; /* Opsional: garis muncul pas di-hover doang */
+  text-decoration: underline;
 }
 
 .reload-btn {
@@ -465,10 +465,13 @@ body {
   inset: 0;
   z-index: 9998;
   display: none;
-  pointer-events: auto;
+  pointer-events: none;
 }
 
-.match-popup-overlay.show { display: block; }
+.match-popup-overlay.show { 
+  display: block; 
+  pointer-events: auto;
+}
 
 .match-popup {
   position: fixed;
