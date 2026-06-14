@@ -32,7 +32,7 @@
  "channels": [
          { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=caze1" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
