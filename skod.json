@@ -5,7 +5,7 @@
     "sport": "badminton",
     "league": "Australian Open (Australia)",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Australian Open" }
+    "team1": { "name": "Australian Open" },
     "kickoff_date": "2026-06-14",
     "kickoff_time": "10:40",
     "duration": 300,
