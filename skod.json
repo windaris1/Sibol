@@ -1,43 +1,4 @@
 [
-
-  {
-    "id": "Qatar-Switzerland",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Qatar" },
-    "team2": { "name": "Switzerland" },
-    "kickoff_date": "2026-06-14",
-    "kickoff_time": "02:00",
-    "duration": 120,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
-]
-  },
-  {
-    "id": "Brazil-Morocco",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Brazil" },
-    "team2": { "name": "Morocco" },
-    "kickoff_date": "2026-06-14",
-    "kickoff_time": "05:00",
-    "duration": 150,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
-]
-  },
   {
     "id": "Haiti-Scotland",
     "sport": "football",
@@ -50,11 +11,11 @@
     "duration": 120,
   "channels": [
          { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
       { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch2" }
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch1" }
 ]
  },
   {
