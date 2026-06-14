@@ -1,59 +1,5 @@
 [
   {
-    "id": "australia",
-    "sport": "badminton",
-    "league": "Australian Open (Australia)",
-    "league_logo": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-    "team1": { "name": "Australian Open" },
-    "team2": { "name": "Australian Open" },
-    "kickoff_date": "2026-06-14",
-    "kickoff_time": "10:40",
-    "duration": 300,
-  "channels": [
-         { "name": "COURT 1 SD", "url": "https://plasak.pages.dev/?id=ch4" },
-      { "name": "COURT 1 HD", "url": "https://plasak.pages.dev/?id=ch3" },
-      { "name": "COURT 1 HD +", "url": "https://plasak.pages.dev/?id=ch5" }
-]
- },
-  {
-    "id": "Haiti-Scotland",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Haiti" },
-    "team2": { "name": "Scotland" },
-    "kickoff_date": "2026-06-14",
-    "kickoff_time": "08:00",
-    "duration": 150,
-  "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch1" }
-]
- },
-  {
-    "id": "Australia-Turkey",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Australia" },
-    "team2": { "name": "Turkey" },
-    "kickoff_date": "2026-06-14",
-    "kickoff_time": "11:00",
-    "duration": 150,
-  "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch1" }
-]
-  },
-  {
     "id": "Germany-Curacao",
     "sport": "football",
     "league": "FIFA World Cup",
@@ -67,9 +13,9 @@
          { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
       { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=jojsport" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=ctsport" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=ch1" }
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" }
 ]
   },
   {
