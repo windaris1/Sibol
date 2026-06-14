@@ -1,4 +1,20 @@
 [
+
+  {
+    "id": "australia",
+    "sport": "football",
+    "league": "Australian Open (Australia)",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Australian Open" },
+    "team2": { "name": "" },
+    "kickoff_date": "2026-06-14",
+    "kickoff_time": "10:40",
+    "duration": 300,
+  "channels": [
+         { "name": "COURT 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "COURT 1+", "url": "https://plasak.pages.dev/?id=ch2" }
+]
+ },
   {
     "id": "Haiti-Scotland",
     "sport": "football",
