@@ -68,7 +68,7 @@ function selectTVChannel(url, name) {
 
 const SPORTS = [
   { id: 'livetv', name: 'TV', icon:''},
-  { id: 'football', name: 'World Cup, icon: '⚽' },
+  { id: 'football', name: 'World Cup', icon: '⚽' },
   { id: 'badminton', name: 'Badminton', icon: '🏸' },
   { id: 'tennis', name: 'Tennis', icon: '🎾' },
   { id: 'motogp', name: 'MotoGP', icon: '🏍️' },
