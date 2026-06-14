@@ -20,6 +20,16 @@ body {
   flex-direction: row;
 }
 
+.league-item {
+  cursor: pointer;
+  pointer-events: auto;
+  border: none;
+  background: none;
+}
+.league-item:focus {
+  outline: 2px solid #3b82f6;
+}
+
 .left-sidebar {
   width: 60%;
   background: #000;
