@@ -1,89 +1,5 @@
 [
   {
-    "id": "Germany-Curacao",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Germany" },
-    "team2": { "name": "Curacao" },
-    "kickoff_date": "2026-06-15",
-    "kickoff_time": "00:00",
-    "duration": 150,
-  "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
-  },
-  {
-    "id": "Netherlands-Japan",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Netherlands" },
-    "team2": { "name": "Japan" },
-    "kickoff_date": "2026-06-15",
-    "kickoff_time": "03:00",
-    "duration": 150,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
-  },
-  {
-    "id": "IvoryCoast-Ecuador",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Ivory Coast" },
-    "team2": { "name": "Ecuador" },
-    "kickoff_date": "2026-06-15",
-    "kickoff_time": "06:00",
-    "duration": 160,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
-  },
-  {
-    "id": "Sweden-Tunisia",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Sweden" },
-    "team2": { "name": "Tunisia" },
-    "kickoff_date": "2026-06-15",
-    "kickoff_time": "09:00",
-    "duration": 150,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
-  },
-  {
     "id": "Spain-CapeVerde",
     "sport": "football",
     "league": "FIFA World Cup",
@@ -94,9 +10,9 @@
     "kickoff_time": "23:00",
     "duration": 200,
  "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
@@ -115,9 +31,9 @@
     "kickoff_time": "02:00",
     "duration": 200,
  "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
@@ -136,9 +52,9 @@
     "kickoff_time": "05:00",
     "duration": 200,
  "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
@@ -157,9 +73,9 @@
     "kickoff_time": "08:00",
     "duration": 200,
  "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fiftv" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
