@@ -1,16 +1,16 @@
 [
   {
-    "id": "Spain-CapeVerde",
+    "id": "Portugal-DR.Congo",
     "sport": "football",
     "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Spain" },
-    "team2": { "name": "Cape Verde" },
-    "kickoff_date": "2026-06-15",
-    "kickoff_time": "22:50",
-    "duration": 200,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
+    "team1": { "name": "Portugal" },
+    "team2": { "name": "D.R. Congo" },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "00:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
       { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
@@ -18,153 +18,90 @@
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
       { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
       { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
- },
-  {
-    "id": "Belgium-Egypt",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Belgium" },
-    "team2": { "name": "Egypt" },
-    "kickoff_date": "2026-06-16",
-    "kickoff_time": "02:00",
-    "duration": 200,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
+    ]
   },
   {
-    "id": "SaudiArabia-Uruguay",
+    "id": "England-Croatia",
     "sport": "football",
     "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Saudi Arabia" },
-    "team2": { "name": "Uruguay" },
-    "kickoff_date": "2026-06-16",
-    "kickoff_time": "05:00",
-    "duration": 200,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
+    "team1": { "name": "England" },
+    "team2": { "name": "Croatia" },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "03:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
       { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
       { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
+    ]
   },
   {
-    "id": "Iran-NewZealand",
+    "id": "Ghana-Panama",
     "sport": "football",
     "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Iran" },
-    "team2": { "name": "New Zealand" },
-    "kickoff_date": "2026-06-16",
-    "kickoff_time": "08:00",
-    "duration": 200,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
+    "team1": { "name": "Ghana" },
+    "team2": { "name": "Panama" },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "06:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
       { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
       { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
+    ]
   },
   {
-    "id": "France-Senegal",
+    "id": "Uzbekistan-Colombia",
     "sport": "football",
     "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "France" },
-    "team2": { "name": "Senegal" },
-    "kickoff_date": "2026-06-17",
-    "kickoff_time": "01:50",
-    "duration": 150,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
+    "team1": { "name": "Uzbekistan" },
+    "team2": { "name": "Colombia" },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "09:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
       { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
       { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
+    ]
   },
   {
-    "id": "Iraq-Norway",
+    "id": "CzechRepublic-SouthAfrica",
     "sport": "football",
     "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Iraq" },
-    "team2": { "name": "Norway" },
-    "kickoff_date": "2026-06-17",
-    "kickoff_time": "04:50",
-    "duration": 150,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
+    "team1": { "name": "Czech Republic" },
+    "team2": { "name": "South Africa" },
+    "kickoff_date": "2026-06-18",
+    "kickoff_time": "23:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
       { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
       { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
       { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
-  },
-  {
-    "id": "Argentina-Algeria",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Argentina" },
-    "team2": { "name": "Algeria" },
-    "kickoff_date": "2026-06-17",
-    "kickoff_time": "07:50",
-    "duration": 150,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
-  },
-  {
-    "id": "Austria-Jordan",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Austria" },
-    "team2": { "name": "Jordan" },
-    "kickoff_date": "2026-06-17",
-    "kickoff_time": "10:50",
-    "duration": 160,
- "channels": [
-         { "name": "CH 1", "url": "https://plasak.pages.dev/?id=fiftv" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-]
+    ]
   }
 ]
