@@ -103,5 +103,68 @@
       { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
       { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
     ]
+  },
+  {
+    "id": "Switzerland-Bosnia",
+    "sport": "football",
+    "league": "FIFA World Cup",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Switzerland" },
+    "team2": { "name": "Bosnia & Herzegovina" },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "02:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
+      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
+      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
+    ]
+  },
+  {
+    "id": "Canada-Qatar",
+    "sport": "football",
+    "league": "FIFA World Cup",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Canada" },
+    "team2": { "name": "Qatar" },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "05:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
+      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
+      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
+    ]
+  },
+  {
+    "id": "Mexico-SouthKorea",
+    "sport": "football",
+    "league": "FIFA World Cup",
+    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
+    "team1": { "name": "Mexico" },
+    "team2": { "name": "South Korea" },
+    "kickoff_date": "2026-06-19",
+    "kickoff_time": "08:00",
+    "duration": 120,
+    "channels": [
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
+      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
+      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
+      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
+      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
+      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
+      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
+    ]
   }
 ]
