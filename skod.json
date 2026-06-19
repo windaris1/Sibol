@@ -48,7 +48,7 @@
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Brazil" },
     "team2": { "name": "Haiti" },
-    "kickoff_date": "2026-06-19",
+    "kickoff_date": "2026-06-20",
     "kickoff_time": "07:30",
     "duration": 120,
     "channels": [
@@ -69,7 +69,7 @@
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "Turkey" },
     "team2": { "name": "Paraguay" },
-    "kickoff_date": "2026-06-19",
+    "kickoff_date": "2026-06-20",
     "kickoff_time": "10:00",
     "duration": 120,
     "channels": [
