@@ -1,55 +1,13 @@
 [
- {
-    "id": "USA-Australia",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "USA" },
-    "team2": { "name": "Australia" },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "02:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-    ]
-  },
   {
-    "id": "Scotland-Morocco",
+    "id": "Ecuador-Curacao",
     "sport": "football",
     "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Scotland" },
-    "team2": { "name": "Morocco" },
-    "kickoff_date": "2026-06-19",
-    "kickoff_time": "05:00",
-    "duration": 120,
-    "channels": [
-      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=telemundo" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 3", "url": "https://plasak.pages.dev/?id=fox1" },
-      { "name": "CH 4", "url": "https://plasak.pages.dev/?id=tipik" },
-      { "name": "CH 5", "url": "https://plasak.pages.dev/?id=dspot" },
-      { "name": "CH 6", "url": "https://plasak.pages.dev/?id=fusbal" },
-      { "name": "CH 7", "url": "https://plasak.pages.dev/?id=caze1" },
-      { "name": "CH 8", "url": "https://plasak.pages.dev/?id=caze2" }
-    ]
-  },
-  {
-    "id": "Brazil-Haiti",
-    "sport": "football",
-    "league": "FIFA World Cup",
-    "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Brazil" },
-    "team2": { "name": "Haiti" },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "07:30",
+    "team1": { "name": "Ecuador" },
+    "team2": { "name": "Curacao" },
+    "kickoff_date": "2026-06-21",
+    "kickoff_time": "00:00",
     "duration": 120,
     "channels": [
       { "name": "CH 1", "url": "https://plasak.pages.dev/?id=ch2" },
@@ -63,14 +21,14 @@
     ]
   },
   {
-    "id": "Turkey-Paraguay",
+    "id": "Tunisia-Japan",
     "sport": "football",
     "league": "FIFA World Cup",
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
-    "team1": { "name": "Turkey" },
-    "team2": { "name": "Paraguay" },
-    "kickoff_date": "2026-06-20",
-    "kickoff_time": "10:00",
+    "team1": { "name": "Tunisia" },
+    "team2": { "name": "Japan" },
+    "kickoff_date": "2026-06-21",
+    "kickoff_time": "04:00",
     "duration": 120,
     "channels": [
       { "name": "CH 1", "url": "https://plasak.pages.dev/?id=ch2" },
