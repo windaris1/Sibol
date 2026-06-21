@@ -7,7 +7,7 @@
     "team1": { "name": "Ecuador" },
     "team2": { "name": "Curacao" },
     "kickoff_date": "2026-06-21",
-    "kickoff_time": "00:00",
+    "kickoff_time": "07:00",
     "duration": 120,
     "channels": [
       { "name": "CH 1", "url": "https://plasak.pages.dev/?id=ch2" },
@@ -28,7 +28,7 @@
     "team1": { "name": "Tunisia" },
     "team2": { "name": "Japan" },
     "kickoff_date": "2026-06-21",
-    "kickoff_time": "04:00",
+    "kickoff_time": "11:00",
     "duration": 120,
     "channels": [
       { "name": "CH 1", "url": "https://plasak.pages.dev/?id=ch2" },
