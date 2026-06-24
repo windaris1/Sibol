@@ -10,8 +10,8 @@
     "kickoff_time": "01:00",
     "duration": 10000,
     "channels": [
-      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=ch2" },
-      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=ch1" },
+      { "name": "CH 1", "url": "https://plasak.pages.dev/?id=dspot" },
+      { "name": "CH 2", "url": "https://plasak.pages.dev/?id=caze1" },
       { "name": "CH 3", "url": "https://plasak.pages.dev/?id=tipik" },
       { "name": "CH 4", "url": "https://plasak.pages.dev/?id=dspot" }
     ]
