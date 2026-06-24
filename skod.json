@@ -6,9 +6,9 @@
     "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png",
     "team1": { "name": "FIFA World Cup" },
     "team2": { "name": "Live" },
-    "kickoff_date": "2026-06-22",
+    "kickoff_date": "2026-06-23",
     "kickoff_time": "01:00",
-    "duration": 10000,
+    "duration": 100000,
     "channels": [
       { "name": "CH 1", "url": "https://plasak.pages.dev/?id=jojsport" },
       { "name": "CH 2", "url": "https://plasak.pages.dev/?id=caze1" },
